@@ -4,7 +4,14 @@
         "start": "webpack-dev-server --open --config ./webpack.dev.config.cjs --mode development"
     },
     "dependencies": {
+        "babel-loader": "^9.1.2",
+        "css-loader": "^6.7.3",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.1",
+        "postcss-loader": "^7.2.4",
         "react": "^18.2.0",
+        "sass-loader": "^13.2.2",
+        "style-loader": "^3.3.2",
         "webpack": "^5.79.0",
         "webpack-dev-server": "^4.13.3"
     },
