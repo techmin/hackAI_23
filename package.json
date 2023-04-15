@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "docs": "webpack --mode development --config ./webpack.docs.config.cjs --watch",
+        "start": "webpack-dev-server --open --config ./webpack.dev.config.cjs --mode development"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "webpack": "^5.79.0",
+        "webpack-dev-server": "^4.13.3"
+    },
+    "devDependencies": {
+        "webpack-cli": "^5.0.1"
+    }
+}
