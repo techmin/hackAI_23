@@ -122,7 +122,7 @@ function App(props) {
             // ctx.stroke()
 
             // fill with a white rectangle
-            if (vertices[2].x - vertices[0].x < groupTextRadius * 2) {
+            if (vertices[2].x - vertices[0].x < groupTextRadius * 5) {
                 ctx.fillStyle = 'white'
                 ctx.fillRect(vertices[0].x - 10, vertices[0].y - 10, vertices[2].x - vertices[0].x + 20, vertices[2].y - vertices[0].y + 20)
             }
