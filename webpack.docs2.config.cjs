@@ -4,11 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 function createCopy(pathW = '') {
     return ({
         entry: './src/app.js',
-        devtool: 'cheap-module-source-map',
         output: {
             path: path.resolve(__dirname, 'docs/' + pathW),
             filename: 'appbundle.js',
-            publicPath: "/"
+            // publicPath: "/"
         },
         devServer: {
             historyApiFallback: true,

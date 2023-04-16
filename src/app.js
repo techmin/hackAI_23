@@ -19,7 +19,7 @@ const translate = new AWS.Translate({
 
 const translateCall = async (data) => {
     const params = {
-        SourceLanguageCode: "auto",
+        SourceLanguageCode: "en",
         TargetLanguageCode: data.lang,
         Text: data.text,
     };
