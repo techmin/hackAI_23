@@ -6,7 +6,7 @@ function createCopy(pathW = '') {
         entry: './src/app.js',
         output: {
             path: path.resolve(__dirname, 'docs/' + pathW),
-            filename: 'appBundle.js',
+            filename: 'appBundles.js',
             publicPath: "/"
         },
         devServer: {
