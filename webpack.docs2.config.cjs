@@ -6,11 +6,17 @@ function createCopy(pathW = '') {
         entry: './src/app.js',
         output: {
             path: path.resolve(__dirname, 'docs/' + pathW),
-            filename: 'appbundle.js',
-            // publicPath: "/"
+            filename: 'appBundle.js',
+            publicPath: "/"
         },
         devServer: {
-            historyApiFallback: true,
+            historyApiFallback: {
+                index: 'index.html',
+                rewrites: [
+                    // from any url that doesn't match the above, redirect to /index.html
+                    { from: /./, to: '/index.html' },
+                ]
+            }
         },
         module: {
             rules: [
