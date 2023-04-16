@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 function createCopy(pathW = '') {
     return ({
-        entry: './src/app.js',
+        entry: './src/ext.js',
         output: {
-            path: path.resolve(__dirname, 'docs/' + pathW),
-            filename: 'appBundle.js',
+            path: path.resolve(__dirname, 'ext/inject/' + pathW),
+            filename: 'main.js',
             publicPath: "/"
         },
         devServer: {

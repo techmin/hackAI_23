@@ -141,7 +141,7 @@ function App() {
     return (
         <div>
             <h1>hello world</h1>
-            <img  id='tempImg' src={manga} />
+            <img className='hidden' id='tempImg' src={manga} />
             <button onClick={setup}>Run</button>
             <canvas id="canvas" width="500" height="500"></canvas>
         </div>
