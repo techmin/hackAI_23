@@ -13984,6 +13984,9 @@ __webpack_require__.r(__webpack_exports__);
 react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_1___default().init({
   auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE'
 });
+async function query(data) {
+  const response = await fetch("");
+}
 
 // import './assets/style.css'
 
@@ -14131,6 +14134,17 @@ setInterval(() => {
         groupTextRadius = width / 10;
         console.log(groupTextRadius);
         var ctx = canvas.getContext('2d');
+
+        // get offset of the canvas
+        var rect = canvas.getBoundingClientRect();
+        var xBound = rect.left;
+        var yBound = rect.top;
+
+        // fix the position of the canvas
+        canvas.style.position = "fixed";
+        canvas.style.left = xBound + "px";
+        canvas.style.top = yBound + "px";
+
         // draw a rectangle covering the whole canvas
 
         // ctx.drawImage(img, 0, 0, width, height)

@@ -13156,6 +13156,9210 @@ const toUtf8 = (input) => new TextDecoder("utf-8").decode(input);
 
 /***/ }),
 
+/***/ "./node_modules/aws-sdk/clients/accessanalyzer.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/accessanalyzer.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['accessanalyzer'] = {};
+AWS.AccessAnalyzer = Service.defineService('accessanalyzer', ['2019-11-01']);
+Object.defineProperty(apiLoader.services['accessanalyzer'], '2019-11-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/accessanalyzer-2019-11-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/accessanalyzer-2019-11-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AccessAnalyzer;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/account.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/account.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['account'] = {};
+AWS.Account = Service.defineService('account', ['2021-02-01']);
+Object.defineProperty(apiLoader.services['account'], '2021-02-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/account-2021-02-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/account-2021-02-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Account;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/acm.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/acm.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['acm'] = {};
+AWS.ACM = Service.defineService('acm', ['2015-12-08']);
+Object.defineProperty(apiLoader.services['acm'], '2015-12-08', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-2015-12-08.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-2015-12-08.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-2015-12-08.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ACM;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/acmpca.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/acmpca.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['acmpca'] = {};
+AWS.ACMPCA = Service.defineService('acmpca', ['2017-08-22']);
+Object.defineProperty(apiLoader.services['acmpca'], '2017-08-22', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-pca-2017-08-22.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-pca-2017-08-22.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/acm-pca-2017-08-22.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ACMPCA;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/alexaforbusiness.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/alexaforbusiness.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['alexaforbusiness'] = {};
+AWS.AlexaForBusiness = Service.defineService('alexaforbusiness', ['2017-11-09']);
+Object.defineProperty(apiLoader.services['alexaforbusiness'], '2017-11-09', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/alexaforbusiness-2017-11-09.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/alexaforbusiness-2017-11-09.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AlexaForBusiness;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/all.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/all.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+module.exports = {
+  ACM: __webpack_require__(/*! ./acm */ "./node_modules/aws-sdk/clients/acm.js"),
+  APIGateway: __webpack_require__(/*! ./apigateway */ "./node_modules/aws-sdk/clients/apigateway.js"),
+  ApplicationAutoScaling: __webpack_require__(/*! ./applicationautoscaling */ "./node_modules/aws-sdk/clients/applicationautoscaling.js"),
+  AppStream: __webpack_require__(/*! ./appstream */ "./node_modules/aws-sdk/clients/appstream.js"),
+  AutoScaling: __webpack_require__(/*! ./autoscaling */ "./node_modules/aws-sdk/clients/autoscaling.js"),
+  Batch: __webpack_require__(/*! ./batch */ "./node_modules/aws-sdk/clients/batch.js"),
+  Budgets: __webpack_require__(/*! ./budgets */ "./node_modules/aws-sdk/clients/budgets.js"),
+  CloudDirectory: __webpack_require__(/*! ./clouddirectory */ "./node_modules/aws-sdk/clients/clouddirectory.js"),
+  CloudFormation: __webpack_require__(/*! ./cloudformation */ "./node_modules/aws-sdk/clients/cloudformation.js"),
+  CloudFront: __webpack_require__(/*! ./cloudfront */ "./node_modules/aws-sdk/clients/cloudfront.js"),
+  CloudHSM: __webpack_require__(/*! ./cloudhsm */ "./node_modules/aws-sdk/clients/cloudhsm.js"),
+  CloudSearch: __webpack_require__(/*! ./cloudsearch */ "./node_modules/aws-sdk/clients/cloudsearch.js"),
+  CloudSearchDomain: __webpack_require__(/*! ./cloudsearchdomain */ "./node_modules/aws-sdk/clients/cloudsearchdomain.js"),
+  CloudTrail: __webpack_require__(/*! ./cloudtrail */ "./node_modules/aws-sdk/clients/cloudtrail.js"),
+  CloudWatch: __webpack_require__(/*! ./cloudwatch */ "./node_modules/aws-sdk/clients/cloudwatch.js"),
+  CloudWatchEvents: __webpack_require__(/*! ./cloudwatchevents */ "./node_modules/aws-sdk/clients/cloudwatchevents.js"),
+  CloudWatchLogs: __webpack_require__(/*! ./cloudwatchlogs */ "./node_modules/aws-sdk/clients/cloudwatchlogs.js"),
+  CodeBuild: __webpack_require__(/*! ./codebuild */ "./node_modules/aws-sdk/clients/codebuild.js"),
+  CodeCommit: __webpack_require__(/*! ./codecommit */ "./node_modules/aws-sdk/clients/codecommit.js"),
+  CodeDeploy: __webpack_require__(/*! ./codedeploy */ "./node_modules/aws-sdk/clients/codedeploy.js"),
+  CodePipeline: __webpack_require__(/*! ./codepipeline */ "./node_modules/aws-sdk/clients/codepipeline.js"),
+  CognitoIdentity: __webpack_require__(/*! ./cognitoidentity */ "./node_modules/aws-sdk/clients/cognitoidentity.js"),
+  CognitoIdentityServiceProvider: __webpack_require__(/*! ./cognitoidentityserviceprovider */ "./node_modules/aws-sdk/clients/cognitoidentityserviceprovider.js"),
+  CognitoSync: __webpack_require__(/*! ./cognitosync */ "./node_modules/aws-sdk/clients/cognitosync.js"),
+  ConfigService: __webpack_require__(/*! ./configservice */ "./node_modules/aws-sdk/clients/configservice.js"),
+  CUR: __webpack_require__(/*! ./cur */ "./node_modules/aws-sdk/clients/cur.js"),
+  DataPipeline: __webpack_require__(/*! ./datapipeline */ "./node_modules/aws-sdk/clients/datapipeline.js"),
+  DeviceFarm: __webpack_require__(/*! ./devicefarm */ "./node_modules/aws-sdk/clients/devicefarm.js"),
+  DirectConnect: __webpack_require__(/*! ./directconnect */ "./node_modules/aws-sdk/clients/directconnect.js"),
+  DirectoryService: __webpack_require__(/*! ./directoryservice */ "./node_modules/aws-sdk/clients/directoryservice.js"),
+  Discovery: __webpack_require__(/*! ./discovery */ "./node_modules/aws-sdk/clients/discovery.js"),
+  DMS: __webpack_require__(/*! ./dms */ "./node_modules/aws-sdk/clients/dms.js"),
+  DynamoDB: __webpack_require__(/*! ./dynamodb */ "./node_modules/aws-sdk/clients/dynamodb.js"),
+  DynamoDBStreams: __webpack_require__(/*! ./dynamodbstreams */ "./node_modules/aws-sdk/clients/dynamodbstreams.js"),
+  EC2: __webpack_require__(/*! ./ec2 */ "./node_modules/aws-sdk/clients/ec2.js"),
+  ECR: __webpack_require__(/*! ./ecr */ "./node_modules/aws-sdk/clients/ecr.js"),
+  ECS: __webpack_require__(/*! ./ecs */ "./node_modules/aws-sdk/clients/ecs.js"),
+  EFS: __webpack_require__(/*! ./efs */ "./node_modules/aws-sdk/clients/efs.js"),
+  ElastiCache: __webpack_require__(/*! ./elasticache */ "./node_modules/aws-sdk/clients/elasticache.js"),
+  ElasticBeanstalk: __webpack_require__(/*! ./elasticbeanstalk */ "./node_modules/aws-sdk/clients/elasticbeanstalk.js"),
+  ELB: __webpack_require__(/*! ./elb */ "./node_modules/aws-sdk/clients/elb.js"),
+  ELBv2: __webpack_require__(/*! ./elbv2 */ "./node_modules/aws-sdk/clients/elbv2.js"),
+  EMR: __webpack_require__(/*! ./emr */ "./node_modules/aws-sdk/clients/emr.js"),
+  ES: __webpack_require__(/*! ./es */ "./node_modules/aws-sdk/clients/es.js"),
+  ElasticTranscoder: __webpack_require__(/*! ./elastictranscoder */ "./node_modules/aws-sdk/clients/elastictranscoder.js"),
+  Firehose: __webpack_require__(/*! ./firehose */ "./node_modules/aws-sdk/clients/firehose.js"),
+  GameLift: __webpack_require__(/*! ./gamelift */ "./node_modules/aws-sdk/clients/gamelift.js"),
+  Glacier: __webpack_require__(/*! ./glacier */ "./node_modules/aws-sdk/clients/glacier.js"),
+  Health: __webpack_require__(/*! ./health */ "./node_modules/aws-sdk/clients/health.js"),
+  IAM: __webpack_require__(/*! ./iam */ "./node_modules/aws-sdk/clients/iam.js"),
+  ImportExport: __webpack_require__(/*! ./importexport */ "./node_modules/aws-sdk/clients/importexport.js"),
+  Inspector: __webpack_require__(/*! ./inspector */ "./node_modules/aws-sdk/clients/inspector.js"),
+  Iot: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iot'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  IotData: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotdata'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Kinesis: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesis'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KinesisAnalytics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisanalytics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KMS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kms'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Lambda: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lambda'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LexRuntime: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lexruntime'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Lightsail: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lightsail'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MachineLearning: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './machinelearning'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MarketplaceCommerceAnalytics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './marketplacecommerceanalytics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MarketplaceMetering: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './marketplacemetering'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MTurk: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mturk'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MobileAnalytics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mobileanalytics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  OpsWorks: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './opsworks'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  OpsWorksCM: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './opsworkscm'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Organizations: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './organizations'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Pinpoint: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pinpoint'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Polly: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './polly'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  RDS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rds'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Redshift: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './redshift'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Rekognition: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rekognition'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ResourceGroupsTaggingAPI: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resourcegroupstaggingapi'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53Domains: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53domains'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  S3: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './s3'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  S3Control: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './s3control'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ServiceCatalog: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './servicecatalog'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SES: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ses'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Shield: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './shield'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SimpleDB: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './simpledb'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SMS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sms'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Snowball: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './snowball'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SNS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sns'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SQS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sqs'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SSM: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssm'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  StorageGateway: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './storagegateway'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  StepFunctions: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './stepfunctions'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  STS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sts'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Support: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './support'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SWF: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './swf'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  XRay: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './xray'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WAF: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './waf'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WAFRegional: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './wafregional'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WorkDocs: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './workdocs'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WorkSpaces: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './workspaces'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CodeStar: __webpack_require__(/*! ./codestar */ "./node_modules/aws-sdk/clients/codestar.js"),
+  LexModelBuildingService: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lexmodelbuildingservice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MarketplaceEntitlementService: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './marketplaceentitlementservice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Athena: __webpack_require__(/*! ./athena */ "./node_modules/aws-sdk/clients/athena.js"),
+  Greengrass: __webpack_require__(/*! ./greengrass */ "./node_modules/aws-sdk/clients/greengrass.js"),
+  DAX: __webpack_require__(/*! ./dax */ "./node_modules/aws-sdk/clients/dax.js"),
+  MigrationHub: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './migrationhub'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CloudHSMV2: __webpack_require__(/*! ./cloudhsmv2 */ "./node_modules/aws-sdk/clients/cloudhsmv2.js"),
+  Glue: __webpack_require__(/*! ./glue */ "./node_modules/aws-sdk/clients/glue.js"),
+  Mobile: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mobile'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Pricing: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pricing'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CostExplorer: __webpack_require__(/*! ./costexplorer */ "./node_modules/aws-sdk/clients/costexplorer.js"),
+  MediaConvert: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediaconvert'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaLive: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './medialive'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaPackage: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediapackage'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaStore: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediastore'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaStoreData: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediastoredata'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AppSync: __webpack_require__(/*! ./appsync */ "./node_modules/aws-sdk/clients/appsync.js"),
+  GuardDuty: __webpack_require__(/*! ./guardduty */ "./node_modules/aws-sdk/clients/guardduty.js"),
+  MQ: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mq'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Comprehend: __webpack_require__(/*! ./comprehend */ "./node_modules/aws-sdk/clients/comprehend.js"),
+  IoTJobsDataPlane: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotjobsdataplane'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KinesisVideoArchivedMedia: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisvideoarchivedmedia'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KinesisVideoMedia: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisvideomedia'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KinesisVideo: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisvideo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SageMakerRuntime: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemakerruntime'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SageMaker: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemaker'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Translate: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './translate'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ResourceGroups: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resourcegroups'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AlexaForBusiness: __webpack_require__(/*! ./alexaforbusiness */ "./node_modules/aws-sdk/clients/alexaforbusiness.js"),
+  Cloud9: __webpack_require__(/*! ./cloud9 */ "./node_modules/aws-sdk/clients/cloud9.js"),
+  ServerlessApplicationRepository: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './serverlessapplicationrepository'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ServiceDiscovery: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './servicediscovery'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WorkMail: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './workmail'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AutoScalingPlans: __webpack_require__(/*! ./autoscalingplans */ "./node_modules/aws-sdk/clients/autoscalingplans.js"),
+  TranscribeService: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './transcribeservice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Connect: __webpack_require__(/*! ./connect */ "./node_modules/aws-sdk/clients/connect.js"),
+  ACMPCA: __webpack_require__(/*! ./acmpca */ "./node_modules/aws-sdk/clients/acmpca.js"),
+  FMS: __webpack_require__(/*! ./fms */ "./node_modules/aws-sdk/clients/fms.js"),
+  SecretsManager: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './secretsmanager'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  IoTAnalytics: __webpack_require__(/*! ./iotanalytics */ "./node_modules/aws-sdk/clients/iotanalytics.js"),
+  IoT1ClickDevicesService: __webpack_require__(/*! ./iot1clickdevicesservice */ "./node_modules/aws-sdk/clients/iot1clickdevicesservice.js"),
+  IoT1ClickProjects: __webpack_require__(/*! ./iot1clickprojects */ "./node_modules/aws-sdk/clients/iot1clickprojects.js"),
+  PI: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pi'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Neptune: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './neptune'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaTailor: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediatailor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  EKS: __webpack_require__(/*! ./eks */ "./node_modules/aws-sdk/clients/eks.js"),
+  Macie: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './macie'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  DLM: __webpack_require__(/*! ./dlm */ "./node_modules/aws-sdk/clients/dlm.js"),
+  Signer: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './signer'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Chime: __webpack_require__(/*! ./chime */ "./node_modules/aws-sdk/clients/chime.js"),
+  PinpointEmail: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pinpointemail'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  RAM: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ram'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53Resolver: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53resolver'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  PinpointSMSVoice: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pinpointsmsvoice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  QuickSight: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './quicksight'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  RDSDataService: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rdsdataservice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Amplify: __webpack_require__(/*! ./amplify */ "./node_modules/aws-sdk/clients/amplify.js"),
+  DataSync: __webpack_require__(/*! ./datasync */ "./node_modules/aws-sdk/clients/datasync.js"),
+  RoboMaker: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './robomaker'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Transfer: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './transfer'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  GlobalAccelerator: __webpack_require__(/*! ./globalaccelerator */ "./node_modules/aws-sdk/clients/globalaccelerator.js"),
+  ComprehendMedical: __webpack_require__(/*! ./comprehendmedical */ "./node_modules/aws-sdk/clients/comprehendmedical.js"),
+  KinesisAnalyticsV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisanalyticsv2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaConnect: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediaconnect'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  FSx: __webpack_require__(/*! ./fsx */ "./node_modules/aws-sdk/clients/fsx.js"),
+  SecurityHub: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './securityhub'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AppMesh: __webpack_require__(/*! ./appmesh */ "./node_modules/aws-sdk/clients/appmesh.js"),
+  LicenseManager: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './licensemanager'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Kafka: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kafka'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ApiGatewayManagementApi: __webpack_require__(/*! ./apigatewaymanagementapi */ "./node_modules/aws-sdk/clients/apigatewaymanagementapi.js"),
+  ApiGatewayV2: __webpack_require__(/*! ./apigatewayv2 */ "./node_modules/aws-sdk/clients/apigatewayv2.js"),
+  DocDB: __webpack_require__(/*! ./docdb */ "./node_modules/aws-sdk/clients/docdb.js"),
+  Backup: __webpack_require__(/*! ./backup */ "./node_modules/aws-sdk/clients/backup.js"),
+  WorkLink: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './worklink'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Textract: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './textract'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ManagedBlockchain: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './managedblockchain'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MediaPackageVod: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mediapackagevod'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  GroundStation: __webpack_require__(/*! ./groundstation */ "./node_modules/aws-sdk/clients/groundstation.js"),
+  IoTThingsGraph: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotthingsgraph'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  IoTEvents: __webpack_require__(/*! ./iotevents */ "./node_modules/aws-sdk/clients/iotevents.js"),
+  IoTEventsData: __webpack_require__(/*! ./ioteventsdata */ "./node_modules/aws-sdk/clients/ioteventsdata.js"),
+  Personalize: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './personalize'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  PersonalizeEvents: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './personalizeevents'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  PersonalizeRuntime: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './personalizeruntime'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ApplicationInsights: __webpack_require__(/*! ./applicationinsights */ "./node_modules/aws-sdk/clients/applicationinsights.js"),
+  ServiceQuotas: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './servicequotas'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  EC2InstanceConnect: __webpack_require__(/*! ./ec2instanceconnect */ "./node_modules/aws-sdk/clients/ec2instanceconnect.js"),
+  EventBridge: __webpack_require__(/*! ./eventbridge */ "./node_modules/aws-sdk/clients/eventbridge.js"),
+  LakeFormation: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lakeformation'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ForecastService: __webpack_require__(/*! ./forecastservice */ "./node_modules/aws-sdk/clients/forecastservice.js"),
+  ForecastQueryService: __webpack_require__(/*! ./forecastqueryservice */ "./node_modules/aws-sdk/clients/forecastqueryservice.js"),
+  QLDB: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './qldb'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  QLDBSession: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './qldbsession'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WorkMailMessageFlow: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './workmailmessageflow'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CodeStarNotifications: __webpack_require__(/*! ./codestarnotifications */ "./node_modules/aws-sdk/clients/codestarnotifications.js"),
+  SavingsPlans: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './savingsplans'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SSO: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sso'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SSOOIDC: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssooidc'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MarketplaceCatalog: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './marketplacecatalog'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  DataExchange: __webpack_require__(/*! ./dataexchange */ "./node_modules/aws-sdk/clients/dataexchange.js"),
+  SESV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sesv2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MigrationHubConfig: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './migrationhubconfig'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ConnectParticipant: __webpack_require__(/*! ./connectparticipant */ "./node_modules/aws-sdk/clients/connectparticipant.js"),
+  AppConfig: __webpack_require__(/*! ./appconfig */ "./node_modules/aws-sdk/clients/appconfig.js"),
+  IoTSecureTunneling: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotsecuretunneling'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WAFV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './wafv2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ElasticInference: __webpack_require__(/*! ./elasticinference */ "./node_modules/aws-sdk/clients/elasticinference.js"),
+  Imagebuilder: __webpack_require__(/*! ./imagebuilder */ "./node_modules/aws-sdk/clients/imagebuilder.js"),
+  Schemas: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './schemas'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AccessAnalyzer: __webpack_require__(/*! ./accessanalyzer */ "./node_modules/aws-sdk/clients/accessanalyzer.js"),
+  CodeGuruReviewer: __webpack_require__(/*! ./codegurureviewer */ "./node_modules/aws-sdk/clients/codegurureviewer.js"),
+  CodeGuruProfiler: __webpack_require__(/*! ./codeguruprofiler */ "./node_modules/aws-sdk/clients/codeguruprofiler.js"),
+  ComputeOptimizer: __webpack_require__(/*! ./computeoptimizer */ "./node_modules/aws-sdk/clients/computeoptimizer.js"),
+  FraudDetector: __webpack_require__(/*! ./frauddetector */ "./node_modules/aws-sdk/clients/frauddetector.js"),
+  Kendra: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kendra'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  NetworkManager: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './networkmanager'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Outposts: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './outposts'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AugmentedAIRuntime: __webpack_require__(/*! ./augmentedairuntime */ "./node_modules/aws-sdk/clients/augmentedairuntime.js"),
+  EBS: __webpack_require__(/*! ./ebs */ "./node_modules/aws-sdk/clients/ebs.js"),
+  KinesisVideoSignalingChannels: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisvideosignalingchannels'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Detective: __webpack_require__(/*! ./detective */ "./node_modules/aws-sdk/clients/detective.js"),
+  CodeStarconnections: __webpack_require__(/*! ./codestarconnections */ "./node_modules/aws-sdk/clients/codestarconnections.js"),
+  Synthetics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './synthetics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  IoTSiteWise: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotsitewise'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Macie2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './macie2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CodeArtifact: __webpack_require__(/*! ./codeartifact */ "./node_modules/aws-sdk/clients/codeartifact.js"),
+  Honeycode: __webpack_require__(/*! ./honeycode */ "./node_modules/aws-sdk/clients/honeycode.js"),
+  IVS: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ivs'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Braket: __webpack_require__(/*! ./braket */ "./node_modules/aws-sdk/clients/braket.js"),
+  IdentityStore: __webpack_require__(/*! ./identitystore */ "./node_modules/aws-sdk/clients/identitystore.js"),
+  Appflow: __webpack_require__(/*! ./appflow */ "./node_modules/aws-sdk/clients/appflow.js"),
+  RedshiftData: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './redshiftdata'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SSOAdmin: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssoadmin'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  TimestreamQuery: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './timestreamquery'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  TimestreamWrite: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './timestreamwrite'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  S3Outposts: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './s3outposts'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  DataBrew: __webpack_require__(/*! ./databrew */ "./node_modules/aws-sdk/clients/databrew.js"),
+  ServiceCatalogAppRegistry: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './servicecatalogappregistry'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  NetworkFirewall: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './networkfirewall'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MWAA: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mwaa'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AmplifyBackend: __webpack_require__(/*! ./amplifybackend */ "./node_modules/aws-sdk/clients/amplifybackend.js"),
+  AppIntegrations: __webpack_require__(/*! ./appintegrations */ "./node_modules/aws-sdk/clients/appintegrations.js"),
+  ConnectContactLens: __webpack_require__(/*! ./connectcontactlens */ "./node_modules/aws-sdk/clients/connectcontactlens.js"),
+  DevOpsGuru: __webpack_require__(/*! ./devopsguru */ "./node_modules/aws-sdk/clients/devopsguru.js"),
+  ECRPUBLIC: __webpack_require__(/*! ./ecrpublic */ "./node_modules/aws-sdk/clients/ecrpublic.js"),
+  LookoutVision: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lookoutvision'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SageMakerFeatureStoreRuntime: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemakerfeaturestoreruntime'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CustomerProfiles: __webpack_require__(/*! ./customerprofiles */ "./node_modules/aws-sdk/clients/customerprofiles.js"),
+  AuditManager: __webpack_require__(/*! ./auditmanager */ "./node_modules/aws-sdk/clients/auditmanager.js"),
+  EMRcontainers: __webpack_require__(/*! ./emrcontainers */ "./node_modules/aws-sdk/clients/emrcontainers.js"),
+  HealthLake: __webpack_require__(/*! ./healthlake */ "./node_modules/aws-sdk/clients/healthlake.js"),
+  SagemakerEdge: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemakeredge'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Amp: __webpack_require__(/*! ./amp */ "./node_modules/aws-sdk/clients/amp.js"),
+  GreengrassV2: __webpack_require__(/*! ./greengrassv2 */ "./node_modules/aws-sdk/clients/greengrassv2.js"),
+  IotDeviceAdvisor: __webpack_require__(/*! ./iotdeviceadvisor */ "./node_modules/aws-sdk/clients/iotdeviceadvisor.js"),
+  IoTFleetHub: __webpack_require__(/*! ./iotfleethub */ "./node_modules/aws-sdk/clients/iotfleethub.js"),
+  IoTWireless: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iotwireless'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Location: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './location'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WellArchitected: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './wellarchitected'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LexModelsV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lexmodelsv2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LexRuntimeV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lexruntimev2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Fis: __webpack_require__(/*! ./fis */ "./node_modules/aws-sdk/clients/fis.js"),
+  LookoutMetrics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lookoutmetrics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Mgn: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './mgn'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LookoutEquipment: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './lookoutequipment'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Nimble: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './nimble'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Finspace: __webpack_require__(/*! ./finspace */ "./node_modules/aws-sdk/clients/finspace.js"),
+  Finspacedata: __webpack_require__(/*! ./finspacedata */ "./node_modules/aws-sdk/clients/finspacedata.js"),
+  SSMContacts: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssmcontacts'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SSMIncidents: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssmincidents'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ApplicationCostProfiler: __webpack_require__(/*! ./applicationcostprofiler */ "./node_modules/aws-sdk/clients/applicationcostprofiler.js"),
+  AppRunner: __webpack_require__(/*! ./apprunner */ "./node_modules/aws-sdk/clients/apprunner.js"),
+  Proton: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './proton'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53RecoveryCluster: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53recoverycluster'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53RecoveryControlConfig: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53recoverycontrolconfig'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Route53RecoveryReadiness: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './route53recoveryreadiness'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ChimeSDKIdentity: __webpack_require__(/*! ./chimesdkidentity */ "./node_modules/aws-sdk/clients/chimesdkidentity.js"),
+  ChimeSDKMessaging: __webpack_require__(/*! ./chimesdkmessaging */ "./node_modules/aws-sdk/clients/chimesdkmessaging.js"),
+  SnowDeviceManagement: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './snowdevicemanagement'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MemoryDB: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './memorydb'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  OpenSearch: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './opensearch'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KafkaConnect: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kafkaconnect'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  VoiceID: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './voiceid'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Wisdom: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './wisdom'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Account: __webpack_require__(/*! ./account */ "./node_modules/aws-sdk/clients/account.js"),
+  CloudControl: __webpack_require__(/*! ./cloudcontrol */ "./node_modules/aws-sdk/clients/cloudcontrol.js"),
+  Grafana: __webpack_require__(/*! ./grafana */ "./node_modules/aws-sdk/clients/grafana.js"),
+  Panorama: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './panorama'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ChimeSDKMeetings: __webpack_require__(/*! ./chimesdkmeetings */ "./node_modules/aws-sdk/clients/chimesdkmeetings.js"),
+  Resiliencehub: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resiliencehub'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  MigrationHubStrategy: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './migrationhubstrategy'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AppConfigData: __webpack_require__(/*! ./appconfigdata */ "./node_modules/aws-sdk/clients/appconfigdata.js"),
+  Drs: __webpack_require__(/*! ./drs */ "./node_modules/aws-sdk/clients/drs.js"),
+  MigrationHubRefactorSpaces: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './migrationhubrefactorspaces'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Evidently: __webpack_require__(/*! ./evidently */ "./node_modules/aws-sdk/clients/evidently.js"),
+  Inspector2: __webpack_require__(/*! ./inspector2 */ "./node_modules/aws-sdk/clients/inspector2.js"),
+  Rbin: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rbin'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  RUM: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rum'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  BackupGateway: __webpack_require__(/*! ./backupgateway */ "./node_modules/aws-sdk/clients/backupgateway.js"),
+  IoTTwinMaker: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './iottwinmaker'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  WorkSpacesWeb: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './workspacesweb'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  AmplifyUIBuilder: __webpack_require__(/*! ./amplifyuibuilder */ "./node_modules/aws-sdk/clients/amplifyuibuilder.js"),
+  Keyspaces: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './keyspaces'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Billingconductor: __webpack_require__(/*! ./billingconductor */ "./node_modules/aws-sdk/clients/billingconductor.js"),
+  GameSparks: __webpack_require__(/*! ./gamesparks */ "./node_modules/aws-sdk/clients/gamesparks.js"),
+  PinpointSMSVoiceV2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pinpointsmsvoicev2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Ivschat: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ivschat'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ChimeSDKMediaPipelines: __webpack_require__(/*! ./chimesdkmediapipelines */ "./node_modules/aws-sdk/clients/chimesdkmediapipelines.js"),
+  EMRServerless: __webpack_require__(/*! ./emrserverless */ "./node_modules/aws-sdk/clients/emrserverless.js"),
+  M2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './m2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ConnectCampaigns: __webpack_require__(/*! ./connectcampaigns */ "./node_modules/aws-sdk/clients/connectcampaigns.js"),
+  RedshiftServerless: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './redshiftserverless'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  RolesAnywhere: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rolesanywhere'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LicenseManagerUserSubscriptions: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './licensemanagerusersubscriptions'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  BackupStorage: __webpack_require__(/*! ./backupstorage */ "./node_modules/aws-sdk/clients/backupstorage.js"),
+  PrivateNetworks: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './privatenetworks'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SupportApp: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './supportapp'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ControlTower: __webpack_require__(/*! ./controltower */ "./node_modules/aws-sdk/clients/controltower.js"),
+  IoTFleetWise: __webpack_require__(/*! ./iotfleetwise */ "./node_modules/aws-sdk/clients/iotfleetwise.js"),
+  MigrationHubOrchestrator: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './migrationhuborchestrator'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ConnectCases: __webpack_require__(/*! ./connectcases */ "./node_modules/aws-sdk/clients/connectcases.js"),
+  ResourceExplorer2: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resourceexplorer2'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  Scheduler: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './scheduler'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ChimeSDKVoice: __webpack_require__(/*! ./chimesdkvoice */ "./node_modules/aws-sdk/clients/chimesdkvoice.js"),
+  IoTRoboRunner: __webpack_require__(/*! ./iotroborunner */ "./node_modules/aws-sdk/clients/iotroborunner.js"),
+  SsmSap: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ssmsap'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  OAM: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './oam'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  ARCZonalShift: __webpack_require__(/*! ./arczonalshift */ "./node_modules/aws-sdk/clients/arczonalshift.js"),
+  Omics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './omics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  OpenSearchServerless: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './opensearchserverless'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SecurityLake: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './securitylake'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SimSpaceWeaver: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './simspaceweaver'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  DocDBElastic: __webpack_require__(/*! ./docdbelastic */ "./node_modules/aws-sdk/clients/docdbelastic.js"),
+  SageMakerGeospatial: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemakergeospatial'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CodeCatalyst: __webpack_require__(/*! ./codecatalyst */ "./node_modules/aws-sdk/clients/codecatalyst.js"),
+  Pipes: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './pipes'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  SageMakerMetrics: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sagemakermetrics'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KinesisVideoWebRTCStorage: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kinesisvideowebrtcstorage'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  LicenseManagerLinuxSubscriptions: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './licensemanagerlinuxsubscriptions'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  KendraRanking: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './kendraranking'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  CleanRooms: __webpack_require__(/*! ./cleanrooms */ "./node_modules/aws-sdk/clients/cleanrooms.js"),
+  CloudTrailData: __webpack_require__(/*! ./cloudtraildata */ "./node_modules/aws-sdk/clients/cloudtraildata.js"),
+  Tnb: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './tnb'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  InternetMonitor: __webpack_require__(/*! ./internetmonitor */ "./node_modules/aws-sdk/clients/internetmonitor.js"),
+  IVSRealTime: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './ivsrealtime'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+  VPCLattice: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './vpclattice'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+};
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/amp.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/amp.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['amp'] = {};
+AWS.Amp = Service.defineService('amp', ['2020-08-01']);
+Object.defineProperty(apiLoader.services['amp'], '2020-08-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amp-2020-08-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amp-2020-08-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amp-2020-08-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Amp;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/amplify.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/amplify.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['amplify'] = {};
+AWS.Amplify = Service.defineService('amplify', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['amplify'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplify-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplify-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Amplify;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/amplifybackend.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/amplifybackend.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['amplifybackend'] = {};
+AWS.AmplifyBackend = Service.defineService('amplifybackend', ['2020-08-11']);
+Object.defineProperty(apiLoader.services['amplifybackend'], '2020-08-11', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplifybackend-2020-08-11.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplifybackend-2020-08-11.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AmplifyBackend;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/amplifyuibuilder.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/amplifyuibuilder.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['amplifyuibuilder'] = {};
+AWS.AmplifyUIBuilder = Service.defineService('amplifyuibuilder', ['2021-08-11']);
+Object.defineProperty(apiLoader.services['amplifyuibuilder'], '2021-08-11', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplifyuibuilder-2021-08-11.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplifyuibuilder-2021-08-11.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/amplifyuibuilder-2021-08-11.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AmplifyUIBuilder;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/apigateway.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/apigateway.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['apigateway'] = {};
+AWS.APIGateway = Service.defineService('apigateway', ['2015-07-09']);
+__webpack_require__(/*! ../lib/services/apigateway */ "./node_modules/aws-sdk/lib/services/apigateway.js");
+Object.defineProperty(apiLoader.services['apigateway'], '2015-07-09', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigateway-2015-07-09.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigateway-2015-07-09.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.APIGateway;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/apigatewaymanagementapi.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/apigatewaymanagementapi.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['apigatewaymanagementapi'] = {};
+AWS.ApiGatewayManagementApi = Service.defineService('apigatewaymanagementapi', ['2018-11-29']);
+Object.defineProperty(apiLoader.services['apigatewaymanagementapi'], '2018-11-29', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigatewaymanagementapi-2018-11-29.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigatewaymanagementapi-2018-11-29.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ApiGatewayManagementApi;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/apigatewayv2.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/apigatewayv2.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['apigatewayv2'] = {};
+AWS.ApiGatewayV2 = Service.defineService('apigatewayv2', ['2018-11-29']);
+Object.defineProperty(apiLoader.services['apigatewayv2'], '2018-11-29', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigatewayv2-2018-11-29.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apigatewayv2-2018-11-29.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ApiGatewayV2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appconfig.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appconfig.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appconfig'] = {};
+AWS.AppConfig = Service.defineService('appconfig', ['2019-10-09']);
+Object.defineProperty(apiLoader.services['appconfig'], '2019-10-09', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appconfig-2019-10-09.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appconfig-2019-10-09.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppConfig;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appconfigdata.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appconfigdata.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appconfigdata'] = {};
+AWS.AppConfigData = Service.defineService('appconfigdata', ['2021-11-11']);
+Object.defineProperty(apiLoader.services['appconfigdata'], '2021-11-11', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appconfigdata-2021-11-11.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appconfigdata-2021-11-11.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppConfigData;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appflow.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appflow.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appflow'] = {};
+AWS.Appflow = Service.defineService('appflow', ['2020-08-23']);
+Object.defineProperty(apiLoader.services['appflow'], '2020-08-23', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appflow-2020-08-23.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appflow-2020-08-23.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Appflow;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appintegrations.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appintegrations.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appintegrations'] = {};
+AWS.AppIntegrations = Service.defineService('appintegrations', ['2020-07-29']);
+Object.defineProperty(apiLoader.services['appintegrations'], '2020-07-29', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appintegrations-2020-07-29.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appintegrations-2020-07-29.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppIntegrations;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/applicationautoscaling.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/applicationautoscaling.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['applicationautoscaling'] = {};
+AWS.ApplicationAutoScaling = Service.defineService('applicationautoscaling', ['2016-02-06']);
+Object.defineProperty(apiLoader.services['applicationautoscaling'], '2016-02-06', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/application-autoscaling-2016-02-06.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/application-autoscaling-2016-02-06.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ApplicationAutoScaling;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/applicationcostprofiler.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/applicationcostprofiler.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['applicationcostprofiler'] = {};
+AWS.ApplicationCostProfiler = Service.defineService('applicationcostprofiler', ['2020-09-10']);
+Object.defineProperty(apiLoader.services['applicationcostprofiler'], '2020-09-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/applicationcostprofiler-2020-09-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/applicationcostprofiler-2020-09-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ApplicationCostProfiler;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/applicationinsights.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/applicationinsights.js ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['applicationinsights'] = {};
+AWS.ApplicationInsights = Service.defineService('applicationinsights', ['2018-11-25']);
+Object.defineProperty(apiLoader.services['applicationinsights'], '2018-11-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/application-insights-2018-11-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/application-insights-2018-11-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ApplicationInsights;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appmesh.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appmesh.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appmesh'] = {};
+AWS.AppMesh = Service.defineService('appmesh', ['2018-10-01', '2018-10-01*', '2019-01-25']);
+Object.defineProperty(apiLoader.services['appmesh'], '2018-10-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appmesh-2018-10-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appmesh-2018-10-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['appmesh'], '2019-01-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appmesh-2019-01-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appmesh-2019-01-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppMesh;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/apprunner.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/apprunner.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['apprunner'] = {};
+AWS.AppRunner = Service.defineService('apprunner', ['2020-05-15']);
+Object.defineProperty(apiLoader.services['apprunner'], '2020-05-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apprunner-2020-05-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/apprunner-2020-05-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppRunner;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appstream.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appstream.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appstream'] = {};
+AWS.AppStream = Service.defineService('appstream', ['2016-12-01']);
+Object.defineProperty(apiLoader.services['appstream'], '2016-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appstream-2016-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appstream-2016-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appstream-2016-12-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppStream;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/appsync.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/appsync.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['appsync'] = {};
+AWS.AppSync = Service.defineService('appsync', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['appsync'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appsync-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/appsync-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AppSync;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/arczonalshift.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/arczonalshift.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['arczonalshift'] = {};
+AWS.ARCZonalShift = Service.defineService('arczonalshift', ['2022-10-30']);
+Object.defineProperty(apiLoader.services['arczonalshift'], '2022-10-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/arc-zonal-shift-2022-10-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/arc-zonal-shift-2022-10-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ARCZonalShift;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/athena.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/athena.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['athena'] = {};
+AWS.Athena = Service.defineService('athena', ['2017-05-18']);
+Object.defineProperty(apiLoader.services['athena'], '2017-05-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/athena-2017-05-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/athena-2017-05-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Athena;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/auditmanager.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/auditmanager.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['auditmanager'] = {};
+AWS.AuditManager = Service.defineService('auditmanager', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['auditmanager'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/auditmanager-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/auditmanager-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AuditManager;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/augmentedairuntime.js":
+/*!************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/augmentedairuntime.js ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['augmentedairuntime'] = {};
+AWS.AugmentedAIRuntime = Service.defineService('augmentedairuntime', ['2019-11-07']);
+Object.defineProperty(apiLoader.services['augmentedairuntime'], '2019-11-07', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/sagemaker-a2i-runtime-2019-11-07.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/sagemaker-a2i-runtime-2019-11-07.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AugmentedAIRuntime;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/autoscaling.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/autoscaling.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['autoscaling'] = {};
+AWS.AutoScaling = Service.defineService('autoscaling', ['2011-01-01']);
+Object.defineProperty(apiLoader.services['autoscaling'], '2011-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/autoscaling-2011-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/autoscaling-2011-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AutoScaling;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/autoscalingplans.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/autoscalingplans.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['autoscalingplans'] = {};
+AWS.AutoScalingPlans = Service.defineService('autoscalingplans', ['2018-01-06']);
+Object.defineProperty(apiLoader.services['autoscalingplans'], '2018-01-06', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/autoscaling-plans-2018-01-06.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/autoscaling-plans-2018-01-06.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.AutoScalingPlans;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/backup.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/backup.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['backup'] = {};
+AWS.Backup = Service.defineService('backup', ['2018-11-15']);
+Object.defineProperty(apiLoader.services['backup'], '2018-11-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backup-2018-11-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backup-2018-11-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Backup;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/backupgateway.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/backupgateway.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['backupgateway'] = {};
+AWS.BackupGateway = Service.defineService('backupgateway', ['2021-01-01']);
+Object.defineProperty(apiLoader.services['backupgateway'], '2021-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backup-gateway-2021-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backup-gateway-2021-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.BackupGateway;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/backupstorage.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/backupstorage.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['backupstorage'] = {};
+AWS.BackupStorage = Service.defineService('backupstorage', ['2018-04-10']);
+Object.defineProperty(apiLoader.services['backupstorage'], '2018-04-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backupstorage-2018-04-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/backupstorage-2018-04-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.BackupStorage;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/batch.js":
+/*!***********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/batch.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['batch'] = {};
+AWS.Batch = Service.defineService('batch', ['2016-08-10']);
+Object.defineProperty(apiLoader.services['batch'], '2016-08-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/batch-2016-08-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/batch-2016-08-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Batch;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/billingconductor.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/billingconductor.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['billingconductor'] = {};
+AWS.Billingconductor = Service.defineService('billingconductor', ['2021-07-30']);
+Object.defineProperty(apiLoader.services['billingconductor'], '2021-07-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/billingconductor-2021-07-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/billingconductor-2021-07-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/billingconductor-2021-07-30.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Billingconductor;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/braket.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/braket.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['braket'] = {};
+AWS.Braket = Service.defineService('braket', ['2019-09-01']);
+Object.defineProperty(apiLoader.services['braket'], '2019-09-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/braket-2019-09-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/braket-2019-09-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Braket;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/budgets.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/budgets.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['budgets'] = {};
+AWS.Budgets = Service.defineService('budgets', ['2016-10-20']);
+Object.defineProperty(apiLoader.services['budgets'], '2016-10-20', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/budgets-2016-10-20.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/budgets-2016-10-20.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Budgets;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chime.js":
+/*!***********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chime.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chime'] = {};
+AWS.Chime = Service.defineService('chime', ['2018-05-01']);
+Object.defineProperty(apiLoader.services['chime'], '2018-05-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-2018-05-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-2018-05-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Chime;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chimesdkidentity.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chimesdkidentity.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chimesdkidentity'] = {};
+AWS.ChimeSDKIdentity = Service.defineService('chimesdkidentity', ['2021-04-20']);
+Object.defineProperty(apiLoader.services['chimesdkidentity'], '2021-04-20', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-identity-2021-04-20.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-identity-2021-04-20.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ChimeSDKIdentity;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chimesdkmediapipelines.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chimesdkmediapipelines.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chimesdkmediapipelines'] = {};
+AWS.ChimeSDKMediaPipelines = Service.defineService('chimesdkmediapipelines', ['2021-07-15']);
+Object.defineProperty(apiLoader.services['chimesdkmediapipelines'], '2021-07-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-media-pipelines-2021-07-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-media-pipelines-2021-07-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ChimeSDKMediaPipelines;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chimesdkmeetings.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chimesdkmeetings.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chimesdkmeetings'] = {};
+AWS.ChimeSDKMeetings = Service.defineService('chimesdkmeetings', ['2021-07-15']);
+Object.defineProperty(apiLoader.services['chimesdkmeetings'], '2021-07-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-meetings-2021-07-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-meetings-2021-07-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ChimeSDKMeetings;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chimesdkmessaging.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chimesdkmessaging.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chimesdkmessaging'] = {};
+AWS.ChimeSDKMessaging = Service.defineService('chimesdkmessaging', ['2021-05-15']);
+Object.defineProperty(apiLoader.services['chimesdkmessaging'], '2021-05-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-messaging-2021-05-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-messaging-2021-05-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ChimeSDKMessaging;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/chimesdkvoice.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/chimesdkvoice.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['chimesdkvoice'] = {};
+AWS.ChimeSDKVoice = Service.defineService('chimesdkvoice', ['2022-08-03']);
+Object.defineProperty(apiLoader.services['chimesdkvoice'], '2022-08-03', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-voice-2022-08-03.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/chime-sdk-voice-2022-08-03.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ChimeSDKVoice;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cleanrooms.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cleanrooms.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cleanrooms'] = {};
+AWS.CleanRooms = Service.defineService('cleanrooms', ['2022-02-17']);
+Object.defineProperty(apiLoader.services['cleanrooms'], '2022-02-17', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cleanrooms-2022-02-17.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cleanrooms-2022-02-17.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cleanrooms-2022-02-17.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CleanRooms;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloud9.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloud9.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloud9'] = {};
+AWS.Cloud9 = Service.defineService('cloud9', ['2017-09-23']);
+Object.defineProperty(apiLoader.services['cloud9'], '2017-09-23', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloud9-2017-09-23.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloud9-2017-09-23.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Cloud9;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudcontrol.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudcontrol.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudcontrol'] = {};
+AWS.CloudControl = Service.defineService('cloudcontrol', ['2021-09-30']);
+Object.defineProperty(apiLoader.services['cloudcontrol'], '2021-09-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudcontrol-2021-09-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudcontrol-2021-09-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudcontrol-2021-09-30.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudControl;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/clouddirectory.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/clouddirectory.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['clouddirectory'] = {};
+AWS.CloudDirectory = Service.defineService('clouddirectory', ['2016-05-10', '2016-05-10*', '2017-01-11']);
+Object.defineProperty(apiLoader.services['clouddirectory'], '2016-05-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/clouddirectory-2016-05-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/clouddirectory-2016-05-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['clouddirectory'], '2017-01-11', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/clouddirectory-2017-01-11.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/clouddirectory-2017-01-11.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudDirectory;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudformation.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudformation.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudformation'] = {};
+AWS.CloudFormation = Service.defineService('cloudformation', ['2010-05-15']);
+Object.defineProperty(apiLoader.services['cloudformation'], '2010-05-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudformation-2010-05-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudformation-2010-05-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudformation-2010-05-15.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudFormation;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudfront.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudfront.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudfront'] = {};
+AWS.CloudFront = Service.defineService('cloudfront', ['2013-05-12*', '2013-11-11*', '2014-05-31*', '2014-10-21*', '2014-11-06*', '2015-04-17*', '2015-07-27*', '2015-09-17*', '2016-01-13*', '2016-01-28*', '2016-08-01*', '2016-08-20*', '2016-09-07*', '2016-09-29*', '2016-11-25', '2016-11-25*', '2017-03-25', '2017-03-25*', '2017-10-30', '2017-10-30*', '2018-06-18', '2018-06-18*', '2018-11-05', '2018-11-05*', '2019-03-26', '2019-03-26*', '2020-05-31']);
+__webpack_require__(/*! ../lib/services/cloudfront */ "./node_modules/aws-sdk/lib/services/cloudfront.js");
+Object.defineProperty(apiLoader.services['cloudfront'], '2016-11-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2016-11-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2016-11-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2016-11-25.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2017-03-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-03-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-03-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-03-25.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2017-10-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-10-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-10-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2017-10-30.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2018-06-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-06-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-06-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-06-18.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2018-11-05', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-11-05.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-11-05.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2018-11-05.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2019-03-26', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2019-03-26.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2019-03-26.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2019-03-26.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudfront'], '2020-05-31', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2020-05-31.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2020-05-31.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudfront-2020-05-31.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudFront;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudhsm.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudhsm.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudhsm'] = {};
+AWS.CloudHSM = Service.defineService('cloudhsm', ['2014-05-30']);
+Object.defineProperty(apiLoader.services['cloudhsm'], '2014-05-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudhsm-2014-05-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudhsm-2014-05-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudHSM;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudhsmv2.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudhsmv2.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudhsmv2'] = {};
+AWS.CloudHSMV2 = Service.defineService('cloudhsmv2', ['2017-04-28']);
+Object.defineProperty(apiLoader.services['cloudhsmv2'], '2017-04-28', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudhsmv2-2017-04-28.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudhsmv2-2017-04-28.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudHSMV2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudsearch.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudsearch.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudsearch'] = {};
+AWS.CloudSearch = Service.defineService('cloudsearch', ['2011-02-01', '2013-01-01']);
+Object.defineProperty(apiLoader.services['cloudsearch'], '2011-02-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudsearch-2011-02-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudsearch-2011-02-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['cloudsearch'], '2013-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudsearch-2013-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudsearch-2013-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudSearch;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudsearchdomain.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudsearchdomain.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudsearchdomain'] = {};
+AWS.CloudSearchDomain = Service.defineService('cloudsearchdomain', ['2013-01-01']);
+__webpack_require__(/*! ../lib/services/cloudsearchdomain */ "./node_modules/aws-sdk/lib/services/cloudsearchdomain.js");
+Object.defineProperty(apiLoader.services['cloudsearchdomain'], '2013-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudsearchdomain-2013-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudSearchDomain;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudtrail.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudtrail.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudtrail'] = {};
+AWS.CloudTrail = Service.defineService('cloudtrail', ['2013-11-01']);
+Object.defineProperty(apiLoader.services['cloudtrail'], '2013-11-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudtrail-2013-11-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudtrail-2013-11-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudTrail;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudtraildata.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudtraildata.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudtraildata'] = {};
+AWS.CloudTrailData = Service.defineService('cloudtraildata', ['2021-08-11']);
+Object.defineProperty(apiLoader.services['cloudtraildata'], '2021-08-11', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudtrail-data-2021-08-11.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cloudtrail-data-2021-08-11.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudTrailData;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudwatch.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudwatch.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudwatch'] = {};
+AWS.CloudWatch = Service.defineService('cloudwatch', ['2010-08-01']);
+Object.defineProperty(apiLoader.services['cloudwatch'], '2010-08-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/monitoring-2010-08-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/monitoring-2010-08-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/monitoring-2010-08-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudWatch;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudwatchevents.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudwatchevents.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudwatchevents'] = {};
+AWS.CloudWatchEvents = Service.defineService('cloudwatchevents', ['2014-02-03*', '2015-10-07']);
+Object.defineProperty(apiLoader.services['cloudwatchevents'], '2015-10-07', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/events-2015-10-07.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/events-2015-10-07.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudWatchEvents;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cloudwatchlogs.js":
+/*!********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cloudwatchlogs.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cloudwatchlogs'] = {};
+AWS.CloudWatchLogs = Service.defineService('cloudwatchlogs', ['2014-03-28']);
+Object.defineProperty(apiLoader.services['cloudwatchlogs'], '2014-03-28', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/logs-2014-03-28.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/logs-2014-03-28.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CloudWatchLogs;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codeartifact.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codeartifact.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codeartifact'] = {};
+AWS.CodeArtifact = Service.defineService('codeartifact', ['2018-09-22']);
+Object.defineProperty(apiLoader.services['codeartifact'], '2018-09-22', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeartifact-2018-09-22.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeartifact-2018-09-22.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeArtifact;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codebuild.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codebuild.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codebuild'] = {};
+AWS.CodeBuild = Service.defineService('codebuild', ['2016-10-06']);
+Object.defineProperty(apiLoader.services['codebuild'], '2016-10-06', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codebuild-2016-10-06.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codebuild-2016-10-06.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeBuild;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codecatalyst.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codecatalyst.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codecatalyst'] = {};
+AWS.CodeCatalyst = Service.defineService('codecatalyst', ['2022-09-28']);
+Object.defineProperty(apiLoader.services['codecatalyst'], '2022-09-28', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codecatalyst-2022-09-28.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codecatalyst-2022-09-28.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codecatalyst-2022-09-28.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeCatalyst;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codecommit.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codecommit.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codecommit'] = {};
+AWS.CodeCommit = Service.defineService('codecommit', ['2015-04-13']);
+Object.defineProperty(apiLoader.services['codecommit'], '2015-04-13', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codecommit-2015-04-13.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codecommit-2015-04-13.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeCommit;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codedeploy.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codedeploy.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codedeploy'] = {};
+AWS.CodeDeploy = Service.defineService('codedeploy', ['2014-10-06']);
+Object.defineProperty(apiLoader.services['codedeploy'], '2014-10-06', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codedeploy-2014-10-06.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codedeploy-2014-10-06.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codedeploy-2014-10-06.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeDeploy;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codeguruprofiler.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codeguruprofiler.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codeguruprofiler'] = {};
+AWS.CodeGuruProfiler = Service.defineService('codeguruprofiler', ['2019-07-18']);
+Object.defineProperty(apiLoader.services['codeguruprofiler'], '2019-07-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeguruprofiler-2019-07-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeguruprofiler-2019-07-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeGuruProfiler;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codegurureviewer.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codegurureviewer.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codegurureviewer'] = {};
+AWS.CodeGuruReviewer = Service.defineService('codegurureviewer', ['2019-09-19']);
+Object.defineProperty(apiLoader.services['codegurureviewer'], '2019-09-19', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeguru-reviewer-2019-09-19.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeguru-reviewer-2019-09-19.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codeguru-reviewer-2019-09-19.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeGuruReviewer;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codepipeline.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codepipeline.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codepipeline'] = {};
+AWS.CodePipeline = Service.defineService('codepipeline', ['2015-07-09']);
+Object.defineProperty(apiLoader.services['codepipeline'], '2015-07-09', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codepipeline-2015-07-09.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codepipeline-2015-07-09.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodePipeline;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codestar.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codestar.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codestar'] = {};
+AWS.CodeStar = Service.defineService('codestar', ['2017-04-19']);
+Object.defineProperty(apiLoader.services['codestar'], '2017-04-19', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-2017-04-19.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-2017-04-19.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeStar;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codestarconnections.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codestarconnections.js ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codestarconnections'] = {};
+AWS.CodeStarconnections = Service.defineService('codestarconnections', ['2019-12-01']);
+Object.defineProperty(apiLoader.services['codestarconnections'], '2019-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-connections-2019-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-connections-2019-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeStarconnections;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/codestarnotifications.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/codestarnotifications.js ***!
+  \***************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['codestarnotifications'] = {};
+AWS.CodeStarNotifications = Service.defineService('codestarnotifications', ['2019-10-15']);
+Object.defineProperty(apiLoader.services['codestarnotifications'], '2019-10-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-notifications-2019-10-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/codestar-notifications-2019-10-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CodeStarNotifications;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cognitoidentity.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cognitoidentity.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cognitoidentity'] = {};
+AWS.CognitoIdentity = Service.defineService('cognitoidentity', ['2014-06-30']);
+Object.defineProperty(apiLoader.services['cognitoidentity'], '2014-06-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-identity-2014-06-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-identity-2014-06-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CognitoIdentity;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cognitoidentityserviceprovider.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cognitoidentityserviceprovider.js ***!
+  \************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cognitoidentityserviceprovider'] = {};
+AWS.CognitoIdentityServiceProvider = Service.defineService('cognitoidentityserviceprovider', ['2016-04-18']);
+Object.defineProperty(apiLoader.services['cognitoidentityserviceprovider'], '2016-04-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-idp-2016-04-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-idp-2016-04-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CognitoIdentityServiceProvider;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cognitosync.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cognitosync.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cognitosync'] = {};
+AWS.CognitoSync = Service.defineService('cognitosync', ['2014-06-30']);
+Object.defineProperty(apiLoader.services['cognitosync'], '2014-06-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-sync-2014-06-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cognito-sync-2014-06-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CognitoSync;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/comprehend.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/comprehend.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['comprehend'] = {};
+AWS.Comprehend = Service.defineService('comprehend', ['2017-11-27']);
+Object.defineProperty(apiLoader.services['comprehend'], '2017-11-27', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/comprehend-2017-11-27.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/comprehend-2017-11-27.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Comprehend;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/comprehendmedical.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/comprehendmedical.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['comprehendmedical'] = {};
+AWS.ComprehendMedical = Service.defineService('comprehendmedical', ['2018-10-30']);
+Object.defineProperty(apiLoader.services['comprehendmedical'], '2018-10-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/comprehendmedical-2018-10-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/comprehendmedical-2018-10-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ComprehendMedical;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/computeoptimizer.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/computeoptimizer.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['computeoptimizer'] = {};
+AWS.ComputeOptimizer = Service.defineService('computeoptimizer', ['2019-11-01']);
+Object.defineProperty(apiLoader.services['computeoptimizer'], '2019-11-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/compute-optimizer-2019-11-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/compute-optimizer-2019-11-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ComputeOptimizer;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/configservice.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/configservice.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['configservice'] = {};
+AWS.ConfigService = Service.defineService('configservice', ['2014-11-12']);
+Object.defineProperty(apiLoader.services['configservice'], '2014-11-12', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/config-2014-11-12.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/config-2014-11-12.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ConfigService;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/connect.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/connect.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['connect'] = {};
+AWS.Connect = Service.defineService('connect', ['2017-08-08']);
+Object.defineProperty(apiLoader.services['connect'], '2017-08-08', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connect-2017-08-08.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connect-2017-08-08.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Connect;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/connectcampaigns.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/connectcampaigns.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['connectcampaigns'] = {};
+AWS.ConnectCampaigns = Service.defineService('connectcampaigns', ['2021-01-30']);
+Object.defineProperty(apiLoader.services['connectcampaigns'], '2021-01-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectcampaigns-2021-01-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectcampaigns-2021-01-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ConnectCampaigns;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/connectcases.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/connectcases.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['connectcases'] = {};
+AWS.ConnectCases = Service.defineService('connectcases', ['2022-10-03']);
+Object.defineProperty(apiLoader.services['connectcases'], '2022-10-03', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectcases-2022-10-03.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectcases-2022-10-03.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ConnectCases;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/connectcontactlens.js":
+/*!************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/connectcontactlens.js ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['connectcontactlens'] = {};
+AWS.ConnectContactLens = Service.defineService('connectcontactlens', ['2020-08-21']);
+Object.defineProperty(apiLoader.services['connectcontactlens'], '2020-08-21', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connect-contact-lens-2020-08-21.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connect-contact-lens-2020-08-21.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ConnectContactLens;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/connectparticipant.js":
+/*!************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/connectparticipant.js ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['connectparticipant'] = {};
+AWS.ConnectParticipant = Service.defineService('connectparticipant', ['2018-09-07']);
+Object.defineProperty(apiLoader.services['connectparticipant'], '2018-09-07', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectparticipant-2018-09-07.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/connectparticipant-2018-09-07.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ConnectParticipant;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/controltower.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/controltower.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['controltower'] = {};
+AWS.ControlTower = Service.defineService('controltower', ['2018-05-10']);
+Object.defineProperty(apiLoader.services['controltower'], '2018-05-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/controltower-2018-05-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/controltower-2018-05-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ControlTower;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/costexplorer.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/costexplorer.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['costexplorer'] = {};
+AWS.CostExplorer = Service.defineService('costexplorer', ['2017-10-25']);
+Object.defineProperty(apiLoader.services['costexplorer'], '2017-10-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ce-2017-10-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ce-2017-10-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CostExplorer;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/cur.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/cur.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['cur'] = {};
+AWS.CUR = Service.defineService('cur', ['2017-01-06']);
+Object.defineProperty(apiLoader.services['cur'], '2017-01-06', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cur-2017-01-06.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/cur-2017-01-06.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CUR;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/customerprofiles.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/customerprofiles.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['customerprofiles'] = {};
+AWS.CustomerProfiles = Service.defineService('customerprofiles', ['2020-08-15']);
+Object.defineProperty(apiLoader.services['customerprofiles'], '2020-08-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/customer-profiles-2020-08-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/customer-profiles-2020-08-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.CustomerProfiles;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/databrew.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/databrew.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['databrew'] = {};
+AWS.DataBrew = Service.defineService('databrew', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['databrew'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/databrew-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/databrew-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DataBrew;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dataexchange.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dataexchange.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dataexchange'] = {};
+AWS.DataExchange = Service.defineService('dataexchange', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['dataexchange'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dataexchange-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dataexchange-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dataexchange-2017-07-25.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DataExchange;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/datapipeline.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/datapipeline.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['datapipeline'] = {};
+AWS.DataPipeline = Service.defineService('datapipeline', ['2012-10-29']);
+Object.defineProperty(apiLoader.services['datapipeline'], '2012-10-29', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/datapipeline-2012-10-29.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/datapipeline-2012-10-29.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DataPipeline;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/datasync.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/datasync.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['datasync'] = {};
+AWS.DataSync = Service.defineService('datasync', ['2018-11-09']);
+Object.defineProperty(apiLoader.services['datasync'], '2018-11-09', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/datasync-2018-11-09.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/datasync-2018-11-09.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DataSync;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dax.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dax.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dax'] = {};
+AWS.DAX = Service.defineService('dax', ['2017-04-19']);
+Object.defineProperty(apiLoader.services['dax'], '2017-04-19', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dax-2017-04-19.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dax-2017-04-19.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DAX;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/detective.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/detective.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['detective'] = {};
+AWS.Detective = Service.defineService('detective', ['2018-10-26']);
+Object.defineProperty(apiLoader.services['detective'], '2018-10-26', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/detective-2018-10-26.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/detective-2018-10-26.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Detective;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/devicefarm.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/devicefarm.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['devicefarm'] = {};
+AWS.DeviceFarm = Service.defineService('devicefarm', ['2015-06-23']);
+Object.defineProperty(apiLoader.services['devicefarm'], '2015-06-23', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/devicefarm-2015-06-23.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/devicefarm-2015-06-23.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DeviceFarm;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/devopsguru.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/devopsguru.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['devopsguru'] = {};
+AWS.DevOpsGuru = Service.defineService('devopsguru', ['2020-12-01']);
+Object.defineProperty(apiLoader.services['devopsguru'], '2020-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/devops-guru-2020-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/devops-guru-2020-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DevOpsGuru;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/directconnect.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/directconnect.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['directconnect'] = {};
+AWS.DirectConnect = Service.defineService('directconnect', ['2012-10-25']);
+Object.defineProperty(apiLoader.services['directconnect'], '2012-10-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/directconnect-2012-10-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/directconnect-2012-10-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DirectConnect;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/directoryservice.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/directoryservice.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['directoryservice'] = {};
+AWS.DirectoryService = Service.defineService('directoryservice', ['2015-04-16']);
+Object.defineProperty(apiLoader.services['directoryservice'], '2015-04-16', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ds-2015-04-16.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ds-2015-04-16.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DirectoryService;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/discovery.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/discovery.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['discovery'] = {};
+AWS.Discovery = Service.defineService('discovery', ['2015-11-01']);
+Object.defineProperty(apiLoader.services['discovery'], '2015-11-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/discovery-2015-11-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/discovery-2015-11-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Discovery;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dlm.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dlm.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dlm'] = {};
+AWS.DLM = Service.defineService('dlm', ['2018-01-12']);
+Object.defineProperty(apiLoader.services['dlm'], '2018-01-12', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dlm-2018-01-12.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dlm-2018-01-12.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DLM;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dms.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dms.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dms'] = {};
+AWS.DMS = Service.defineService('dms', ['2016-01-01']);
+Object.defineProperty(apiLoader.services['dms'], '2016-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dms-2016-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dms-2016-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dms-2016-01-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DMS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/docdb.js":
+/*!***********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/docdb.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['docdb'] = {};
+AWS.DocDB = Service.defineService('docdb', ['2014-10-31']);
+__webpack_require__(/*! ../lib/services/docdb */ "./node_modules/aws-sdk/lib/services/docdb.js");
+Object.defineProperty(apiLoader.services['docdb'], '2014-10-31', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/docdb-2014-10-31.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/docdb-2014-10-31.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/docdb-2014-10-31.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DocDB;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/docdbelastic.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/docdbelastic.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['docdbelastic'] = {};
+AWS.DocDBElastic = Service.defineService('docdbelastic', ['2022-11-28']);
+Object.defineProperty(apiLoader.services['docdbelastic'], '2022-11-28', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/docdb-elastic-2022-11-28.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/docdb-elastic-2022-11-28.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DocDBElastic;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/drs.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/drs.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['drs'] = {};
+AWS.Drs = Service.defineService('drs', ['2020-02-26']);
+Object.defineProperty(apiLoader.services['drs'], '2020-02-26', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/drs-2020-02-26.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/drs-2020-02-26.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Drs;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dynamodb.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dynamodb.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dynamodb'] = {};
+AWS.DynamoDB = Service.defineService('dynamodb', ['2011-12-05', '2012-08-10']);
+__webpack_require__(/*! ../lib/services/dynamodb */ "./node_modules/aws-sdk/lib/services/dynamodb.js");
+Object.defineProperty(apiLoader.services['dynamodb'], '2011-12-05', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2011-12-05.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2011-12-05.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2011-12-05.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+Object.defineProperty(apiLoader.services['dynamodb'], '2012-08-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2012-08-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2012-08-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/dynamodb-2012-08-10.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DynamoDB;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/dynamodbstreams.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/dynamodbstreams.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['dynamodbstreams'] = {};
+AWS.DynamoDBStreams = Service.defineService('dynamodbstreams', ['2012-08-10']);
+Object.defineProperty(apiLoader.services['dynamodbstreams'], '2012-08-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/streams.dynamodb-2012-08-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/streams.dynamodb-2012-08-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.DynamoDBStreams;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ebs.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ebs.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ebs'] = {};
+AWS.EBS = Service.defineService('ebs', ['2019-11-02']);
+Object.defineProperty(apiLoader.services['ebs'], '2019-11-02', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ebs-2019-11-02.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ebs-2019-11-02.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EBS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ec2.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ec2.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ec2'] = {};
+AWS.EC2 = Service.defineService('ec2', ['2013-06-15*', '2013-10-15*', '2014-02-01*', '2014-05-01*', '2014-06-15*', '2014-09-01*', '2014-10-01*', '2015-03-01*', '2015-04-15*', '2015-10-01*', '2016-04-01*', '2016-09-15*', '2016-11-15']);
+__webpack_require__(/*! ../lib/services/ec2 */ "./node_modules/aws-sdk/lib/services/ec2.js");
+Object.defineProperty(apiLoader.services['ec2'], '2016-11-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ec2-2016-11-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ec2-2016-11-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ec2-2016-11-15.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EC2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ec2instanceconnect.js":
+/*!************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ec2instanceconnect.js ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ec2instanceconnect'] = {};
+AWS.EC2InstanceConnect = Service.defineService('ec2instanceconnect', ['2018-04-02']);
+Object.defineProperty(apiLoader.services['ec2instanceconnect'], '2018-04-02', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ec2-instance-connect-2018-04-02.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ec2-instance-connect-2018-04-02.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EC2InstanceConnect;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ecr.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ecr.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ecr'] = {};
+AWS.ECR = Service.defineService('ecr', ['2015-09-21']);
+Object.defineProperty(apiLoader.services['ecr'], '2015-09-21', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecr-2015-09-21.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecr-2015-09-21.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecr-2015-09-21.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ECR;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ecrpublic.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ecrpublic.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ecrpublic'] = {};
+AWS.ECRPUBLIC = Service.defineService('ecrpublic', ['2020-10-30']);
+Object.defineProperty(apiLoader.services['ecrpublic'], '2020-10-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecr-public-2020-10-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecr-public-2020-10-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ECRPUBLIC;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ecs.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ecs.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ecs'] = {};
+AWS.ECS = Service.defineService('ecs', ['2014-11-13']);
+Object.defineProperty(apiLoader.services['ecs'], '2014-11-13', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecs-2014-11-13.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecs-2014-11-13.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/ecs-2014-11-13.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ECS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/efs.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/efs.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['efs'] = {};
+AWS.EFS = Service.defineService('efs', ['2015-02-01']);
+Object.defineProperty(apiLoader.services['efs'], '2015-02-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticfilesystem-2015-02-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticfilesystem-2015-02-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EFS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/eks.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/eks.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['eks'] = {};
+AWS.EKS = Service.defineService('eks', ['2017-11-01']);
+Object.defineProperty(apiLoader.services['eks'], '2017-11-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/eks-2017-11-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/eks-2017-11-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/eks-2017-11-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EKS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elasticache.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elasticache.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elasticache'] = {};
+AWS.ElastiCache = Service.defineService('elasticache', ['2012-11-15*', '2014-03-24*', '2014-07-15*', '2014-09-30*', '2015-02-02']);
+Object.defineProperty(apiLoader.services['elasticache'], '2015-02-02', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticache-2015-02-02.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticache-2015-02-02.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticache-2015-02-02.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ElastiCache;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elasticbeanstalk.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elasticbeanstalk.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elasticbeanstalk'] = {};
+AWS.ElasticBeanstalk = Service.defineService('elasticbeanstalk', ['2010-12-01']);
+Object.defineProperty(apiLoader.services['elasticbeanstalk'], '2010-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticbeanstalk-2010-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticbeanstalk-2010-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticbeanstalk-2010-12-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ElasticBeanstalk;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elasticinference.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elasticinference.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elasticinference'] = {};
+AWS.ElasticInference = Service.defineService('elasticinference', ['2017-07-25']);
+Object.defineProperty(apiLoader.services['elasticinference'], '2017-07-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elastic-inference-2017-07-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elastic-inference-2017-07-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ElasticInference;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elastictranscoder.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elastictranscoder.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elastictranscoder'] = {};
+AWS.ElasticTranscoder = Service.defineService('elastictranscoder', ['2012-09-25']);
+Object.defineProperty(apiLoader.services['elastictranscoder'], '2012-09-25', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elastictranscoder-2012-09-25.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elastictranscoder-2012-09-25.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elastictranscoder-2012-09-25.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ElasticTranscoder;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elb.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elb.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elb'] = {};
+AWS.ELB = Service.defineService('elb', ['2012-06-01']);
+Object.defineProperty(apiLoader.services['elb'], '2012-06-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancing-2012-06-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancing-2012-06-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancing-2012-06-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ELB;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/elbv2.js":
+/*!***********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/elbv2.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['elbv2'] = {};
+AWS.ELBv2 = Service.defineService('elbv2', ['2015-12-01']);
+Object.defineProperty(apiLoader.services['elbv2'], '2015-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancingv2-2015-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancingv2-2015-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticloadbalancingv2-2015-12-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ELBv2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/emr.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/emr.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['emr'] = {};
+AWS.EMR = Service.defineService('emr', ['2009-03-31']);
+Object.defineProperty(apiLoader.services['emr'], '2009-03-31', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticmapreduce-2009-03-31.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticmapreduce-2009-03-31.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/elasticmapreduce-2009-03-31.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EMR;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/emrcontainers.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/emrcontainers.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['emrcontainers'] = {};
+AWS.EMRcontainers = Service.defineService('emrcontainers', ['2020-10-01']);
+Object.defineProperty(apiLoader.services['emrcontainers'], '2020-10-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/emr-containers-2020-10-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/emr-containers-2020-10-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EMRcontainers;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/emrserverless.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/emrserverless.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['emrserverless'] = {};
+AWS.EMRServerless = Service.defineService('emrserverless', ['2021-07-13']);
+Object.defineProperty(apiLoader.services['emrserverless'], '2021-07-13', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/emr-serverless-2021-07-13.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/emr-serverless-2021-07-13.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EMRServerless;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/es.js":
+/*!********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/es.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['es'] = {};
+AWS.ES = Service.defineService('es', ['2015-01-01']);
+Object.defineProperty(apiLoader.services['es'], '2015-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/es-2015-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/es-2015-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ES;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/eventbridge.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/eventbridge.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['eventbridge'] = {};
+AWS.EventBridge = Service.defineService('eventbridge', ['2015-10-07']);
+__webpack_require__(/*! ../lib/services/eventbridge */ "./node_modules/aws-sdk/lib/services/eventbridge.js");
+Object.defineProperty(apiLoader.services['eventbridge'], '2015-10-07', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/eventbridge-2015-10-07.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/eventbridge-2015-10-07.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.EventBridge;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/evidently.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/evidently.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['evidently'] = {};
+AWS.Evidently = Service.defineService('evidently', ['2021-02-01']);
+Object.defineProperty(apiLoader.services['evidently'], '2021-02-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/evidently-2021-02-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/evidently-2021-02-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Evidently;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/finspace.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/finspace.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['finspace'] = {};
+AWS.Finspace = Service.defineService('finspace', ['2021-03-12']);
+Object.defineProperty(apiLoader.services['finspace'], '2021-03-12', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/finspace-2021-03-12.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/finspace-2021-03-12.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Finspace;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/finspacedata.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/finspacedata.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['finspacedata'] = {};
+AWS.Finspacedata = Service.defineService('finspacedata', ['2020-07-13']);
+Object.defineProperty(apiLoader.services['finspacedata'], '2020-07-13', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/finspace-data-2020-07-13.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/finspace-data-2020-07-13.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Finspacedata;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/firehose.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/firehose.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['firehose'] = {};
+AWS.Firehose = Service.defineService('firehose', ['2015-08-04']);
+Object.defineProperty(apiLoader.services['firehose'], '2015-08-04', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/firehose-2015-08-04.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/firehose-2015-08-04.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Firehose;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/fis.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/fis.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['fis'] = {};
+AWS.Fis = Service.defineService('fis', ['2020-12-01']);
+Object.defineProperty(apiLoader.services['fis'], '2020-12-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fis-2020-12-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fis-2020-12-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Fis;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/fms.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/fms.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['fms'] = {};
+AWS.FMS = Service.defineService('fms', ['2018-01-01']);
+Object.defineProperty(apiLoader.services['fms'], '2018-01-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fms-2018-01-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fms-2018-01-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.FMS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/forecastqueryservice.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/forecastqueryservice.js ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['forecastqueryservice'] = {};
+AWS.ForecastQueryService = Service.defineService('forecastqueryservice', ['2018-06-26']);
+Object.defineProperty(apiLoader.services['forecastqueryservice'], '2018-06-26', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/forecastquery-2018-06-26.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/forecastquery-2018-06-26.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ForecastQueryService;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/forecastservice.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/forecastservice.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['forecastservice'] = {};
+AWS.ForecastService = Service.defineService('forecastservice', ['2018-06-26']);
+Object.defineProperty(apiLoader.services['forecastservice'], '2018-06-26', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/forecast-2018-06-26.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/forecast-2018-06-26.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ForecastService;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/frauddetector.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/frauddetector.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['frauddetector'] = {};
+AWS.FraudDetector = Service.defineService('frauddetector', ['2019-11-15']);
+Object.defineProperty(apiLoader.services['frauddetector'], '2019-11-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/frauddetector-2019-11-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/frauddetector-2019-11-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.FraudDetector;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/fsx.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/fsx.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['fsx'] = {};
+AWS.FSx = Service.defineService('fsx', ['2018-03-01']);
+Object.defineProperty(apiLoader.services['fsx'], '2018-03-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fsx-2018-03-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/fsx-2018-03-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.FSx;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/gamelift.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/gamelift.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['gamelift'] = {};
+AWS.GameLift = Service.defineService('gamelift', ['2015-10-01']);
+Object.defineProperty(apiLoader.services['gamelift'], '2015-10-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/gamelift-2015-10-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/gamelift-2015-10-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GameLift;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/gamesparks.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/gamesparks.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['gamesparks'] = {};
+AWS.GameSparks = Service.defineService('gamesparks', ['2021-08-17']);
+Object.defineProperty(apiLoader.services['gamesparks'], '2021-08-17', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/gamesparks-2021-08-17.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/gamesparks-2021-08-17.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GameSparks;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/glacier.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/glacier.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['glacier'] = {};
+AWS.Glacier = Service.defineService('glacier', ['2012-06-01']);
+__webpack_require__(/*! ../lib/services/glacier */ "./node_modules/aws-sdk/lib/services/glacier.js");
+Object.defineProperty(apiLoader.services['glacier'], '2012-06-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/glacier-2012-06-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/glacier-2012-06-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/glacier-2012-06-01.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Glacier;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/globalaccelerator.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/globalaccelerator.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['globalaccelerator'] = {};
+AWS.GlobalAccelerator = Service.defineService('globalaccelerator', ['2018-08-08']);
+Object.defineProperty(apiLoader.services['globalaccelerator'], '2018-08-08', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/globalaccelerator-2018-08-08.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/globalaccelerator-2018-08-08.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GlobalAccelerator;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/glue.js":
+/*!**********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/glue.js ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['glue'] = {};
+AWS.Glue = Service.defineService('glue', ['2017-03-31']);
+Object.defineProperty(apiLoader.services['glue'], '2017-03-31', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/glue-2017-03-31.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/glue-2017-03-31.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Glue;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/grafana.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/grafana.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['grafana'] = {};
+AWS.Grafana = Service.defineService('grafana', ['2020-08-18']);
+Object.defineProperty(apiLoader.services['grafana'], '2020-08-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/grafana-2020-08-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/grafana-2020-08-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Grafana;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/greengrass.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/greengrass.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['greengrass'] = {};
+AWS.Greengrass = Service.defineService('greengrass', ['2017-06-07']);
+Object.defineProperty(apiLoader.services['greengrass'], '2017-06-07', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/greengrass-2017-06-07.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Greengrass;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/greengrassv2.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/greengrassv2.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['greengrassv2'] = {};
+AWS.GreengrassV2 = Service.defineService('greengrassv2', ['2020-11-30']);
+Object.defineProperty(apiLoader.services['greengrassv2'], '2020-11-30', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/greengrassv2-2020-11-30.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/greengrassv2-2020-11-30.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GreengrassV2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/groundstation.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/groundstation.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['groundstation'] = {};
+AWS.GroundStation = Service.defineService('groundstation', ['2019-05-23']);
+Object.defineProperty(apiLoader.services['groundstation'], '2019-05-23', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/groundstation-2019-05-23.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/groundstation-2019-05-23.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/groundstation-2019-05-23.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GroundStation;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/guardduty.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/guardduty.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['guardduty'] = {};
+AWS.GuardDuty = Service.defineService('guardduty', ['2017-11-28']);
+Object.defineProperty(apiLoader.services['guardduty'], '2017-11-28', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/guardduty-2017-11-28.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/guardduty-2017-11-28.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.GuardDuty;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/health.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/health.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['health'] = {};
+AWS.Health = Service.defineService('health', ['2016-08-04']);
+Object.defineProperty(apiLoader.services['health'], '2016-08-04', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/health-2016-08-04.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/health-2016-08-04.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Health;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/healthlake.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/healthlake.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['healthlake'] = {};
+AWS.HealthLake = Service.defineService('healthlake', ['2017-07-01']);
+Object.defineProperty(apiLoader.services['healthlake'], '2017-07-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/healthlake-2017-07-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/healthlake-2017-07-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.HealthLake;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/honeycode.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/honeycode.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['honeycode'] = {};
+AWS.Honeycode = Service.defineService('honeycode', ['2020-03-01']);
+Object.defineProperty(apiLoader.services['honeycode'], '2020-03-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/honeycode-2020-03-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/honeycode-2020-03-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Honeycode;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iam.js":
+/*!*********************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iam.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iam'] = {};
+AWS.IAM = Service.defineService('iam', ['2010-05-08']);
+Object.defineProperty(apiLoader.services['iam'], '2010-05-08', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iam-2010-05-08.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iam-2010-05-08.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iam-2010-05-08.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IAM;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/identitystore.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/identitystore.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['identitystore'] = {};
+AWS.IdentityStore = Service.defineService('identitystore', ['2020-06-15']);
+Object.defineProperty(apiLoader.services['identitystore'], '2020-06-15', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/identitystore-2020-06-15.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/identitystore-2020-06-15.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IdentityStore;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/imagebuilder.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/imagebuilder.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['imagebuilder'] = {};
+AWS.Imagebuilder = Service.defineService('imagebuilder', ['2019-12-02']);
+Object.defineProperty(apiLoader.services['imagebuilder'], '2019-12-02', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/imagebuilder-2019-12-02.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/imagebuilder-2019-12-02.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Imagebuilder;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/importexport.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/importexport.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['importexport'] = {};
+AWS.ImportExport = Service.defineService('importexport', ['2010-06-01']);
+Object.defineProperty(apiLoader.services['importexport'], '2010-06-01', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/importexport-2010-06-01.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/importexport-2010-06-01.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.ImportExport;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/inspector.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/inspector.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['inspector'] = {};
+AWS.Inspector = Service.defineService('inspector', ['2015-08-18*', '2016-02-16']);
+Object.defineProperty(apiLoader.services['inspector'], '2016-02-16', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/inspector-2016-02-16.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/inspector-2016-02-16.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Inspector;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/inspector2.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/inspector2.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['inspector2'] = {};
+AWS.Inspector2 = Service.defineService('inspector2', ['2020-06-08']);
+Object.defineProperty(apiLoader.services['inspector2'], '2020-06-08', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/inspector2-2020-06-08.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/inspector2-2020-06-08.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.Inspector2;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/internetmonitor.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/internetmonitor.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['internetmonitor'] = {};
+AWS.InternetMonitor = Service.defineService('internetmonitor', ['2021-06-03']);
+Object.defineProperty(apiLoader.services['internetmonitor'], '2021-06-03', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/internetmonitor-2021-06-03.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/internetmonitor-2021-06-03.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/internetmonitor-2021-06-03.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.InternetMonitor;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iot1clickdevicesservice.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iot1clickdevicesservice.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iot1clickdevicesservice'] = {};
+AWS.IoT1ClickDevicesService = Service.defineService('iot1clickdevicesservice', ['2018-05-14']);
+Object.defineProperty(apiLoader.services['iot1clickdevicesservice'], '2018-05-14', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iot1click-devices-2018-05-14.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoT1ClickDevicesService;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iot1clickprojects.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iot1clickprojects.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iot1clickprojects'] = {};
+AWS.IoT1ClickProjects = Service.defineService('iot1clickprojects', ['2018-05-14']);
+Object.defineProperty(apiLoader.services['iot1clickprojects'], '2018-05-14', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iot1click-projects-2018-05-14.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iot1click-projects-2018-05-14.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoT1ClickProjects;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotanalytics.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotanalytics.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotanalytics'] = {};
+AWS.IoTAnalytics = Service.defineService('iotanalytics', ['2017-11-27']);
+Object.defineProperty(apiLoader.services['iotanalytics'], '2017-11-27', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotanalytics-2017-11-27.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotanalytics-2017-11-27.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTAnalytics;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotdeviceadvisor.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotdeviceadvisor.js ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotdeviceadvisor'] = {};
+AWS.IotDeviceAdvisor = Service.defineService('iotdeviceadvisor', ['2020-09-18']);
+Object.defineProperty(apiLoader.services['iotdeviceadvisor'], '2020-09-18', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotdeviceadvisor-2020-09-18.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotdeviceadvisor-2020-09-18.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IotDeviceAdvisor;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotevents.js":
+/*!***************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotevents.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotevents'] = {};
+AWS.IoTEvents = Service.defineService('iotevents', ['2018-07-27']);
+Object.defineProperty(apiLoader.services['iotevents'], '2018-07-27', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotevents-2018-07-27.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotevents-2018-07-27.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTEvents;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/ioteventsdata.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/ioteventsdata.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['ioteventsdata'] = {};
+AWS.IoTEventsData = Service.defineService('ioteventsdata', ['2018-10-23']);
+Object.defineProperty(apiLoader.services['ioteventsdata'], '2018-10-23', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotevents-data-2018-10-23.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotevents-data-2018-10-23.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTEventsData;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotfleethub.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotfleethub.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotfleethub'] = {};
+AWS.IoTFleetHub = Service.defineService('iotfleethub', ['2020-11-03']);
+Object.defineProperty(apiLoader.services['iotfleethub'], '2020-11-03', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotfleethub-2020-11-03.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotfleethub-2020-11-03.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTFleetHub;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotfleetwise.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotfleetwise.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotfleetwise'] = {};
+AWS.IoTFleetWise = Service.defineService('iotfleetwise', ['2021-06-17']);
+Object.defineProperty(apiLoader.services['iotfleetwise'], '2021-06-17', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotfleetwise-2021-06-17.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotfleetwise-2021-06-17.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    model.waiters = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iotfleetwise-2021-06-17.waiters2.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTFleetWise;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/clients/iotroborunner.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/clients/iotroborunner.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../lib/node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var AWS = __webpack_require__(/*! ../lib/core */ "./node_modules/aws-sdk/lib/core.js");
+var Service = AWS.Service;
+var apiLoader = AWS.apiLoader;
+
+apiLoader.services['iotroborunner'] = {};
+AWS.IoTRoboRunner = Service.defineService('iotroborunner', ['2018-05-10']);
+Object.defineProperty(apiLoader.services['iotroborunner'], '2018-05-10', {
+  get: function get() {
+    var model = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iot-roborunner-2018-05-10.min.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    model.paginators = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../apis/iot-roborunner-2018-05-10.paginators.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    return model;
+  },
+  enumerable: true,
+  configurable: true
+});
+
+module.exports = AWS.IoTRoboRunner;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/aws-sdk/index.js ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// Convenience file to require the SDK from the root of the repository
+module.exports = __webpack_require__(/*! ./lib/aws */ "./node_modules/aws-sdk/lib/aws.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/api_loader.js":
+/*!************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/api_loader.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+function apiLoader(svc, version) {
+  if (!apiLoader.services.hasOwnProperty(svc)) {
+    throw new Error('InvalidService: Failed to load api for ' + svc);
+  }
+  return apiLoader.services[svc][version];
+}
+
+/**
+ * @api private
+ *
+ * This member of AWS.apiLoader is private, but changing it will necessitate a
+ * change to ../scripts/services-table-generator.ts
+ */
+apiLoader.services = {};
+
+/**
+ * @api private
+ */
+module.exports = apiLoader;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/aws.js":
+/*!*****************************************!*\
+  !*** ./node_modules/aws-sdk/lib/aws.js ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './node_loader'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+
+// Load all service classes
+__webpack_require__(/*! ../clients/all */ "./node_modules/aws-sdk/clients/all.js");
+
+/**
+ * @api private
+ */
+module.exports = AWS;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/config.js":
+/*!********************************************!*\
+  !*** ./node_modules/aws-sdk/lib/config.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+__webpack_require__(/*! ./credentials */ "./node_modules/aws-sdk/lib/credentials.js");
+__webpack_require__(/*! ./credentials/credential_provider_chain */ "./node_modules/aws-sdk/lib/credentials/credential_provider_chain.js");
+var PromisesDependency;
+
+/**
+ * The main configuration class used by all service objects to set
+ * the region, credentials, and other options for requests.
+ *
+ * By default, credentials and region settings are left unconfigured.
+ * This should be configured by the application before using any
+ * AWS service APIs.
+ *
+ * In order to set global configuration options, properties should
+ * be assigned to the global {AWS.config} object.
+ *
+ * @see AWS.config
+ *
+ * @!group General Configuration Options
+ *
+ * @!attribute credentials
+ *   @return [AWS.Credentials] the AWS credentials to sign requests with.
+ *
+ * @!attribute region
+ *   @example Set the global region setting to us-west-2
+ *     AWS.config.update({region: 'us-west-2'});
+ *   @return [AWS.Credentials] The region to send service requests to.
+ *   @see http://docs.amazonwebservices.com/general/latest/gr/rande.html
+ *     A list of available endpoints for each AWS service
+ *
+ * @!attribute maxRetries
+ *   @return [Integer] the maximum amount of retries to perform for a
+ *     service request. By default this value is calculated by the specific
+ *     service object that the request is being made to.
+ *
+ * @!attribute maxRedirects
+ *   @return [Integer] the maximum amount of redirects to follow for a
+ *     service request. Defaults to 10.
+ *
+ * @!attribute paramValidation
+ *   @return [Boolean|map] whether input parameters should be validated against
+ *     the operation description before sending the request. Defaults to true.
+ *     Pass a map to enable any of the following specific validation features:
+ *
+ *     * **min** [Boolean] &mdash; Validates that a value meets the min
+ *       constraint. This is enabled by default when paramValidation is set
+ *       to `true`.
+ *     * **max** [Boolean] &mdash; Validates that a value meets the max
+ *       constraint.
+ *     * **pattern** [Boolean] &mdash; Validates that a string value matches a
+ *       regular expression.
+ *     * **enum** [Boolean] &mdash; Validates that a string value matches one
+ *       of the allowable enum values.
+ *
+ * @!attribute computeChecksums
+ *   @return [Boolean] whether to compute checksums for payload bodies when
+ *     the service accepts it (currently supported in S3 and SQS only).
+ *
+ * @!attribute convertResponseTypes
+ *   @return [Boolean] whether types are converted when parsing response data.
+ *     Currently only supported for JSON based services. Turning this off may
+ *     improve performance on large response payloads. Defaults to `true`.
+ *
+ * @!attribute correctClockSkew
+ *   @return [Boolean] whether to apply a clock skew correction and retry
+ *     requests that fail because of an skewed client clock. Defaults to
+ *     `false`.
+ *
+ * @!attribute sslEnabled
+ *   @return [Boolean] whether SSL is enabled for requests
+ *
+ * @!attribute s3ForcePathStyle
+ *   @return [Boolean] whether to force path style URLs for S3 objects
+ *
+ * @!attribute s3BucketEndpoint
+ *   @note Setting this configuration option requires an `endpoint` to be
+ *     provided explicitly to the service constructor.
+ *   @return [Boolean] whether the provided endpoint addresses an individual
+ *     bucket (false if it addresses the root API endpoint).
+ *
+ * @!attribute s3DisableBodySigning
+ *   @return [Boolean] whether to disable S3 body signing when using signature version `v4`.
+ *     Body signing can only be disabled when using https. Defaults to `true`.
+ *
+ * @!attribute s3UsEast1RegionalEndpoint
+ *   @return ['legacy'|'regional'] when region is set to 'us-east-1', whether to send s3
+ *     request to global endpoints or 'us-east-1' regional endpoints. This config is only
+ *     applicable to S3 client;
+ *     Defaults to 'legacy'
+ * @!attribute s3UseArnRegion
+ *   @return [Boolean] whether to override the request region with the region inferred
+ *     from requested resource's ARN. Only available for S3 buckets
+ *     Defaults to `true`
+ *
+ * @!attribute useAccelerateEndpoint
+ *   @note This configuration option is only compatible with S3 while accessing
+ *     dns-compatible buckets.
+ *   @return [Boolean] Whether to use the Accelerate endpoint with the S3 service.
+ *     Defaults to `false`.
+ *
+ * @!attribute retryDelayOptions
+ *   @example Set the base retry delay for all services to 300 ms
+ *     AWS.config.update({retryDelayOptions: {base: 300}});
+ *     // Delays with maxRetries = 3: 300, 600, 1200
+ *   @example Set a custom backoff function to provide delay values on retries
+ *     AWS.config.update({retryDelayOptions: {customBackoff: function(retryCount, err) {
+ *       // returns delay in ms
+ *     }}});
+ *   @return [map] A set of options to configure the retry delay on retryable errors.
+ *     Currently supported options are:
+ *
+ *     * **base** [Integer] &mdash; The base number of milliseconds to use in the
+ *       exponential backoff for operation retries. Defaults to 100 ms for all services except
+ *       DynamoDB, where it defaults to 50ms.
+ *
+ *     * **customBackoff ** [function] &mdash; A custom function that accepts a
+ *       retry count and error and returns the amount of time to delay in
+ *       milliseconds. If the result is a non-zero negative value, no further
+ *       retry attempts will be made. The `base` option will be ignored if this
+ *       option is supplied. The function is only called for retryable errors.
+ *
+ * @!attribute httpOptions
+ *   @return [map] A set of options to pass to the low-level HTTP request.
+ *     Currently supported options are:
+ *
+ *     * **proxy** [String] &mdash; the URL to proxy requests through
+ *     * **agent** [http.Agent, https.Agent] &mdash; the Agent object to perform
+ *       HTTP requests with. Used for connection pooling. Note that for
+ *       SSL connections, a special Agent object is used in order to enable
+ *       peer certificate verification. This feature is only supported in the
+ *       Node.js environment.
+ *     * **connectTimeout** [Integer] &mdash; Sets the socket to timeout after
+ *       failing to establish a connection with the server after
+ *       `connectTimeout` milliseconds. This timeout has no effect once a socket
+ *       connection has been established.
+ *     * **timeout** [Integer] &mdash; The number of milliseconds a request can
+ *       take before automatically being terminated.
+ *       Defaults to two minutes (120000).
+ *     * **xhrAsync** [Boolean] &mdash; Whether the SDK will send asynchronous
+ *       HTTP requests. Used in the browser environment only. Set to false to
+ *       send requests synchronously. Defaults to true (async on).
+ *     * **xhrWithCredentials** [Boolean] &mdash; Sets the "withCredentials"
+ *       property of an XMLHttpRequest object. Used in the browser environment
+ *       only. Defaults to false.
+ * @!attribute logger
+ *   @return [#write,#log] an object that responds to .write() (like a stream)
+ *     or .log() (like the console object) in order to log information about
+ *     requests
+ *
+ * @!attribute systemClockOffset
+ *   @return [Number] an offset value in milliseconds to apply to all signing
+ *     times. Use this to compensate for clock skew when your system may be
+ *     out of sync with the service time. Note that this configuration option
+ *     can only be applied to the global `AWS.config` object and cannot be
+ *     overridden in service-specific configuration. Defaults to 0 milliseconds.
+ *
+ * @!attribute signatureVersion
+ *   @return [String] the signature version to sign requests with (overriding
+ *     the API configuration). Possible values are: 'v2', 'v3', 'v4'.
+ *
+ * @!attribute signatureCache
+ *   @return [Boolean] whether the signature to sign requests with (overriding
+ *     the API configuration) is cached. Only applies to the signature version 'v4'.
+ *     Defaults to `true`.
+ *
+ * @!attribute endpointDiscoveryEnabled
+ *   @return [Boolean|undefined] whether to call operations with endpoints
+ *     given by service dynamically. Setting this config to `true` will enable
+ *     endpoint discovery for all applicable operations. Setting it to `false`
+ *     will explicitly disable endpoint discovery even though operations that
+ *     require endpoint discovery will presumably fail. Leaving it to
+ *     `undefined` means SDK only do endpoint discovery when it's required.
+ *     Defaults to `undefined`
+ *
+ * @!attribute endpointCacheSize
+ *   @return [Number] the size of the global cache storing endpoints from endpoint
+ *     discovery operations. Once endpoint cache is created, updating this setting
+ *     cannot change existing cache size.
+ *     Defaults to 1000
+ *
+ * @!attribute hostPrefixEnabled
+ *   @return [Boolean] whether to marshal request parameters to the prefix of
+ *     hostname. Defaults to `true`.
+ *
+ * @!attribute stsRegionalEndpoints
+ *   @return ['legacy'|'regional'] whether to send sts request to global endpoints or
+ *     regional endpoints.
+ *     Defaults to 'legacy'.
+ *
+ * @!attribute useFipsEndpoint
+ *   @return [Boolean] Enables FIPS compatible endpoints. Defaults to `false`.
+ *
+ * @!attribute useDualstackEndpoint
+ *   @return [Boolean] Enables IPv6 dualstack endpoint. Defaults to `false`.
+ */
+AWS.Config = AWS.util.inherit({
+  /**
+   * @!endgroup
+   */
+
+  /**
+   * Creates a new configuration object. This is the object that passes
+   * option data along to service requests, including credentials, security,
+   * region information, and some service specific settings.
+   *
+   * @example Creating a new configuration object with credentials and region
+   *   var config = new AWS.Config({
+   *     accessKeyId: 'AKID', secretAccessKey: 'SECRET', region: 'us-west-2'
+   *   });
+   * @option options accessKeyId [String] your AWS access key ID.
+   * @option options secretAccessKey [String] your AWS secret access key.
+   * @option options sessionToken [AWS.Credentials] the optional AWS
+   *   session token to sign requests with.
+   * @option options credentials [AWS.Credentials] the AWS credentials
+   *   to sign requests with. You can either specify this object, or
+   *   specify the accessKeyId and secretAccessKey options directly.
+   * @option options credentialProvider [AWS.CredentialProviderChain] the
+   *   provider chain used to resolve credentials if no static `credentials`
+   *   property is set.
+   * @option options region [String] the region to send service requests to.
+   *   See {region} for more information.
+   * @option options maxRetries [Integer] the maximum amount of retries to
+   *   attempt with a request. See {maxRetries} for more information.
+   * @option options maxRedirects [Integer] the maximum amount of redirects to
+   *   follow with a request. See {maxRedirects} for more information.
+   * @option options sslEnabled [Boolean] whether to enable SSL for
+   *   requests.
+   * @option options paramValidation [Boolean|map] whether input parameters
+   *   should be validated against the operation description before sending
+   *   the request. Defaults to true. Pass a map to enable any of the
+   *   following specific validation features:
+   *
+   *   * **min** [Boolean] &mdash; Validates that a value meets the min
+   *     constraint. This is enabled by default when paramValidation is set
+   *     to `true`.
+   *   * **max** [Boolean] &mdash; Validates that a value meets the max
+   *     constraint.
+   *   * **pattern** [Boolean] &mdash; Validates that a string value matches a
+   *     regular expression.
+   *   * **enum** [Boolean] &mdash; Validates that a string value matches one
+   *     of the allowable enum values.
+   * @option options computeChecksums [Boolean] whether to compute checksums
+   *   for payload bodies when the service accepts it (currently supported
+   *   in S3 only)
+   * @option options convertResponseTypes [Boolean] whether types are converted
+   *     when parsing response data. Currently only supported for JSON based
+   *     services. Turning this off may improve performance on large response
+   *     payloads. Defaults to `true`.
+   * @option options correctClockSkew [Boolean] whether to apply a clock skew
+   *     correction and retry requests that fail because of an skewed client
+   *     clock. Defaults to `false`.
+   * @option options s3ForcePathStyle [Boolean] whether to force path
+   *   style URLs for S3 objects.
+   * @option options s3BucketEndpoint [Boolean] whether the provided endpoint
+   *   addresses an individual bucket (false if it addresses the root API
+   *   endpoint). Note that setting this configuration option requires an
+   *   `endpoint` to be provided explicitly to the service constructor.
+   * @option options s3DisableBodySigning [Boolean] whether S3 body signing
+   *   should be disabled when using signature version `v4`. Body signing
+   *   can only be disabled when using https. Defaults to `true`.
+   * @option options s3UsEast1RegionalEndpoint ['legacy'|'regional'] when region
+   *   is set to 'us-east-1', whether to send s3 request to global endpoints or
+   *   'us-east-1' regional endpoints. This config is only applicable to S3 client.
+   *   Defaults to `legacy`
+   * @option options s3UseArnRegion [Boolean] whether to override the request region
+   *   with the region inferred from requested resource's ARN. Only available for S3 buckets
+   *   Defaults to `true`
+   *
+   * @option options retryDelayOptions [map] A set of options to configure
+   *   the retry delay on retryable errors. Currently supported options are:
+   *
+   *   * **base** [Integer] &mdash; The base number of milliseconds to use in the
+   *     exponential backoff for operation retries. Defaults to 100 ms for all
+   *     services except DynamoDB, where it defaults to 50ms.
+   *   * **customBackoff ** [function] &mdash; A custom function that accepts a
+   *     retry count and error and returns the amount of time to delay in
+   *     milliseconds. If the result is a non-zero negative value, no further
+   *     retry attempts will be made. The `base` option will be ignored if this
+   *     option is supplied. The function is only called for retryable errors.
+   * @option options httpOptions [map] A set of options to pass to the low-level
+   *   HTTP request. Currently supported options are:
+   *
+   *   * **proxy** [String] &mdash; the URL to proxy requests through
+   *   * **agent** [http.Agent, https.Agent] &mdash; the Agent object to perform
+   *     HTTP requests with. Used for connection pooling. Defaults to the global
+   *     agent (`http.globalAgent`) for non-SSL connections. Note that for
+   *     SSL connections, a special Agent object is used in order to enable
+   *     peer certificate verification. This feature is only available in the
+   *     Node.js environment.
+   *   * **connectTimeout** [Integer] &mdash; Sets the socket to timeout after
+   *     failing to establish a connection with the server after
+   *     `connectTimeout` milliseconds. This timeout has no effect once a socket
+   *     connection has been established.
+   *   * **timeout** [Integer] &mdash; Sets the socket to timeout after timeout
+   *     milliseconds of inactivity on the socket. Defaults to two minutes
+   *     (120000).
+   *   * **xhrAsync** [Boolean] &mdash; Whether the SDK will send asynchronous
+   *     HTTP requests. Used in the browser environment only. Set to false to
+   *     send requests synchronously. Defaults to true (async on).
+   *   * **xhrWithCredentials** [Boolean] &mdash; Sets the "withCredentials"
+   *     property of an XMLHttpRequest object. Used in the browser environment
+   *     only. Defaults to false.
+   * @option options apiVersion [String, Date] a String in YYYY-MM-DD format
+   *   (or a date) that represents the latest possible API version that can be
+   *   used in all services (unless overridden by `apiVersions`). Specify
+   *   'latest' to use the latest possible version.
+   * @option options apiVersions [map<String, String|Date>] a map of service
+   *   identifiers (the lowercase service class name) with the API version to
+   *   use when instantiating a service. Specify 'latest' for each individual
+   *   that can use the latest available version.
+   * @option options logger [#write,#log] an object that responds to .write()
+   *   (like a stream) or .log() (like the console object) in order to log
+   *   information about requests
+   * @option options systemClockOffset [Number] an offset value in milliseconds
+   *   to apply to all signing times. Use this to compensate for clock skew
+   *   when your system may be out of sync with the service time. Note that
+   *   this configuration option can only be applied to the global `AWS.config`
+   *   object and cannot be overridden in service-specific configuration.
+   *   Defaults to 0 milliseconds.
+   * @option options signatureVersion [String] the signature version to sign
+   *   requests with (overriding the API configuration). Possible values are:
+   *   'v2', 'v3', 'v4'.
+   * @option options signatureCache [Boolean] whether the signature to sign
+   *   requests with (overriding the API configuration) is cached. Only applies
+   *   to the signature version 'v4'. Defaults to `true`.
+   * @option options dynamoDbCrc32 [Boolean] whether to validate the CRC32
+   *   checksum of HTTP response bodies returned by DynamoDB. Default: `true`.
+   * @option options useAccelerateEndpoint [Boolean] Whether to use the
+   *   S3 Transfer Acceleration endpoint with the S3 service. Default: `false`.
+   * @option options clientSideMonitoring [Boolean] whether to collect and
+   *   publish this client's performance metrics of all its API requests.
+   * @option options endpointDiscoveryEnabled [Boolean|undefined] whether to
+   *   call operations with endpoints given by service dynamically. Setting this
+   * config to `true` will enable endpoint discovery for all applicable operations.
+   *   Setting it to `false` will explicitly disable endpoint discovery even though
+   *   operations that require endpoint discovery will presumably fail. Leaving it
+   *   to `undefined` means SDK will only do endpoint discovery when it's required.
+   *   Defaults to `undefined`
+   * @option options endpointCacheSize [Number] the size of the global cache storing
+   *   endpoints from endpoint discovery operations. Once endpoint cache is created,
+   *   updating this setting cannot change existing cache size.
+   *   Defaults to 1000
+   * @option options hostPrefixEnabled [Boolean] whether to marshal request
+   *   parameters to the prefix of hostname.
+   *   Defaults to `true`.
+   * @option options stsRegionalEndpoints ['legacy'|'regional'] whether to send sts request
+   *   to global endpoints or regional endpoints.
+   *   Defaults to 'legacy'.
+   * @option options useFipsEndpoint [Boolean] Enables FIPS compatible endpoints.
+   *   Defaults to `false`.
+   * @option options useDualstackEndpoint [Boolean] Enables IPv6 dualstack endpoint.
+   *   Defaults to `false`.
+   */
+  constructor: function Config(options) {
+    if (options === undefined) options = {};
+    options = this.extractCredentials(options);
+
+    AWS.util.each.call(this, this.keys, function (key, value) {
+      this.set(key, options[key], value);
+    });
+  },
+
+  /**
+   * @!group Managing Credentials
+   */
+
+  /**
+   * Loads credentials from the configuration object. This is used internally
+   * by the SDK to ensure that refreshable {Credentials} objects are properly
+   * refreshed and loaded when sending a request. If you want to ensure that
+   * your credentials are loaded prior to a request, you can use this method
+   * directly to provide accurate credential data stored in the object.
+   *
+   * @note If you configure the SDK with static or environment credentials,
+   *   the credential data should already be present in {credentials} attribute.
+   *   This method is primarily necessary to load credentials from asynchronous
+   *   sources, or sources that can refresh credentials periodically.
+   * @example Getting your access key
+   *   AWS.config.getCredentials(function(err) {
+   *     if (err) console.log(err.stack); // credentials not loaded
+   *     else console.log("Access Key:", AWS.config.credentials.accessKeyId);
+   *   })
+   * @callback callback function(err)
+   *   Called when the {credentials} have been properly set on the configuration
+   *   object.
+   *
+   *   @param err [Error] if this is set, credentials were not successfully
+   *     loaded and this error provides information why.
+   * @see credentials
+   * @see Credentials
+   */
+  getCredentials: function getCredentials(callback) {
+    var self = this;
+
+    function finish(err) {
+      callback(err, err ? null : self.credentials);
+    }
+
+    function credError(msg, err) {
+      return new AWS.util.error(err || new Error(), {
+        code: 'CredentialsError',
+        message: msg,
+        name: 'CredentialsError'
+      });
+    }
+
+    function getAsyncCredentials() {
+      self.credentials.get(function(err) {
+        if (err) {
+          var msg = 'Could not load credentials from ' +
+            self.credentials.constructor.name;
+          err = credError(msg, err);
+        }
+        finish(err);
+      });
+    }
+
+    function getStaticCredentials() {
+      var err = null;
+      if (!self.credentials.accessKeyId || !self.credentials.secretAccessKey) {
+        err = credError('Missing credentials');
+      }
+      finish(err);
+    }
+
+    if (self.credentials) {
+      if (typeof self.credentials.get === 'function') {
+        getAsyncCredentials();
+      } else { // static credentials
+        getStaticCredentials();
+      }
+    } else if (self.credentialProvider) {
+      self.credentialProvider.resolve(function(err, creds) {
+        if (err) {
+          err = credError('Could not load credentials from any providers', err);
+        }
+        self.credentials = creds;
+        finish(err);
+      });
+    } else {
+      finish(credError('No credentials to load'));
+    }
+  },
+
+  /**
+   * Loads token from the configuration object. This is used internally
+   * by the SDK to ensure that refreshable {Token} objects are properly
+   * refreshed and loaded when sending a request. If you want to ensure that
+   * your token is loaded prior to a request, you can use this method
+   * directly to provide accurate token data stored in the object.
+   *
+   * @note If you configure the SDK with static token, the token data should
+   *   already be present in {token} attribute. This method is primarily necessary
+   *   to load token from asynchronous sources, or sources that can refresh
+   *   token periodically.
+   * @example Getting your access token
+   *   AWS.config.getToken(function(err) {
+   *     if (err) console.log(err.stack); // token not loaded
+   *     else console.log("Token:", AWS.config.token.token);
+   *   })
+   * @callback callback function(err)
+   *   Called when the {token} have been properly set on the configuration object.
+   *
+   *   @param err [Error] if this is set, token was not successfully loaded and
+   *     this error provides information why.
+   * @see token
+   */
+  getToken: function getToken(callback) {
+    var self = this;
+
+    function finish(err) {
+      callback(err, err ? null : self.token);
+    }
+
+    function tokenError(msg, err) {
+      return new AWS.util.error(err || new Error(), {
+        code: 'TokenError',
+        message: msg,
+        name: 'TokenError'
+      });
+    }
+
+    function getAsyncToken() {
+      self.token.get(function(err) {
+        if (err) {
+          var msg = 'Could not load token from ' +
+            self.token.constructor.name;
+          err = tokenError(msg, err);
+        }
+        finish(err);
+      });
+    }
+
+    function getStaticToken() {
+      var err = null;
+      if (!self.token.token) {
+        err = tokenError('Missing token');
+      }
+      finish(err);
+    }
+
+    if (self.token) {
+      if (typeof self.token.get === 'function') {
+        getAsyncToken();
+      } else { // static token
+        getStaticToken();
+      }
+    } else if (self.tokenProvider) {
+      self.tokenProvider.resolve(function(err, token) {
+        if (err) {
+          err = tokenError('Could not load token from any providers', err);
+        }
+        self.token = token;
+        finish(err);
+      });
+    } else {
+      finish(tokenError('No token to load'));
+    }
+  },
+
+  /**
+   * @!group Loading and Setting Configuration Options
+   */
+
+  /**
+   * @overload update(options, allowUnknownKeys = false)
+   *   Updates the current configuration object with new options.
+   *
+   *   @example Update maxRetries property of a configuration object
+   *     config.update({maxRetries: 10});
+   *   @param [Object] options a map of option keys and values.
+   *   @param [Boolean] allowUnknownKeys whether unknown keys can be set on
+   *     the configuration object. Defaults to `false`.
+   *   @see constructor
+   */
+  update: function update(options, allowUnknownKeys) {
+    allowUnknownKeys = allowUnknownKeys || false;
+    options = this.extractCredentials(options);
+    AWS.util.each.call(this, options, function (key, value) {
+      if (allowUnknownKeys || Object.prototype.hasOwnProperty.call(this.keys, key) ||
+          AWS.Service.hasService(key)) {
+        this.set(key, value);
+      }
+    });
+  },
+
+  /**
+   * Loads configuration data from a JSON file into this config object.
+   * @note Loading configuration will reset all existing configuration
+   *   on the object.
+   * @!macro nobrowser
+   * @param path [String] the path relative to your process's current
+   *    working directory to load configuration from.
+   * @return [AWS.Config] the same configuration object
+   */
+  loadFromPath: function loadFromPath(path) {
+    this.clear();
+
+    var options = JSON.parse(AWS.util.readFileSync(path));
+    var fileSystemCreds = new AWS.FileSystemCredentials(path);
+    var chain = new AWS.CredentialProviderChain();
+    chain.providers.unshift(fileSystemCreds);
+    chain.resolve(function (err, creds) {
+      if (err) throw err;
+      else options.credentials = creds;
+    });
+
+    this.constructor(options);
+
+    return this;
+  },
+
+  /**
+   * Clears configuration data on this object
+   *
+   * @api private
+   */
+  clear: function clear() {
+    /*jshint forin:false */
+    AWS.util.each.call(this, this.keys, function (key) {
+      delete this[key];
+    });
+
+    // reset credential provider
+    this.set('credentials', undefined);
+    this.set('credentialProvider', undefined);
+  },
+
+  /**
+   * Sets a property on the configuration object, allowing for a
+   * default value
+   * @api private
+   */
+  set: function set(property, value, defaultValue) {
+    if (value === undefined) {
+      if (defaultValue === undefined) {
+        defaultValue = this.keys[property];
+      }
+      if (typeof defaultValue === 'function') {
+        this[property] = defaultValue.call(this);
+      } else {
+        this[property] = defaultValue;
+      }
+    } else if (property === 'httpOptions' && this[property]) {
+      // deep merge httpOptions
+      this[property] = AWS.util.merge(this[property], value);
+    } else {
+      this[property] = value;
+    }
+  },
+
+  /**
+   * All of the keys with their default values.
+   *
+   * @constant
+   * @api private
+   */
+  keys: {
+    credentials: null,
+    credentialProvider: null,
+    region: null,
+    logger: null,
+    apiVersions: {},
+    apiVersion: null,
+    endpoint: undefined,
+    httpOptions: {
+      timeout: 120000
+    },
+    maxRetries: undefined,
+    maxRedirects: 10,
+    paramValidation: true,
+    sslEnabled: true,
+    s3ForcePathStyle: false,
+    s3BucketEndpoint: false,
+    s3DisableBodySigning: true,
+    s3UsEast1RegionalEndpoint: 'legacy',
+    s3UseArnRegion: undefined,
+    computeChecksums: true,
+    convertResponseTypes: true,
+    correctClockSkew: false,
+    customUserAgent: null,
+    dynamoDbCrc32: true,
+    systemClockOffset: 0,
+    signatureVersion: null,
+    signatureCache: true,
+    retryDelayOptions: {},
+    useAccelerateEndpoint: false,
+    clientSideMonitoring: false,
+    endpointDiscoveryEnabled: undefined,
+    endpointCacheSize: 1000,
+    hostPrefixEnabled: true,
+    stsRegionalEndpoints: 'legacy',
+    useFipsEndpoint: false,
+    useDualstackEndpoint: false,
+    token: null
+  },
+
+  /**
+   * Extracts accessKeyId, secretAccessKey and sessionToken
+   * from a configuration hash.
+   *
+   * @api private
+   */
+  extractCredentials: function extractCredentials(options) {
+    if (options.accessKeyId && options.secretAccessKey) {
+      options = AWS.util.copy(options);
+      options.credentials = new AWS.Credentials(options);
+    }
+    return options;
+  },
+
+  /**
+   * Sets the promise dependency the SDK will use wherever Promises are returned.
+   * Passing `null` will force the SDK to use native Promises if they are available.
+   * If native Promises are not available, passing `null` will have no effect.
+   * @param [Constructor] dep A reference to a Promise constructor
+   */
+  setPromisesDependency: function setPromisesDependency(dep) {
+    PromisesDependency = dep;
+    // if null was passed in, we should try to use native promises
+    if (dep === null && typeof Promise === 'function') {
+      PromisesDependency = Promise;
+    }
+    var constructors = [AWS.Request, AWS.Credentials, AWS.CredentialProviderChain];
+    if (AWS.S3) {
+      constructors.push(AWS.S3);
+      if (AWS.S3.ManagedUpload) {
+        constructors.push(AWS.S3.ManagedUpload);
+      }
+    }
+    AWS.util.addPromises(constructors, PromisesDependency);
+  },
+
+  /**
+   * Gets the promise dependency set by `AWS.config.setPromisesDependency`.
+   */
+  getPromisesDependency: function getPromisesDependency() {
+    return PromisesDependency;
+  }
+});
+
+/**
+ * @return [AWS.Config] The global configuration object singleton instance
+ * @readonly
+ * @see AWS.Config
+ */
+AWS.config = new AWS.Config();
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/core.js":
+/*!******************************************!*\
+  !*** ./node_modules/aws-sdk/lib/core.js ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/**
+ * The main AWS namespace
+ */
+var AWS = { util: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())) };
+
+/**
+ * @api private
+ * @!macro [new] nobrowser
+ *   @note This feature is not supported in the browser environment of the SDK.
+ */
+var _hidden = {}; _hidden.toString(); // hack to parse macro
+
+/**
+ * @api private
+ */
+module.exports = AWS;
+
+AWS.util.update(AWS, {
+
+  /**
+   * @constant
+   */
+  VERSION: '2.1359.0',
+
+  /**
+   * @api private
+   */
+  Signers: {},
+
+  /**
+   * @api private
+   */
+  Protocol: {
+    Json: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    Query: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/query'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    Rest: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    RestJson: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest_json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    RestXml: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest_xml'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+  },
+
+  /**
+   * @api private
+   */
+  XML: {
+    Builder: __webpack_require__(/*! ./xml/builder */ "./node_modules/aws-sdk/lib/xml/builder.js"),
+    Parser: null // conditionally set based on environment
+  },
+
+  /**
+   * @api private
+   */
+  JSON: {
+    Builder: __webpack_require__(/*! ./json/builder */ "./node_modules/aws-sdk/lib/json/builder.js"),
+    Parser: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './json/parser'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+  },
+
+  /**
+   * @api private
+   */
+  Model: {
+    Api: __webpack_require__(/*! ./model/api */ "./node_modules/aws-sdk/lib/model/api.js"),
+    Operation: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './model/operation'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    Shape: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './model/shape'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    Paginator: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './model/paginator'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+    ResourceWaiter: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './model/resource_waiter'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+  },
+
+  /**
+   * @api private
+   */
+  apiLoader: __webpack_require__(/*! ./api_loader */ "./node_modules/aws-sdk/lib/api_loader.js"),
+
+  /**
+   * @api private
+   */
+  EndpointCache: (__webpack_require__(/*! ../vendor/endpoint-cache */ "./node_modules/aws-sdk/vendor/endpoint-cache/index.js").EndpointCache)
+});
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sequential_executor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './service'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(/*! ./config */ "./node_modules/aws-sdk/lib/config.js");
+__webpack_require__(/*! ./http */ "./node_modules/aws-sdk/lib/http.js");
+__webpack_require__(/*! ./event_listeners */ "./node_modules/aws-sdk/lib/event_listeners.js");
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './request'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './response'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resource_waiter'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './signers/request_signer'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './param_validator'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './maintenance_mode_message'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+/**
+ * @readonly
+ * @return [AWS.SequentialExecutor] a collection of global event listeners that
+ *   are attached to every sent request.
+ * @see AWS.Request AWS.Request for a list of events to listen for
+ * @example Logging the time taken to send a request
+ *   AWS.events.on('send', function startSend(resp) {
+ *     resp.startTime = new Date().getTime();
+ *   }).on('complete', function calculateTime(resp) {
+ *     var time = (new Date().getTime() - resp.startTime) / 1000;
+ *     console.log('Request took ' + time + ' seconds');
+ *   });
+ *
+ *   new AWS.S3().listBuckets(); // prints 'Request took 0.285 seconds'
+ */
+AWS.events = new AWS.SequentialExecutor();
+
+//create endpoint cache lazily
+AWS.util.memoizedProperty(AWS, 'endpointCache', function() {
+  return new AWS.EndpointCache(AWS.config.endpointCacheSize);
+}, true);
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/credentials.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/credentials.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+
+/**
+ * Represents your AWS security credentials, specifically the
+ * {accessKeyId}, {secretAccessKey}, and optional {sessionToken}.
+ * Creating a `Credentials` object allows you to pass around your
+ * security information to configuration and service objects.
+ *
+ * Note that this class typically does not need to be constructed manually,
+ * as the {AWS.Config} and {AWS.Service} classes both accept simple
+ * options hashes with the three keys. These structures will be converted
+ * into Credentials objects automatically.
+ *
+ * ## Expiring and Refreshing Credentials
+ *
+ * Occasionally credentials can expire in the middle of a long-running
+ * application. In this case, the SDK will automatically attempt to
+ * refresh the credentials from the storage location if the Credentials
+ * class implements the {refresh} method.
+ *
+ * If you are implementing a credential storage location, you
+ * will want to create a subclass of the `Credentials` class and
+ * override the {refresh} method. This method allows credentials to be
+ * retrieved from the backing store, be it a file system, database, or
+ * some network storage. The method should reset the credential attributes
+ * on the object.
+ *
+ * @!attribute expired
+ *   @return [Boolean] whether the credentials have been expired and
+ *     require a refresh. Used in conjunction with {expireTime}.
+ * @!attribute expireTime
+ *   @return [Date] a time when credentials should be considered expired. Used
+ *     in conjunction with {expired}.
+ * @!attribute accessKeyId
+ *   @return [String] the AWS access key ID
+ * @!attribute secretAccessKey
+ *   @return [String] the AWS secret access key
+ * @!attribute sessionToken
+ *   @return [String] an optional AWS session token
+ */
+AWS.Credentials = AWS.util.inherit({
+  /**
+   * A credentials object can be created using positional arguments or an options
+   * hash.
+   *
+   * @overload AWS.Credentials(accessKeyId, secretAccessKey, sessionToken=null)
+   *   Creates a Credentials object with a given set of credential information
+   *   as positional arguments.
+   *   @param accessKeyId [String] the AWS access key ID
+   *   @param secretAccessKey [String] the AWS secret access key
+   *   @param sessionToken [String] the optional AWS session token
+   *   @example Create a credentials object with AWS credentials
+   *     var creds = new AWS.Credentials('akid', 'secret', 'session');
+   * @overload AWS.Credentials(options)
+   *   Creates a Credentials object with a given set of credential information
+   *   as an options hash.
+   *   @option options accessKeyId [String] the AWS access key ID
+   *   @option options secretAccessKey [String] the AWS secret access key
+   *   @option options sessionToken [String] the optional AWS session token
+   *   @example Create a credentials object with AWS credentials
+   *     var creds = new AWS.Credentials({
+   *       accessKeyId: 'akid', secretAccessKey: 'secret', sessionToken: 'session'
+   *     });
+   */
+  constructor: function Credentials() {
+    // hide secretAccessKey from being displayed with util.inspect
+    AWS.util.hideProperties(this, ['secretAccessKey']);
+
+    this.expired = false;
+    this.expireTime = null;
+    this.refreshCallbacks = [];
+    if (arguments.length === 1 && typeof arguments[0] === 'object') {
+      var creds = arguments[0].credentials || arguments[0];
+      this.accessKeyId = creds.accessKeyId;
+      this.secretAccessKey = creds.secretAccessKey;
+      this.sessionToken = creds.sessionToken;
+    } else {
+      this.accessKeyId = arguments[0];
+      this.secretAccessKey = arguments[1];
+      this.sessionToken = arguments[2];
+    }
+  },
+
+  /**
+   * @return [Integer] the number of seconds before {expireTime} during which
+   *   the credentials will be considered expired.
+   */
+  expiryWindow: 15,
+
+  /**
+   * @return [Boolean] whether the credentials object should call {refresh}
+   * @note Subclasses should override this method to provide custom refresh
+   *   logic.
+   */
+  needsRefresh: function needsRefresh() {
+    var currentTime = AWS.util.date.getDate().getTime();
+    var adjustedTime = new Date(currentTime + this.expiryWindow * 1000);
+
+    if (this.expireTime && adjustedTime > this.expireTime) {
+      return true;
+    } else {
+      return this.expired || !this.accessKeyId || !this.secretAccessKey;
+    }
+  },
+
+  /**
+   * Gets the existing credentials, refreshing them if they are not yet loaded
+   * or have expired. Users should call this method before using {refresh},
+   * as this will not attempt to reload credentials when they are already
+   * loaded into the object.
+   *
+   * @callback callback function(err)
+   *   When this callback is called with no error, it means either credentials
+   *   do not need to be refreshed or refreshed credentials information has
+   *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+   *   and `sessionToken` properties).
+   *   @param err [Error] if an error occurred, this value will be filled
+   */
+  get: function get(callback) {
+    var self = this;
+    if (this.needsRefresh()) {
+      this.refresh(function(err) {
+        if (!err) self.expired = false; // reset expired flag
+        if (callback) callback(err);
+      });
+    } else if (callback) {
+      callback();
+    }
+  },
+
+  /**
+   * @!method  getPromise()
+   *   Returns a 'thenable' promise.
+   *   Gets the existing credentials, refreshing them if they are not yet loaded
+   *   or have expired. Users should call this method before using {refresh},
+   *   as this will not attempt to reload credentials when they are already
+   *   loaded into the object.
+   *
+   *   Two callbacks can be provided to the `then` method on the returned promise.
+   *   The first callback will be called if the promise is fulfilled, and the second
+   *   callback will be called if the promise is rejected.
+   *   @callback fulfilledCallback function()
+   *     Called if the promise is fulfilled. When this callback is called, it
+   *     means either credentials do not need to be refreshed or refreshed
+   *     credentials information has been loaded into the object (as the
+   *     `accessKeyId`, `secretAccessKey`, and `sessionToken` properties).
+   *   @callback rejectedCallback function(err)
+   *     Called if the promise is rejected.
+   *     @param err [Error] if an error occurred, this value will be filled
+   *   @return [Promise] A promise that represents the state of the `get` call.
+   *   @example Calling the `getPromise` method.
+   *     var promise = credProvider.getPromise();
+   *     promise.then(function() { ... }, function(err) { ... });
+   */
+
+  /**
+   * @!method  refreshPromise()
+   *   Returns a 'thenable' promise.
+   *   Refreshes the credentials. Users should call {get} before attempting
+   *   to forcibly refresh credentials.
+   *
+   *   Two callbacks can be provided to the `then` method on the returned promise.
+   *   The first callback will be called if the promise is fulfilled, and the second
+   *   callback will be called if the promise is rejected.
+   *   @callback fulfilledCallback function()
+   *     Called if the promise is fulfilled. When this callback is called, it
+   *     means refreshed credentials information has been loaded into the object
+   *     (as the `accessKeyId`, `secretAccessKey`, and `sessionToken` properties).
+   *   @callback rejectedCallback function(err)
+   *     Called if the promise is rejected.
+   *     @param err [Error] if an error occurred, this value will be filled
+   *   @return [Promise] A promise that represents the state of the `refresh` call.
+   *   @example Calling the `refreshPromise` method.
+   *     var promise = credProvider.refreshPromise();
+   *     promise.then(function() { ... }, function(err) { ... });
+   */
+
+  /**
+   * Refreshes the credentials. Users should call {get} before attempting
+   * to forcibly refresh credentials.
+   *
+   * @callback callback function(err)
+   *   When this callback is called with no error, it means refreshed
+   *   credentials information has been loaded into the object (as the
+   *   `accessKeyId`, `secretAccessKey`, and `sessionToken` properties).
+   *   @param err [Error] if an error occurred, this value will be filled
+   * @note Subclasses should override this class to reset the
+   *   {accessKeyId}, {secretAccessKey} and optional {sessionToken}
+   *   on the credentials object and then call the callback with
+   *   any error information.
+   * @see get
+   */
+  refresh: function refresh(callback) {
+    this.expired = false;
+    callback();
+  },
+
+  /**
+   * @api private
+   * @param callback
+   */
+  coalesceRefresh: function coalesceRefresh(callback, sync) {
+    var self = this;
+    if (self.refreshCallbacks.push(callback) === 1) {
+      self.load(function onLoad(err) {
+        AWS.util.arrayEach(self.refreshCallbacks, function(callback) {
+          if (sync) {
+            callback(err);
+          } else {
+            // callback could throw, so defer to ensure all callbacks are notified
+            AWS.util.defer(function () {
+              callback(err);
+            });
+          }
+        });
+        self.refreshCallbacks.length = 0;
+      });
+    }
+  },
+
+  /**
+   * @api private
+   * @param callback
+   */
+  load: function load(callback) {
+    callback();
+  }
+});
+
+/**
+ * @api private
+ */
+AWS.Credentials.addPromisesToClass = function addPromisesToClass(PromiseDependency) {
+  this.prototype.getPromise = AWS.util.promisifyMethod('get', PromiseDependency);
+  this.prototype.refreshPromise = AWS.util.promisifyMethod('refresh', PromiseDependency);
+};
+
+/**
+ * @api private
+ */
+AWS.Credentials.deletePromisesFromClass = function deletePromisesFromClass() {
+  delete this.prototype.getPromise;
+  delete this.prototype.refreshPromise;
+};
+
+AWS.util.addPromises(AWS.Credentials);
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/credentials/credential_provider_chain.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/credentials/credential_provider_chain.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+/**
+ * Creates a credential provider chain that searches for AWS credentials
+ * in a list of credential providers specified by the {providers} property.
+ *
+ * By default, the chain will use the {defaultProviders} to resolve credentials.
+ * These providers will look in the environment using the
+ * {AWS.EnvironmentCredentials} class with the 'AWS' and 'AMAZON' prefixes.
+ *
+ * ## Setting Providers
+ *
+ * Each provider in the {providers} list should be a function that returns
+ * a {AWS.Credentials} object, or a hardcoded credentials object. The function
+ * form allows for delayed execution of the credential construction.
+ *
+ * ## Resolving Credentials from a Chain
+ *
+ * Call {resolve} to return the first valid credential object that can be
+ * loaded by the provider chain.
+ *
+ * For example, to resolve a chain with a custom provider that checks a file
+ * on disk after the set of {defaultProviders}:
+ *
+ * ```javascript
+ * var diskProvider = new AWS.FileSystemCredentials('./creds.json');
+ * var chain = new AWS.CredentialProviderChain();
+ * chain.providers.push(diskProvider);
+ * chain.resolve();
+ * ```
+ *
+ * The above code will return the `diskProvider` object if the
+ * file contains credentials and the `defaultProviders` do not contain
+ * any credential settings.
+ *
+ * @!attribute providers
+ *   @return [Array<AWS.Credentials, Function>]
+ *     a list of credentials objects or functions that return credentials
+ *     objects. If the provider is a function, the function will be
+ *     executed lazily when the provider needs to be checked for valid
+ *     credentials. By default, this object will be set to the
+ *     {defaultProviders}.
+ *   @see defaultProviders
+ */
+AWS.CredentialProviderChain = AWS.util.inherit(AWS.Credentials, {
+
+  /**
+   * Creates a new CredentialProviderChain with a default set of providers
+   * specified by {defaultProviders}.
+   */
+  constructor: function CredentialProviderChain(providers) {
+    if (providers) {
+      this.providers = providers;
+    } else {
+      this.providers = AWS.CredentialProviderChain.defaultProviders.slice(0);
+    }
+    this.resolveCallbacks = [];
+  },
+
+  /**
+   * @!method  resolvePromise()
+   *   Returns a 'thenable' promise.
+   *   Resolves the provider chain by searching for the first set of
+   *   credentials in {providers}.
+   *
+   *   Two callbacks can be provided to the `then` method on the returned promise.
+   *   The first callback will be called if the promise is fulfilled, and the second
+   *   callback will be called if the promise is rejected.
+   *   @callback fulfilledCallback function(credentials)
+   *     Called if the promise is fulfilled and the provider resolves the chain
+   *     to a credentials object
+   *     @param credentials [AWS.Credentials] the credentials object resolved
+   *       by the provider chain.
+   *   @callback rejectedCallback function(error)
+   *     Called if the promise is rejected.
+   *     @param err [Error] the error object returned if no credentials are found.
+   *   @return [Promise] A promise that represents the state of the `resolve` method call.
+   *   @example Calling the `resolvePromise` method.
+   *     var promise = chain.resolvePromise();
+   *     promise.then(function(credentials) { ... }, function(err) { ... });
+   */
+
+  /**
+   * Resolves the provider chain by searching for the first set of
+   * credentials in {providers}.
+   *
+   * @callback callback function(err, credentials)
+   *   Called when the provider resolves the chain to a credentials object
+   *   or null if no credentials can be found.
+   *
+   *   @param err [Error] the error object returned if no credentials are
+   *     found.
+   *   @param credentials [AWS.Credentials] the credentials object resolved
+   *     by the provider chain.
+   * @return [AWS.CredentialProviderChain] the provider, for chaining.
+   */
+  resolve: function resolve(callback) {
+    var self = this;
+    if (self.providers.length === 0) {
+      callback(new Error('No providers'));
+      return self;
+    }
+
+    if (self.resolveCallbacks.push(callback) === 1) {
+      var index = 0;
+      var providers = self.providers.slice(0);
+
+      function resolveNext(err, creds) {
+        if ((!err && creds) || index === providers.length) {
+          AWS.util.arrayEach(self.resolveCallbacks, function (callback) {
+            callback(err, creds);
+          });
+          self.resolveCallbacks.length = 0;
+          return;
+        }
+
+        var provider = providers[index++];
+        if (typeof provider === 'function') {
+          creds = provider.call();
+        } else {
+          creds = provider;
+        }
+
+        if (creds.get) {
+          creds.get(function (getErr) {
+            resolveNext(getErr, getErr ? null : creds);
+          });
+        } else {
+          resolveNext(null, creds);
+        }
+      }
+
+      resolveNext();
+    }
+
+    return self;
+  }
+});
+
+/**
+ * The default set of providers used by a vanilla CredentialProviderChain.
+ *
+ * In the browser:
+ *
+ * ```javascript
+ * AWS.CredentialProviderChain.defaultProviders = []
+ * ```
+ *
+ * In Node.js:
+ *
+ * ```javascript
+ * AWS.CredentialProviderChain.defaultProviders = [
+ *   function () { return new AWS.EnvironmentCredentials('AWS'); },
+ *   function () { return new AWS.EnvironmentCredentials('AMAZON'); },
+ *   function () { return new AWS.SsoCredentials(); },
+ *   function () { return new AWS.SharedIniFileCredentials(); },
+ *   function () { return new AWS.ECSCredentials(); },
+ *   function () { return new AWS.ProcessCredentials(); },
+ *   function () { return new AWS.TokenFileWebIdentityCredentials(); },
+ *   function () { return new AWS.EC2MetadataCredentials() }
+ * ]
+ * ```
+ */
+AWS.CredentialProviderChain.defaultProviders = [];
+
+/**
+ * @api private
+ */
+AWS.CredentialProviderChain.addPromisesToClass = function addPromisesToClass(PromiseDependency) {
+  this.prototype.resolvePromise = AWS.util.promisifyMethod('resolve', PromiseDependency);
+};
+
+/**
+ * @api private
+ */
+AWS.CredentialProviderChain.deletePromisesFromClass = function deletePromisesFromClass() {
+  delete this.prototype.resolvePromise;
+};
+
+AWS.util.addPromises(AWS.CredentialProviderChain);
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/discover_endpoint.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/discover_endpoint.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+var util = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var endpointDiscoveryEnabledEnvs = ['AWS_ENABLE_ENDPOINT_DISCOVERY', 'AWS_ENDPOINT_DISCOVERY_ENABLED'];
+
+/**
+ * Generate key (except resources and operation part) to index the endpoints in the cache
+ * If input shape has endpointdiscoveryid trait then use
+ *   accessKey + operation + resources + region + service as cache key
+ * If input shape doesn't have endpointdiscoveryid trait then use
+ *   accessKey + region + service as cache key
+ * @return [map<String,String>] object with keys to index endpoints.
+ * @api private
+ */
+function getCacheKey(request) {
+  var service = request.service;
+  var api = service.api || {};
+  var operations = api.operations;
+  var identifiers = {};
+  if (service.config.region) {
+    identifiers.region = service.config.region;
+  }
+  if (api.serviceId) {
+    identifiers.serviceId = api.serviceId;
+  }
+  if (service.config.credentials.accessKeyId) {
+    identifiers.accessKeyId = service.config.credentials.accessKeyId;
+  }
+  return identifiers;
+}
+
+/**
+ * Recursive helper for marshallCustomIdentifiers().
+ * Looks for required string input members that have 'endpointdiscoveryid' trait.
+ * @api private
+ */
+function marshallCustomIdentifiersHelper(result, params, shape) {
+  if (!shape || params === undefined || params === null) return;
+  if (shape.type === 'structure' && shape.required && shape.required.length > 0) {
+    util.arrayEach(shape.required, function(name) {
+      var memberShape = shape.members[name];
+      if (memberShape.endpointDiscoveryId === true) {
+        var locationName = memberShape.isLocationName ? memberShape.name : name;
+        result[locationName] = String(params[name]);
+      } else {
+        marshallCustomIdentifiersHelper(result, params[name], memberShape);
+      }
+    });
+  }
+}
+
+/**
+ * Get custom identifiers for cache key.
+ * Identifies custom identifiers by checking each shape's `endpointDiscoveryId` trait.
+ * @param [object] request object
+ * @param [object] input shape of the given operation's api
+ * @api private
+ */
+function marshallCustomIdentifiers(request, shape) {
+  var identifiers = {};
+  marshallCustomIdentifiersHelper(identifiers, request.params, shape);
+  return identifiers;
+}
+
+/**
+ * Call endpoint discovery operation when it's optional.
+ * When endpoint is available in cache then use the cached endpoints. If endpoints
+ * are unavailable then use regional endpoints and call endpoint discovery operation
+ * asynchronously. This is turned off by default.
+ * @param [object] request object
+ * @api private
+ */
+function optionalDiscoverEndpoint(request) {
+  var service = request.service;
+  var api = service.api;
+  var operationModel = api.operations ? api.operations[request.operation] : undefined;
+  var inputShape = operationModel ? operationModel.input : undefined;
+
+  var identifiers = marshallCustomIdentifiers(request, inputShape);
+  var cacheKey = getCacheKey(request);
+  if (Object.keys(identifiers).length > 0) {
+    cacheKey = util.update(cacheKey, identifiers);
+    if (operationModel) cacheKey.operation = operationModel.name;
+  }
+  var endpoints = AWS.endpointCache.get(cacheKey);
+  if (endpoints && endpoints.length === 1 && endpoints[0].Address === '') {
+    //endpoint operation is being made but response not yet received
+    //or endpoint operation just failed in 1 minute
+    return;
+  } else if (endpoints && endpoints.length > 0) {
+    //found endpoint record from cache
+    request.httpRequest.updateEndpoint(endpoints[0].Address);
+  } else {
+    //endpoint record not in cache or outdated. make discovery operation
+    var endpointRequest = service.makeRequest(api.endpointOperation, {
+      Operation: operationModel.name,
+      Identifiers: identifiers,
+    });
+    addApiVersionHeader(endpointRequest);
+    endpointRequest.removeListener('validate', AWS.EventListeners.Core.VALIDATE_PARAMETERS);
+    endpointRequest.removeListener('retry', AWS.EventListeners.Core.RETRY_CHECK);
+    //put in a placeholder for endpoints already requested, prevent
+    //too much in-flight calls
+    AWS.endpointCache.put(cacheKey, [{
+      Address: '',
+      CachePeriodInMinutes: 1
+    }]);
+    endpointRequest.send(function(err, data) {
+      if (data && data.Endpoints) {
+        AWS.endpointCache.put(cacheKey, data.Endpoints);
+      } else if (err) {
+        AWS.endpointCache.put(cacheKey, [{
+          Address: '',
+          CachePeriodInMinutes: 1 //not to make more endpoint operation in next 1 minute
+        }]);
+      }
+    });
+  }
+}
+
+var requestQueue = {};
+
+/**
+ * Call endpoint discovery operation when it's required.
+ * When endpoint is available in cache then use cached ones. If endpoints are
+ * unavailable then SDK should call endpoint operation then use returned new
+ * endpoint for the api call. SDK will automatically attempt to do endpoint
+ * discovery. This is turned off by default
+ * @param [object] request object
+ * @api private
+ */
+function requiredDiscoverEndpoint(request, done) {
+  var service = request.service;
+  var api = service.api;
+  var operationModel = api.operations ? api.operations[request.operation] : undefined;
+  var inputShape = operationModel ? operationModel.input : undefined;
+
+  var identifiers = marshallCustomIdentifiers(request, inputShape);
+  var cacheKey = getCacheKey(request);
+  if (Object.keys(identifiers).length > 0) {
+    cacheKey = util.update(cacheKey, identifiers);
+    if (operationModel) cacheKey.operation = operationModel.name;
+  }
+  var cacheKeyStr = AWS.EndpointCache.getKeyString(cacheKey);
+  var endpoints = AWS.endpointCache.get(cacheKeyStr); //endpoint cache also accepts string keys
+  if (endpoints && endpoints.length === 1 && endpoints[0].Address === '') {
+    //endpoint operation is being made but response not yet received
+    //push request object to a pending queue
+    if (!requestQueue[cacheKeyStr]) requestQueue[cacheKeyStr] = [];
+    requestQueue[cacheKeyStr].push({request: request, callback: done});
+    return;
+  } else if (endpoints && endpoints.length > 0) {
+    request.httpRequest.updateEndpoint(endpoints[0].Address);
+    done();
+  } else {
+    var endpointRequest = service.makeRequest(api.endpointOperation, {
+      Operation: operationModel.name,
+      Identifiers: identifiers,
+    });
+    endpointRequest.removeListener('validate', AWS.EventListeners.Core.VALIDATE_PARAMETERS);
+    addApiVersionHeader(endpointRequest);
+
+    //put in a placeholder for endpoints already requested, prevent
+    //too much in-flight calls
+    AWS.endpointCache.put(cacheKeyStr, [{
+      Address: '',
+      CachePeriodInMinutes: 60 //long-live cache
+    }]);
+    endpointRequest.send(function(err, data) {
+      if (err) {
+        request.response.error = util.error(err, { retryable: false });
+        AWS.endpointCache.remove(cacheKey);
+
+        //fail all the pending requests in batch
+        if (requestQueue[cacheKeyStr]) {
+          var pendingRequests = requestQueue[cacheKeyStr];
+          util.arrayEach(pendingRequests, function(requestContext) {
+            requestContext.request.response.error = util.error(err, { retryable: false });
+            requestContext.callback();
+          });
+          delete requestQueue[cacheKeyStr];
+        }
+      } else if (data) {
+        AWS.endpointCache.put(cacheKeyStr, data.Endpoints);
+        request.httpRequest.updateEndpoint(data.Endpoints[0].Address);
+
+        //update the endpoint for all the pending requests in batch
+        if (requestQueue[cacheKeyStr]) {
+          var pendingRequests = requestQueue[cacheKeyStr];
+          util.arrayEach(pendingRequests, function(requestContext) {
+            requestContext.request.httpRequest.updateEndpoint(data.Endpoints[0].Address);
+            requestContext.callback();
+          });
+          delete requestQueue[cacheKeyStr];
+        }
+      }
+      done();
+    });
+  }
+}
+
+/**
+ * add api version header to endpoint operation
+ * @api private
+ */
+function addApiVersionHeader(endpointRequest) {
+  var api = endpointRequest.service.api;
+  var apiVersion = api.apiVersion;
+  if (apiVersion && !endpointRequest.httpRequest.headers['x-amz-api-version']) {
+    endpointRequest.httpRequest.headers['x-amz-api-version'] = apiVersion;
+  }
+}
+
+/**
+ * If api call gets invalid endpoint exception, SDK should attempt to remove the invalid
+ * endpoint from cache.
+ * @api private
+ */
+function invalidateCachedEndpoints(response) {
+  var error = response.error;
+  var httpResponse = response.httpResponse;
+  if (error &&
+    (error.code === 'InvalidEndpointException' || httpResponse.statusCode === 421)
+  ) {
+    var request = response.request;
+    var operations = request.service.api.operations || {};
+    var inputShape = operations[request.operation] ? operations[request.operation].input : undefined;
+    var identifiers = marshallCustomIdentifiers(request, inputShape);
+    var cacheKey = getCacheKey(request);
+    if (Object.keys(identifiers).length > 0) {
+      cacheKey = util.update(cacheKey, identifiers);
+      if (operations[request.operation]) cacheKey.operation = operations[request.operation].name;
+    }
+    AWS.endpointCache.remove(cacheKey);
+  }
+}
+
+/**
+ * If endpoint is explicitly configured, SDK should not do endpoint discovery in anytime.
+ * @param [object] client Service client object.
+ * @api private
+ */
+function hasCustomEndpoint(client) {
+  //if set endpoint is set for specific client, enable endpoint discovery will raise an error.
+  if (client._originalConfig && client._originalConfig.endpoint && client._originalConfig.endpointDiscoveryEnabled === true) {
+    throw util.error(new Error(), {
+      code: 'ConfigurationException',
+      message: 'Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.'
+    });
+  };
+  var svcConfig = AWS.config[client.serviceIdentifier] || {};
+  return Boolean(AWS.config.endpoint || svcConfig.endpoint || (client._originalConfig && client._originalConfig.endpoint));
+}
+
+/**
+ * @api private
+ */
+function isFalsy(value) {
+  return ['false', '0'].indexOf(value) >= 0;
+}
+
+/**
+ * If endpoint discovery should perform for this request when no operation requires endpoint
+ * discovery for the given service.
+ * SDK performs config resolution in order like below:
+ * 1. If set in client configuration.
+ * 2. If set in env AWS_ENABLE_ENDPOINT_DISCOVERY.
+ * 3. If set in shared ini config file with key 'endpoint_discovery_enabled'.
+ * @param [object] request request object.
+ * @returns [boolean|undefined] if endpoint discovery config is not set in any source, this
+ *  function returns undefined
+ * @api private
+ */
+function resolveEndpointDiscoveryConfig(request) {
+  var service = request.service || {};
+  if (service.config.endpointDiscoveryEnabled !== undefined) {
+    return service.config.endpointDiscoveryEnabled;
+  }
+
+  //shared ini file is only available in Node
+  //not to check env in browser
+  if (util.isBrowser()) return undefined;
+
+  // If any of recognized endpoint discovery config env is set
+  for (var i = 0; i < endpointDiscoveryEnabledEnvs.length; i++) {
+    var env = endpointDiscoveryEnabledEnvs[i];
+    if (Object.prototype.hasOwnProperty.call(process.env, env)) {
+      if (process.env[env] === '' || process.env[env] === undefined) {
+        throw util.error(new Error(), {
+          code: 'ConfigurationException',
+          message: 'environmental variable ' + env + ' cannot be set to nothing'
+        });
+      }
+      return !isFalsy(process.env[env]);
+    }
+  }
+
+  var configFile = {};
+  try {
+    configFile = AWS.util.iniLoader ? AWS.util.iniLoader.loadFrom({
+      isConfig: true,
+      filename: process.env[AWS.util.sharedConfigFileEnv]
+    }) : {};
+  } catch (e) {}
+  var sharedFileConfig = configFile[
+    process.env.AWS_PROFILE || AWS.util.defaultProfile
+  ] || {};
+  if (Object.prototype.hasOwnProperty.call(sharedFileConfig, 'endpoint_discovery_enabled')) {
+    if (sharedFileConfig.endpoint_discovery_enabled === undefined) {
+      throw util.error(new Error(), {
+        code: 'ConfigurationException',
+        message: 'config file entry \'endpoint_discovery_enabled\' cannot be set to nothing'
+      });
+    }
+    return !isFalsy(sharedFileConfig.endpoint_discovery_enabled);
+  }
+  return undefined;
+}
+
+/**
+ * attach endpoint discovery logic to request object
+ * @param [object] request
+ * @api private
+ */
+function discoverEndpoint(request, done) {
+  var service = request.service || {};
+  if (hasCustomEndpoint(service) || request.isPresigned()) return done();
+
+  var operations = service.api.operations || {};
+  var operationModel = operations[request.operation];
+  var isEndpointDiscoveryRequired = operationModel ? operationModel.endpointDiscoveryRequired : 'NULL';
+  var isEnabled = resolveEndpointDiscoveryConfig(request);
+  var hasRequiredEndpointDiscovery = service.api.hasRequiredEndpointDiscovery;
+  if (isEnabled || hasRequiredEndpointDiscovery) {
+    // Once a customer enables endpoint discovery, the SDK should start appending
+    // the string endpoint-discovery to the user-agent on all requests.
+    request.httpRequest.appendToUserAgent('endpoint-discovery');
+  }
+  switch (isEndpointDiscoveryRequired) {
+    case 'OPTIONAL':
+      if (isEnabled || hasRequiredEndpointDiscovery) {
+        // For a given service; if at least one operation requires endpoint discovery then the SDK must enable endpoint discovery
+        // by default for all operations of that service, including operations where endpoint discovery is optional.
+        optionalDiscoverEndpoint(request);
+        request.addNamedListener('INVALIDATE_CACHED_ENDPOINTS', 'extractError', invalidateCachedEndpoints);
+      }
+      done();
+      break;
+    case 'REQUIRED':
+      if (isEnabled === false) {
+        // For a given operation; if endpoint discovery is required and it has been disabled on the SDK client,
+        // then the SDK must return a clear and actionable exception.
+        request.response.error = util.error(new Error(), {
+          code: 'ConfigurationException',
+          message: 'Endpoint Discovery is disabled but ' + service.api.className + '.' + request.operation +
+                    '() requires it. Please check your configurations.'
+        });
+        done();
+        break;
+      }
+      request.addNamedListener('INVALIDATE_CACHED_ENDPOINTS', 'extractError', invalidateCachedEndpoints);
+      requiredDiscoverEndpoint(request, done);
+      break;
+    case 'NULL':
+    default:
+      done();
+      break;
+  }
+}
+
+module.exports = {
+  discoverEndpoint: discoverEndpoint,
+  requiredDiscoverEndpoint: requiredDiscoverEndpoint,
+  optionalDiscoverEndpoint: optionalDiscoverEndpoint,
+  marshallCustomIdentifiers: marshallCustomIdentifiers,
+  getCacheKey: getCacheKey,
+  invalidateCachedEndpoint: invalidateCachedEndpoints,
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/dynamodb/document_client.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/dynamodb/document_client.js ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+var Translator = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './translator'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var DynamoDBSet = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './set'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+/**
+ * The document client simplifies working with items in Amazon DynamoDB
+ * by abstracting away the notion of attribute values. This abstraction
+ * annotates native JavaScript types supplied as input parameters, as well
+ * as converts annotated response data to native JavaScript types.
+ *
+ * ## Marshalling Input and Unmarshalling Response Data
+ *
+ * The document client affords developers the use of native JavaScript types
+ * instead of `AttributeValue`s to simplify the JavaScript development
+ * experience with Amazon DynamoDB. JavaScript objects passed in as parameters
+ * are marshalled into `AttributeValue` shapes required by Amazon DynamoDB.
+ * Responses from DynamoDB are unmarshalled into plain JavaScript objects
+ * by the `DocumentClient`. The `DocumentClient`, does not accept
+ * `AttributeValue`s in favor of native JavaScript types.
+ *
+ * |                             JavaScript Type                            | DynamoDB AttributeValue |
+ * |:----------------------------------------------------------------------:|-------------------------|
+ * | String                                                                 | S                       |
+ * | Number                                                                 | N                       |
+ * | Boolean                                                                | BOOL                    |
+ * | null                                                                   | NULL                    |
+ * | Array                                                                  | L                       |
+ * | Object                                                                 | M                       |
+ * | Buffer, File, Blob, ArrayBuffer, DataView, and JavaScript typed arrays | B                       |
+ *
+ * ## Support for Sets
+ *
+ * The `DocumentClient` offers a convenient way to create sets from
+ * JavaScript Arrays. The type of set is inferred from the first element
+ * in the array. DynamoDB supports string, number, and binary sets. To
+ * learn more about supported types see the
+ * [Amazon DynamoDB Data Model Documentation](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DataModel.html)
+ * For more information see {AWS.DynamoDB.DocumentClient.createSet}
+ *
+ */
+AWS.DynamoDB.DocumentClient = AWS.util.inherit({
+
+  /**
+   * Creates a DynamoDB document client with a set of configuration options.
+   *
+   * @option options params [map] An optional map of parameters to bind to every
+   *   request sent by this service object.
+   * @option options service [AWS.DynamoDB] An optional pre-configured instance
+   *  of the AWS.DynamoDB service object. This instance's config will be
+   *  copied to a new instance used by this client. You should not need to
+   *  retain a reference to the input object, and may destroy it or allow it
+   *  to be garbage collected.
+   * @option options convertEmptyValues [Boolean] set to true if you would like
+   *  the document client to convert empty values (0-length strings, binary
+   *  buffers, and sets) to be converted to NULL types when persisting to
+   *  DynamoDB.
+   * @option options wrapNumbers [Boolean] Set to true to return numbers as a
+   *  NumberValue object instead of converting them to native JavaScript numbers.
+   *  This allows for the safe round-trip transport of numbers of arbitrary size.
+   * @see AWS.DynamoDB.constructor
+   *
+   */
+  constructor: function DocumentClient(options) {
+    var self = this;
+    self.options = options || {};
+    self.configure(self.options);
+  },
+
+  /**
+   * @api private
+   */
+  configure: function configure(options) {
+    var self = this;
+    self.service = options.service;
+    self.bindServiceObject(options);
+    self.attrValue = options.attrValue =
+      self.service.api.operations.putItem.input.members.Item.value.shape;
+  },
+
+  /**
+   * @api private
+   */
+  bindServiceObject: function bindServiceObject(options) {
+    var self = this;
+    options = options || {};
+
+    if (!self.service) {
+      self.service = new AWS.DynamoDB(options);
+    } else {
+      var config = AWS.util.copy(self.service.config);
+      self.service = new self.service.constructor.__super__(config);
+      self.service.config.params =
+        AWS.util.merge(self.service.config.params || {}, options.params);
+    }
+  },
+
+  /**
+   * @api private
+   */
+  makeServiceRequest: function(operation, params, callback) {
+    var self = this;
+    var request = self.service[operation](params);
+    self.setupRequest(request);
+    self.setupResponse(request);
+    if (typeof callback === 'function') {
+      request.send(callback);
+    }
+    return request;
+  },
+
+  /**
+   * @api private
+   */
+  serviceClientOperationsMap: {
+    batchGet: 'batchGetItem',
+    batchWrite: 'batchWriteItem',
+    delete: 'deleteItem',
+    get: 'getItem',
+    put: 'putItem',
+    query: 'query',
+    scan: 'scan',
+    update: 'updateItem',
+    transactGet: 'transactGetItems',
+    transactWrite: 'transactWriteItems'
+  },
+
+  /**
+   * Returns the attributes of one or more items from one or more tables
+   * by delegating to `AWS.DynamoDB.batchGetItem()`.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.batchGetItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.batchGetItem
+   * @example Get items from multiple tables
+   *  var params = {
+   *    RequestItems: {
+   *      'Table-1': {
+   *        Keys: [
+   *          {
+   *             HashKey: 'haskey',
+   *             NumberRangeKey: 1
+   *          }
+   *        ]
+   *      },
+   *      'Table-2': {
+   *        Keys: [
+   *          { foo: 'bar' },
+   *        ]
+   *      }
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.batchGet(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  batchGet: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['batchGet'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Puts or deletes multiple items in one or more tables by delegating
+   * to `AWS.DynamoDB.batchWriteItem()`.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.batchWriteItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.batchWriteItem
+   * @example Write to and delete from a table
+   *  var params = {
+   *    RequestItems: {
+   *      'Table-1': [
+   *        {
+   *          DeleteRequest: {
+   *            Key: { HashKey: 'someKey' }
+   *          }
+   *        },
+   *        {
+   *          PutRequest: {
+   *            Item: {
+   *              HashKey: 'anotherKey',
+   *              NumAttribute: 1,
+   *              BoolAttribute: true,
+   *              ListAttribute: [1, 'two', false],
+   *              MapAttribute: { foo: 'bar' }
+   *            }
+   *          }
+   *        }
+   *      ]
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.batchWrite(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  batchWrite: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['batchWrite'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Deletes a single item in a table by primary key by delegating to
+   * `AWS.DynamoDB.deleteItem()`
+   *
+   * Supply the same parameters as {AWS.DynamoDB.deleteItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.deleteItem
+   * @example Delete an item from a table
+   *  var params = {
+   *    TableName : 'Table',
+   *    Key: {
+   *      HashKey: 'hashkey',
+   *      NumberRangeKey: 1
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.delete(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  delete: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['delete'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Returns a set of attributes for the item with the given primary key
+   * by delegating to `AWS.DynamoDB.getItem()`.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.getItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.getItem
+   * @example Get an item from a table
+   *  var params = {
+   *    TableName : 'Table',
+   *    Key: {
+   *      HashKey: 'hashkey'
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.get(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  get: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['get'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Creates a new item, or replaces an old item with a new item by
+   * delegating to `AWS.DynamoDB.putItem()`.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.putItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.putItem
+   * @example Create a new item in a table
+   *  var params = {
+   *    TableName : 'Table',
+   *    Item: {
+   *       HashKey: 'haskey',
+   *       NumAttribute: 1,
+   *       BoolAttribute: true,
+   *       ListAttribute: [1, 'two', false],
+   *       MapAttribute: { foo: 'bar'},
+   *       NullAttribute: null
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.put(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  put: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['put'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Edits an existing item's attributes, or adds a new item to the table if
+   * it does not already exist by delegating to `AWS.DynamoDB.updateItem()`.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.updateItem} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.updateItem
+   * @example Update an item with expressions
+   *  var params = {
+   *    TableName: 'Table',
+   *    Key: { HashKey : 'hashkey' },
+   *    UpdateExpression: 'set #a = :x + :y',
+   *    ConditionExpression: '#a < :MAX',
+   *    ExpressionAttributeNames: {'#a' : 'Sum'},
+   *    ExpressionAttributeValues: {
+   *      ':x' : 20,
+   *      ':y' : 45,
+   *      ':MAX' : 100,
+   *    }
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.update(params, function(err, data) {
+   *     if (err) console.log(err);
+   *     else console.log(data);
+   *  });
+   *
+   */
+  update: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['update'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Returns one or more items and item attributes by accessing every item
+   * in a table or a secondary index.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.scan} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.scan
+   * @example Scan the table with a filter expression
+   *  var params = {
+   *    TableName : 'Table',
+   *    FilterExpression : 'Year = :this_year',
+   *    ExpressionAttributeValues : {':this_year' : 2015}
+   *  };
+   *
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  documentClient.scan(params, function(err, data) {
+   *     if (err) console.log(err);
+   *     else console.log(data);
+   *  });
+   *
+   */
+  scan: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['scan'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+   /**
+    * Directly access items from a table by primary key or a secondary index.
+    *
+    * Supply the same parameters as {AWS.DynamoDB.query} with
+    * `AttributeValue`s substituted by native JavaScript types.
+    *
+    * @see AWS.DynamoDB.query
+    * @example Query an index
+    *  var params = {
+    *    TableName: 'Table',
+    *    IndexName: 'Index',
+    *    KeyConditionExpression: 'HashKey = :hkey and RangeKey > :rkey',
+    *    ExpressionAttributeValues: {
+    *      ':hkey': 'key',
+    *      ':rkey': 2015
+    *    }
+    *  };
+    *
+    *  var documentClient = new AWS.DynamoDB.DocumentClient();
+    *
+    *  documentClient.query(params, function(err, data) {
+    *     if (err) console.log(err);
+    *     else console.log(data);
+    *  });
+    *
+    */
+  query: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['query'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Synchronous write operation that groups up to 25 action requests.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.transactWriteItems} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.transactWriteItems
+   * @example Get items from multiple tables
+   *  var params = {
+   *    TransactItems: [{
+   *      Put: {
+   *        TableName : 'Table0',
+   *        Item: {
+   *          HashKey: 'haskey',
+   *          NumAttribute: 1,
+   *          BoolAttribute: true,
+   *          ListAttribute: [1, 'two', false],
+   *          MapAttribute: { foo: 'bar'},
+   *          NullAttribute: null
+   *        }
+   *      }
+   *    }, {
+   *      Update: {
+   *        TableName: 'Table1',
+   *        Key: { HashKey : 'hashkey' },
+   *        UpdateExpression: 'set #a = :x + :y',
+   *        ConditionExpression: '#a < :MAX',
+   *        ExpressionAttributeNames: {'#a' : 'Sum'},
+   *        ExpressionAttributeValues: {
+   *          ':x' : 20,
+   *          ':y' : 45,
+   *          ':MAX' : 100,
+   *        }
+   *      }
+   *    }]
+   *  };
+   *
+   *  documentClient.transactWrite(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   */
+  transactWrite: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['transactWrite'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Atomically retrieves multiple items from one or more tables (but not from indexes)
+   * in a single account and region.
+   *
+   * Supply the same parameters as {AWS.DynamoDB.transactGetItems} with
+   * `AttributeValue`s substituted by native JavaScript types.
+   *
+   * @see AWS.DynamoDB.transactGetItems
+   * @example Get items from multiple tables
+   *  var params = {
+   *    TransactItems: [{
+   *      Get: {
+   *        TableName : 'Table0',
+   *        Key: {
+   *          HashKey: 'hashkey0'
+   *        }
+   *      }
+   *    }, {
+   *      Get: {
+   *        TableName : 'Table1',
+   *        Key: {
+   *          HashKey: 'hashkey1'
+   *        }
+   *      }
+   *    }]
+   *  };
+   *
+   *  documentClient.transactGet(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   */
+  transactGet: function(params, callback) {
+    var operation = this.serviceClientOperationsMap['transactGet'];
+    return this.makeServiceRequest(operation, params, callback);
+  },
+
+  /**
+   * Creates a set of elements inferring the type of set from
+   * the type of the first element. Amazon DynamoDB currently supports
+   * the number sets, string sets, and binary sets. For more information
+   * about DynamoDB data types see the documentation on the
+   * [Amazon DynamoDB Data Model](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DataModel.html#DataModel.DataTypes).
+   *
+   * @param list [Array] Collection to represent your DynamoDB Set
+   * @param options [map]
+   *  * **validate** [Boolean] set to true if you want to validate the type
+   *    of each element in the set. Defaults to `false`.
+   * @example Creating a number set
+   *  var documentClient = new AWS.DynamoDB.DocumentClient();
+   *
+   *  var params = {
+   *    Item: {
+   *      hashkey: 'hashkey'
+   *      numbers: documentClient.createSet([1, 2, 3]);
+   *    }
+   *  };
+   *
+   *  documentClient.put(params, function(err, data) {
+   *    if (err) console.log(err);
+   *    else console.log(data);
+   *  });
+   *
+   */
+  createSet: function(list, options) {
+    options = options || {};
+    return new DynamoDBSet(list, options);
+  },
+
+  /**
+   * @api private
+   */
+  getTranslator: function() {
+    return new Translator(this.options);
+  },
+
+  /**
+   * @api private
+   */
+  setupRequest: function setupRequest(request) {
+    var self = this;
+    var translator = self.getTranslator();
+    var operation = request.operation;
+    var inputShape = request.service.api.operations[operation].input;
+    request._events.validate.unshift(function(req) {
+      req.rawParams = AWS.util.copy(req.params);
+      req.params = translator.translateInput(req.rawParams, inputShape);
+    });
+  },
+
+  /**
+   * @api private
+   */
+  setupResponse: function setupResponse(request) {
+    var self = this;
+    var translator = self.getTranslator();
+    var outputShape = self.service.api.operations[request.operation].output;
+    request.on('extractData', function(response) {
+      response.data = translator.translateOutput(response.data, outputShape);
+    });
+
+    var response = request.response;
+    response.nextPage = function(cb) {
+      var resp = this;
+      var req = resp.request;
+      var config;
+      var service = req.service;
+      var operation = req.operation;
+      try {
+        config = service.paginationConfig(operation, true);
+      } catch (e) { resp.error = e; }
+
+      if (!resp.hasNextPage()) {
+        if (cb) cb(resp.error, null);
+        else if (resp.error) throw resp.error;
+        return null;
+      }
+
+      var params = AWS.util.copy(req.rawParams);
+      if (!resp.nextPageTokens) {
+        return cb ? cb(null, null) : null;
+      } else {
+        var inputTokens = config.inputToken;
+        if (typeof inputTokens === 'string') inputTokens = [inputTokens];
+        for (var i = 0; i < inputTokens.length; i++) {
+          params[inputTokens[i]] = resp.nextPageTokens[i];
+        }
+        return self[operation](params, cb);
+      }
+    };
+  }
+
+});
+
+/**
+ * @api private
+ */
+module.exports = AWS.DynamoDB.DocumentClient;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/event_listeners.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/event_listeners.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+var SequentialExecutor = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './sequential_executor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var DISCOVER_ENDPOINT = (__webpack_require__(/*! ./discover_endpoint */ "./node_modules/aws-sdk/lib/discover_endpoint.js").discoverEndpoint);
+/**
+ * The namespace used to register global event listeners for request building
+ * and sending.
+ */
+AWS.EventListeners = {
+  /**
+   * @!attribute VALIDATE_CREDENTIALS
+   *   A request listener that validates whether the request is being
+   *   sent with credentials.
+   *   Handles the {AWS.Request~validate 'validate' Request event}
+   *   @example Sending a request without validating credentials
+   *     var listener = AWS.EventListeners.Core.VALIDATE_CREDENTIALS;
+   *     request.removeListener('validate', listener);
+   *   @readonly
+   *   @return [Function]
+   * @!attribute VALIDATE_REGION
+   *   A request listener that validates whether the region is set
+   *   for a request.
+   *   Handles the {AWS.Request~validate 'validate' Request event}
+   *   @example Sending a request without validating region configuration
+   *     var listener = AWS.EventListeners.Core.VALIDATE_REGION;
+   *     request.removeListener('validate', listener);
+   *   @readonly
+   *   @return [Function]
+   * @!attribute VALIDATE_PARAMETERS
+   *   A request listener that validates input parameters in a request.
+   *   Handles the {AWS.Request~validate 'validate' Request event}
+   *   @example Sending a request without validating parameters
+   *     var listener = AWS.EventListeners.Core.VALIDATE_PARAMETERS;
+   *     request.removeListener('validate', listener);
+   *   @example Disable parameter validation globally
+   *     AWS.EventListeners.Core.removeListener('validate',
+   *       AWS.EventListeners.Core.VALIDATE_REGION);
+   *   @readonly
+   *   @return [Function]
+   * @!attribute SEND
+   *   A request listener that initiates the HTTP connection for a
+   *   request being sent. Handles the {AWS.Request~send 'send' Request event}
+   *   @example Replacing the HTTP handler
+   *     var listener = AWS.EventListeners.Core.SEND;
+   *     request.removeListener('send', listener);
+   *     request.on('send', function(response) {
+   *       customHandler.send(response);
+   *     });
+   *   @return [Function]
+   *   @readonly
+   * @!attribute HTTP_DATA
+   *   A request listener that reads data from the HTTP connection in order
+   *   to build the response data.
+   *   Handles the {AWS.Request~httpData 'httpData' Request event}.
+   *   Remove this handler if you are overriding the 'httpData' event and
+   *   do not want extra data processing and buffering overhead.
+   *   @example Disabling default data processing
+   *     var listener = AWS.EventListeners.Core.HTTP_DATA;
+   *     request.removeListener('httpData', listener);
+   *   @return [Function]
+   *   @readonly
+   */
+  Core: {} /* doc hack */
+};
+
+/**
+ * @api private
+ */
+function getOperationAuthtype(req) {
+  if (!req.service.api.operations) {
+    return '';
+  }
+  var operation = req.service.api.operations[req.operation];
+  return operation ? operation.authtype : '';
+}
+
+/**
+ * @api private
+ */
+function getIdentityType(req) {
+  var service = req.service;
+
+  if (service.config.signatureVersion) {
+    return service.config.signatureVersion;
+  }
+
+  if (service.api.signatureVersion) {
+    return service.api.signatureVersion;
+  }
+
+  return getOperationAuthtype(req);
+}
+
+AWS.EventListeners = {
+  Core: new SequentialExecutor().addNamedListeners(function(add, addAsync) {
+    addAsync(
+      'VALIDATE_CREDENTIALS', 'validate',
+      function VALIDATE_CREDENTIALS(req, done) {
+        if (!req.service.api.signatureVersion && !req.service.config.signatureVersion) return done(); // none
+
+        var identityType = getIdentityType(req);
+        if (identityType === 'bearer') {
+          req.service.config.getToken(function(err) {
+            if (err) {
+              req.response.error = AWS.util.error(err, {code: 'TokenError'});
+            }
+            done();
+          });
+          return;
+        }
+
+        req.service.config.getCredentials(function(err) {
+          if (err) {
+            req.response.error = AWS.util.error(err,
+              {
+                code: 'CredentialsError',
+                message: 'Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1'
+              }
+            );
+          }
+          done();
+        });
+    });
+
+    add('VALIDATE_REGION', 'validate', function VALIDATE_REGION(req) {
+      if (!req.service.isGlobalEndpoint) {
+        var dnsHostRegex = new RegExp(/^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$/);
+        if (!req.service.config.region) {
+          req.response.error = AWS.util.error(new Error(),
+            {code: 'ConfigError', message: 'Missing region in config'});
+        } else if (!dnsHostRegex.test(req.service.config.region)) {
+          req.response.error = AWS.util.error(new Error(),
+            {code: 'ConfigError', message: 'Invalid region in config'});
+        }
+      }
+    });
+
+    add('BUILD_IDEMPOTENCY_TOKENS', 'validate', function BUILD_IDEMPOTENCY_TOKENS(req) {
+      if (!req.service.api.operations) {
+        return;
+      }
+      var operation = req.service.api.operations[req.operation];
+      if (!operation) {
+        return;
+      }
+      var idempotentMembers = operation.idempotentMembers;
+      if (!idempotentMembers.length) {
+        return;
+      }
+      // creates a copy of params so user's param object isn't mutated
+      var params = AWS.util.copy(req.params);
+      for (var i = 0, iLen = idempotentMembers.length; i < iLen; i++) {
+        if (!params[idempotentMembers[i]]) {
+          // add the member
+          params[idempotentMembers[i]] = AWS.util.uuid.v4();
+        }
+      }
+      req.params = params;
+    });
+
+    add('VALIDATE_PARAMETERS', 'validate', function VALIDATE_PARAMETERS(req) {
+      if (!req.service.api.operations) {
+        return;
+      }
+      var rules = req.service.api.operations[req.operation].input;
+      var validation = req.service.config.paramValidation;
+      new AWS.ParamValidator(validation).validate(rules, req.params);
+    });
+
+    add('COMPUTE_CHECKSUM', 'afterBuild', function COMPUTE_CHECKSUM(req) {
+      if (!req.service.api.operations) {
+        return;
+      }
+      var operation = req.service.api.operations[req.operation];
+      if (!operation) {
+        return;
+      }
+      var body = req.httpRequest.body;
+      var isNonStreamingPayload = body && (AWS.util.Buffer.isBuffer(body) || typeof body === 'string');
+      var headers = req.httpRequest.headers;
+      if (
+        operation.httpChecksumRequired &&
+        req.service.config.computeChecksums &&
+        isNonStreamingPayload &&
+        !headers['Content-MD5']
+      ) {
+        var md5 = AWS.util.crypto.md5(body, 'base64');
+        headers['Content-MD5'] = md5;
+      }
+    });
+
+    addAsync('COMPUTE_SHA256', 'afterBuild', function COMPUTE_SHA256(req, done) {
+      req.haltHandlersOnError();
+      if (!req.service.api.operations) {
+        return;
+      }
+      var operation = req.service.api.operations[req.operation];
+      var authtype = operation ? operation.authtype : '';
+      if (!req.service.api.signatureVersion && !authtype && !req.service.config.signatureVersion) return done(); // none
+      if (req.service.getSignerClass(req) === AWS.Signers.V4) {
+        var body = req.httpRequest.body || '';
+        if (authtype.indexOf('unsigned-body') >= 0) {
+          req.httpRequest.headers['X-Amz-Content-Sha256'] = 'UNSIGNED-PAYLOAD';
+          return done();
+        }
+        AWS.util.computeSha256(body, function(err, sha) {
+          if (err) {
+            done(err);
+          }
+          else {
+            req.httpRequest.headers['X-Amz-Content-Sha256'] = sha;
+            done();
+          }
+        });
+      } else {
+        done();
+      }
+    });
+
+    add('SET_CONTENT_LENGTH', 'afterBuild', function SET_CONTENT_LENGTH(req) {
+      var authtype = getOperationAuthtype(req);
+      var payloadMember = AWS.util.getRequestPayloadShape(req);
+      if (req.httpRequest.headers['Content-Length'] === undefined) {
+        try {
+          var length = AWS.util.string.byteLength(req.httpRequest.body);
+          req.httpRequest.headers['Content-Length'] = length;
+        } catch (err) {
+          if (payloadMember && payloadMember.isStreaming) {
+            if (payloadMember.requiresLength) {
+              //streaming payload requires length(s3, glacier)
+              throw err;
+            } else if (authtype.indexOf('unsigned-body') >= 0) {
+              //unbounded streaming payload(lex, mediastore)
+              req.httpRequest.headers['Transfer-Encoding'] = 'chunked';
+              return;
+            } else {
+              throw err;
+            }
+          }
+          throw err;
+        }
+      }
+    });
+
+    add('SET_HTTP_HOST', 'afterBuild', function SET_HTTP_HOST(req) {
+      req.httpRequest.headers['Host'] = req.httpRequest.endpoint.host;
+    });
+
+    add('SET_TRACE_ID', 'afterBuild', function SET_TRACE_ID(req) {
+      var traceIdHeaderName = 'X-Amzn-Trace-Id';
+      if (AWS.util.isNode() && !Object.hasOwnProperty.call(req.httpRequest.headers, traceIdHeaderName)) {
+        var ENV_LAMBDA_FUNCTION_NAME = 'AWS_LAMBDA_FUNCTION_NAME';
+        var ENV_TRACE_ID = '_X_AMZN_TRACE_ID';
+        var functionName = process.env[ENV_LAMBDA_FUNCTION_NAME];
+        var traceId = process.env[ENV_TRACE_ID];
+        if (
+          typeof functionName === 'string' &&
+          functionName.length > 0 &&
+          typeof traceId === 'string' &&
+          traceId.length > 0
+        ) {
+          req.httpRequest.headers[traceIdHeaderName] = traceId;
+        }
+      }
+    });
+
+    add('RESTART', 'restart', function RESTART() {
+      var err = this.response.error;
+      if (!err || !err.retryable) return;
+
+      this.httpRequest = new AWS.HttpRequest(
+        this.service.endpoint,
+        this.service.region
+      );
+
+      if (this.response.retryCount < this.service.config.maxRetries) {
+        this.response.retryCount++;
+      } else {
+        this.response.error = null;
+      }
+    });
+
+    var addToHead = true;
+    addAsync('DISCOVER_ENDPOINT', 'sign', DISCOVER_ENDPOINT, addToHead);
+
+    addAsync('SIGN', 'sign', function SIGN(req, done) {
+      var service = req.service;
+      var identityType = getIdentityType(req);
+      if (!identityType || identityType.length === 0) return done(); // none
+
+      if (identityType === 'bearer') {
+        service.config.getToken(function (err, token) {
+          if (err) {
+            req.response.error = err;
+            return done();
+          }
+
+          try {
+            var SignerClass = service.getSignerClass(req);
+            var signer = new SignerClass(req.httpRequest);
+            signer.addAuthorization(token);
+          } catch (e) {
+            req.response.error = e;
+          }
+          done();
+        });
+      } else {
+        service.config.getCredentials(function (err, credentials) {
+          if (err) {
+            req.response.error = err;
+            return done();
+          }
+
+          try {
+            var date = service.getSkewCorrectedDate();
+            var SignerClass = service.getSignerClass(req);
+            var operations = req.service.api.operations || {};
+            var operation = operations[req.operation];
+            var signer = new SignerClass(req.httpRequest,
+              service.getSigningName(req),
+              {
+                signatureCache: service.config.signatureCache,
+                operation: operation,
+                signatureVersion: service.api.signatureVersion
+              });
+            signer.setServiceClientId(service._clientId);
+
+            // clear old authorization headers
+            delete req.httpRequest.headers['Authorization'];
+            delete req.httpRequest.headers['Date'];
+            delete req.httpRequest.headers['X-Amz-Date'];
+
+            // add new authorization
+            signer.addAuthorization(credentials, date);
+            req.signedAt = date;
+          } catch (e) {
+            req.response.error = e;
+          }
+          done();
+        });
+
+      }
+    });
+
+    add('VALIDATE_RESPONSE', 'validateResponse', function VALIDATE_RESPONSE(resp) {
+      if (this.service.successfulResponse(resp, this)) {
+        resp.data = {};
+        resp.error = null;
+      } else {
+        resp.data = null;
+        resp.error = AWS.util.error(new Error(),
+          {code: 'UnknownError', message: 'An unknown error occurred.'});
+      }
+    });
+
+    add('ERROR', 'error', function ERROR(err, resp) {
+      var awsQueryCompatible = resp.request.service.api.awsQueryCompatible;
+      if (awsQueryCompatible) {
+        var headers = resp.httpResponse.headers;
+        var queryErrorCode = headers ? headers['x-amzn-query-error'] : undefined;
+        if (queryErrorCode && queryErrorCode.includes(';')) {
+          resp.error.code = queryErrorCode.split(';')[0];
+        }
+      }
+    }, true);
+
+    addAsync('SEND', 'send', function SEND(resp, done) {
+      resp.httpResponse._abortCallback = done;
+      resp.error = null;
+      resp.data = null;
+
+      function callback(httpResp) {
+        resp.httpResponse.stream = httpResp;
+        var stream = resp.request.httpRequest.stream;
+        var service = resp.request.service;
+        var api = service.api;
+        var operationName = resp.request.operation;
+        var operation = api.operations[operationName] || {};
+
+        httpResp.on('headers', function onHeaders(statusCode, headers, statusMessage) {
+          resp.request.emit(
+            'httpHeaders',
+            [statusCode, headers, resp, statusMessage]
+          );
+
+          if (!resp.httpResponse.streaming) {
+            if (AWS.HttpClient.streamsApiVersion === 2) { // streams2 API check
+              // if we detect event streams, we're going to have to
+              // return the stream immediately
+              if (operation.hasEventOutput && service.successfulResponse(resp)) {
+                // skip reading the IncomingStream
+                resp.request.emit('httpDone');
+                done();
+                return;
+              }
+
+              httpResp.on('readable', function onReadable() {
+                var data = httpResp.read();
+                if (data !== null) {
+                  resp.request.emit('httpData', [data, resp]);
+                }
+              });
+            } else { // legacy streams API
+              httpResp.on('data', function onData(data) {
+                resp.request.emit('httpData', [data, resp]);
+              });
+            }
+          }
+        });
+
+        httpResp.on('end', function onEnd() {
+          if (!stream || !stream.didCallback) {
+            if (AWS.HttpClient.streamsApiVersion === 2 && (operation.hasEventOutput && service.successfulResponse(resp))) {
+              // don't concatenate response chunks when streaming event stream data when response is successful
+              return;
+            }
+            resp.request.emit('httpDone');
+            done();
+          }
+        });
+      }
+
+      function progress(httpResp) {
+        httpResp.on('sendProgress', function onSendProgress(value) {
+          resp.request.emit('httpUploadProgress', [value, resp]);
+        });
+
+        httpResp.on('receiveProgress', function onReceiveProgress(value) {
+          resp.request.emit('httpDownloadProgress', [value, resp]);
+        });
+      }
+
+      function error(err) {
+        if (err.code !== 'RequestAbortedError') {
+          var errCode = err.code === 'TimeoutError' ? err.code : 'NetworkingError';
+          err = AWS.util.error(err, {
+            code: errCode,
+            region: resp.request.httpRequest.region,
+            hostname: resp.request.httpRequest.endpoint.hostname,
+            retryable: true
+          });
+        }
+        resp.error = err;
+        resp.request.emit('httpError', [resp.error, resp], function() {
+          done();
+        });
+      }
+
+      function executeSend() {
+        var http = AWS.HttpClient.getInstance();
+        var httpOptions = resp.request.service.config.httpOptions || {};
+        try {
+          var stream = http.handleRequest(resp.request.httpRequest, httpOptions,
+                                          callback, error);
+          progress(stream);
+        } catch (err) {
+          error(err);
+        }
+      }
+      var timeDiff = (resp.request.service.getSkewCorrectedDate() - this.signedAt) / 1000;
+      if (timeDiff >= 60 * 10) { // if we signed 10min ago, re-sign
+        this.emit('sign', [this], function(err) {
+          if (err) done(err);
+          else executeSend();
+        });
+      } else {
+        executeSend();
+      }
+    });
+
+    add('HTTP_HEADERS', 'httpHeaders',
+        function HTTP_HEADERS(statusCode, headers, resp, statusMessage) {
+      resp.httpResponse.statusCode = statusCode;
+      resp.httpResponse.statusMessage = statusMessage;
+      resp.httpResponse.headers = headers;
+      resp.httpResponse.body = AWS.util.buffer.toBuffer('');
+      resp.httpResponse.buffers = [];
+      resp.httpResponse.numBytes = 0;
+      var dateHeader = headers.date || headers.Date;
+      var service = resp.request.service;
+      if (dateHeader) {
+        var serverTime = Date.parse(dateHeader);
+        if (service.config.correctClockSkew
+            && service.isClockSkewed(serverTime)) {
+          service.applyClockOffset(serverTime);
+        }
+      }
+    });
+
+    add('HTTP_DATA', 'httpData', function HTTP_DATA(chunk, resp) {
+      if (chunk) {
+        if (AWS.util.isNode()) {
+          resp.httpResponse.numBytes += chunk.length;
+
+          var total = resp.httpResponse.headers['content-length'];
+          var progress = { loaded: resp.httpResponse.numBytes, total: total };
+          resp.request.emit('httpDownloadProgress', [progress, resp]);
+        }
+
+        resp.httpResponse.buffers.push(AWS.util.buffer.toBuffer(chunk));
+      }
+    });
+
+    add('HTTP_DONE', 'httpDone', function HTTP_DONE(resp) {
+      // convert buffers array into single buffer
+      if (resp.httpResponse.buffers && resp.httpResponse.buffers.length > 0) {
+        var body = AWS.util.buffer.concat(resp.httpResponse.buffers);
+        resp.httpResponse.body = body;
+      }
+      delete resp.httpResponse.numBytes;
+      delete resp.httpResponse.buffers;
+    });
+
+    add('FINALIZE_ERROR', 'retry', function FINALIZE_ERROR(resp) {
+      if (resp.httpResponse.statusCode) {
+        resp.error.statusCode = resp.httpResponse.statusCode;
+        if (resp.error.retryable === undefined) {
+          resp.error.retryable = this.service.retryableError(resp.error, this);
+        }
+      }
+    });
+
+    add('INVALIDATE_CREDENTIALS', 'retry', function INVALIDATE_CREDENTIALS(resp) {
+      if (!resp.error) return;
+      switch (resp.error.code) {
+        case 'RequestExpired': // EC2 only
+        case 'ExpiredTokenException':
+        case 'ExpiredToken':
+          resp.error.retryable = true;
+          resp.request.service.config.credentials.expired = true;
+      }
+    });
+
+    add('EXPIRED_SIGNATURE', 'retry', function EXPIRED_SIGNATURE(resp) {
+      var err = resp.error;
+      if (!err) return;
+      if (typeof err.code === 'string' && typeof err.message === 'string') {
+        if (err.code.match(/Signature/) && err.message.match(/expired/)) {
+          resp.error.retryable = true;
+        }
+      }
+    });
+
+    add('CLOCK_SKEWED', 'retry', function CLOCK_SKEWED(resp) {
+      if (!resp.error) return;
+      if (this.service.clockSkewError(resp.error)
+          && this.service.config.correctClockSkew) {
+        resp.error.retryable = true;
+      }
+    });
+
+    add('REDIRECT', 'retry', function REDIRECT(resp) {
+      if (resp.error && resp.error.statusCode >= 300 &&
+          resp.error.statusCode < 400 && resp.httpResponse.headers['location']) {
+        this.httpRequest.endpoint =
+          new AWS.Endpoint(resp.httpResponse.headers['location']);
+        this.httpRequest.headers['Host'] = this.httpRequest.endpoint.host;
+        resp.error.redirect = true;
+        resp.error.retryable = true;
+      }
+    });
+
+    add('RETRY_CHECK', 'retry', function RETRY_CHECK(resp) {
+      if (resp.error) {
+        if (resp.error.redirect && resp.redirectCount < resp.maxRedirects) {
+          resp.error.retryDelay = 0;
+        } else if (resp.retryCount < resp.maxRetries) {
+          resp.error.retryDelay = this.service.retryDelays(resp.retryCount, resp.error) || 0;
+        }
+      }
+    });
+
+    addAsync('RESET_RETRY_STATE', 'afterRetry', function RESET_RETRY_STATE(resp, done) {
+      var delay, willRetry = false;
+
+      if (resp.error) {
+        delay = resp.error.retryDelay || 0;
+        if (resp.error.retryable && resp.retryCount < resp.maxRetries) {
+          resp.retryCount++;
+          willRetry = true;
+        } else if (resp.error.redirect && resp.redirectCount < resp.maxRedirects) {
+          resp.redirectCount++;
+          willRetry = true;
+        }
+      }
+
+      // delay < 0 is a signal from customBackoff to skip retries
+      if (willRetry && delay >= 0) {
+        resp.error = null;
+        setTimeout(done, delay);
+      } else {
+        done();
+      }
+    });
+  }),
+
+  CorePost: new SequentialExecutor().addNamedListeners(function(add) {
+    add('EXTRACT_REQUEST_ID', 'extractData', AWS.util.extractRequestId);
+    add('EXTRACT_REQUEST_ID', 'extractError', AWS.util.extractRequestId);
+
+    add('ENOTFOUND_ERROR', 'httpError', function ENOTFOUND_ERROR(err) {
+      function isDNSError(err) {
+        return err.errno === 'ENOTFOUND' ||
+          typeof err.errno === 'number' &&
+          typeof AWS.util.getSystemErrorName === 'function' &&
+          ['EAI_NONAME', 'EAI_NODATA'].indexOf(AWS.util.getSystemErrorName(err.errno) >= 0);
+      }
+      if (err.code === 'NetworkingError' && isDNSError(err)) {
+        var message = 'Inaccessible host: `' + err.hostname + '\' at port `' + err.port +
+          '\'. This service may not be available in the `' + err.region +
+          '\' region.';
+        this.response.error = AWS.util.error(new Error(message), {
+          code: 'UnknownEndpoint',
+          region: err.region,
+          hostname: err.hostname,
+          retryable: true,
+          originalError: err
+        });
+      }
+    });
+  }),
+
+  Logger: new SequentialExecutor().addNamedListeners(function(add) {
+    add('LOG_REQUEST', 'complete', function LOG_REQUEST(resp) {
+      var req = resp.request;
+      var logger = req.service.config.logger;
+      if (!logger) return;
+      function filterSensitiveLog(inputShape, shape) {
+        if (!shape) {
+          return shape;
+        }
+        if (inputShape.isSensitive) {
+          return '***SensitiveInformation***';
+        }
+        switch (inputShape.type) {
+          case 'structure':
+            var struct = {};
+            AWS.util.each(shape, function(subShapeName, subShape) {
+              if (Object.prototype.hasOwnProperty.call(inputShape.members, subShapeName)) {
+                struct[subShapeName] = filterSensitiveLog(inputShape.members[subShapeName], subShape);
+              } else {
+                struct[subShapeName] = subShape;
+              }
+            });
+            return struct;
+          case 'list':
+            var list = [];
+            AWS.util.arrayEach(shape, function(subShape, index) {
+              list.push(filterSensitiveLog(inputShape.member, subShape));
+            });
+            return list;
+          case 'map':
+            var map = {};
+            AWS.util.each(shape, function(key, value) {
+              map[key] = filterSensitiveLog(inputShape.value, value);
+            });
+            return map;
+          default:
+            return shape;
+        }
+      }
+
+      function buildMessage() {
+        var time = resp.request.service.getSkewCorrectedDate().getTime();
+        var delta = (time - req.startTime.getTime()) / 1000;
+        var ansi = logger.isTTY ? true : false;
+        var status = resp.httpResponse.statusCode;
+        var censoredParams = req.params;
+        if (
+          req.service.api.operations &&
+              req.service.api.operations[req.operation] &&
+              req.service.api.operations[req.operation].input
+        ) {
+          var inputShape = req.service.api.operations[req.operation].input;
+          censoredParams = filterSensitiveLog(inputShape, req.params);
+        }
+        var params = (__webpack_require__(/*! util */ "./node_modules/util/util.js").inspect)(censoredParams, true, null);
+        var message = '';
+        if (ansi) message += '\x1B[33m';
+        message += '[AWS ' + req.service.serviceIdentifier + ' ' + status;
+        message += ' ' + delta.toString() + 's ' + resp.retryCount + ' retries]';
+        if (ansi) message += '\x1B[0;1m';
+        message += ' ' + AWS.util.string.lowerFirst(req.operation);
+        message += '(' + params + ')';
+        if (ansi) message += '\x1B[0m';
+        return message;
+      }
+
+      var line = buildMessage();
+      if (typeof logger.log === 'function') {
+        logger.log(line);
+      } else if (typeof logger.write === 'function') {
+        logger.write(line + '\n');
+      }
+    });
+  }),
+
+  Json: new SequentialExecutor().addNamedListeners(function(add) {
+    var svc = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    add('BUILD', 'build', svc.buildRequest);
+    add('EXTRACT_DATA', 'extractData', svc.extractData);
+    add('EXTRACT_ERROR', 'extractError', svc.extractError);
+  }),
+
+  Rest: new SequentialExecutor().addNamedListeners(function(add) {
+    var svc = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    add('BUILD', 'build', svc.buildRequest);
+    add('EXTRACT_DATA', 'extractData', svc.extractData);
+    add('EXTRACT_ERROR', 'extractError', svc.extractError);
+  }),
+
+  RestJson: new SequentialExecutor().addNamedListeners(function(add) {
+    var svc = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest_json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    add('BUILD', 'build', svc.buildRequest);
+    add('EXTRACT_DATA', 'extractData', svc.extractData);
+    add('EXTRACT_ERROR', 'extractError', svc.extractError);
+    add('UNSET_CONTENT_LENGTH', 'afterBuild', svc.unsetContentLength);
+  }),
+
+  RestXml: new SequentialExecutor().addNamedListeners(function(add) {
+    var svc = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/rest_xml'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    add('BUILD', 'build', svc.buildRequest);
+    add('EXTRACT_DATA', 'extractData', svc.extractData);
+    add('EXTRACT_ERROR', 'extractError', svc.extractError);
+  }),
+
+  Query: new SequentialExecutor().addNamedListeners(function(add) {
+    var svc = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './protocol/query'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+    add('BUILD', 'build', svc.buildRequest);
+    add('EXTRACT_DATA', 'extractData', svc.extractData);
+    add('EXTRACT_ERROR', 'extractError', svc.extractError);
+  })
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/http.js":
+/*!******************************************!*\
+  !*** ./node_modules/aws-sdk/lib/http.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ./core */ "./node_modules/aws-sdk/lib/core.js");
+var inherit = AWS.util.inherit;
+
+/**
+ * The endpoint that a service will talk to, for example,
+ * `'https://ec2.ap-southeast-1.amazonaws.com'`. If
+ * you need to override an endpoint for a service, you can
+ * set the endpoint on a service by passing the endpoint
+ * object with the `endpoint` option key:
+ *
+ * ```javascript
+ * var ep = new AWS.Endpoint('awsproxy.example.com');
+ * var s3 = new AWS.S3({endpoint: ep});
+ * s3.service.endpoint.hostname == 'awsproxy.example.com'
+ * ```
+ *
+ * Note that if you do not specify a protocol, the protocol will
+ * be selected based on your current {AWS.config} configuration.
+ *
+ * @!attribute protocol
+ *   @return [String] the protocol (http or https) of the endpoint
+ *     URL
+ * @!attribute hostname
+ *   @return [String] the host portion of the endpoint, e.g.,
+ *     example.com
+ * @!attribute host
+ *   @return [String] the host portion of the endpoint including
+ *     the port, e.g., example.com:80
+ * @!attribute port
+ *   @return [Integer] the port of the endpoint
+ * @!attribute href
+ *   @return [String] the full URL of the endpoint
+ */
+AWS.Endpoint = inherit({
+
+  /**
+   * @overload Endpoint(endpoint)
+   *   Constructs a new endpoint given an endpoint URL. If the
+   *   URL omits a protocol (http or https), the default protocol
+   *   set in the global {AWS.config} will be used.
+   *   @param endpoint [String] the URL to construct an endpoint from
+   */
+  constructor: function Endpoint(endpoint, config) {
+    AWS.util.hideProperties(this, ['slashes', 'auth', 'hash', 'search', 'query']);
+
+    if (typeof endpoint === 'undefined' || endpoint === null) {
+      throw new Error('Invalid endpoint: ' + endpoint);
+    } else if (typeof endpoint !== 'string') {
+      return AWS.util.copy(endpoint);
+    }
+
+    if (!endpoint.match(/^http/)) {
+      var useSSL = config && config.sslEnabled !== undefined ?
+        config.sslEnabled : AWS.config.sslEnabled;
+      endpoint = (useSSL ? 'https' : 'http') + '://' + endpoint;
+    }
+
+    AWS.util.update(this, AWS.util.urlParse(endpoint));
+
+    // Ensure the port property is set as an integer
+    if (this.port) {
+      this.port = parseInt(this.port, 10);
+    } else {
+      this.port = this.protocol === 'https:' ? 443 : 80;
+    }
+  }
+
+});
+
+/**
+ * The low level HTTP request object, encapsulating all HTTP header
+ * and body data sent by a service request.
+ *
+ * @!attribute method
+ *   @return [String] the HTTP method of the request
+ * @!attribute path
+ *   @return [String] the path portion of the URI, e.g.,
+ *     "/list/?start=5&num=10"
+ * @!attribute headers
+ *   @return [map<String,String>]
+ *     a map of header keys and their respective values
+ * @!attribute body
+ *   @return [String] the request body payload
+ * @!attribute endpoint
+ *   @return [AWS.Endpoint] the endpoint for the request
+ * @!attribute region
+ *   @api private
+ *   @return [String] the region, for signing purposes only.
+ */
+AWS.HttpRequest = inherit({
+
+  /**
+   * @api private
+   */
+  constructor: function HttpRequest(endpoint, region) {
+    endpoint = new AWS.Endpoint(endpoint);
+    this.method = 'POST';
+    this.path = endpoint.path || '/';
+    this.headers = {};
+    this.body = '';
+    this.endpoint = endpoint;
+    this.region = region;
+    this._userAgent = '';
+    this.setUserAgent();
+  },
+
+  /**
+   * @api private
+   */
+  setUserAgent: function setUserAgent() {
+    this._userAgent = this.headers[this.getUserAgentHeaderName()] = AWS.util.userAgent();
+  },
+
+  getUserAgentHeaderName: function getUserAgentHeaderName() {
+    var prefix = AWS.util.isBrowser() ? 'X-Amz-' : '';
+    return prefix + 'User-Agent';
+  },
+
+  /**
+   * @api private
+   */
+  appendToUserAgent: function appendToUserAgent(agentPartial) {
+    if (typeof agentPartial === 'string' && agentPartial) {
+      this._userAgent += ' ' + agentPartial;
+    }
+    this.headers[this.getUserAgentHeaderName()] = this._userAgent;
+  },
+
+  /**
+   * @api private
+   */
+  getUserAgent: function getUserAgent() {
+    return this._userAgent;
+  },
+
+  /**
+   * @return [String] the part of the {path} excluding the
+   *   query string
+   */
+  pathname: function pathname() {
+    return this.path.split('?', 1)[0];
+  },
+
+  /**
+   * @return [String] the query string portion of the {path}
+   */
+  search: function search() {
+    var query = this.path.split('?', 2)[1];
+    if (query) {
+      query = AWS.util.queryStringParse(query);
+      return AWS.util.queryParamsToString(query);
+    }
+    return '';
+  },
+
+  /**
+   * @api private
+   * update httpRequest endpoint with endpoint string
+   */
+  updateEndpoint: function updateEndpoint(endpointStr) {
+    var newEndpoint = new AWS.Endpoint(endpointStr);
+    this.endpoint = newEndpoint;
+    this.path = newEndpoint.path || '/';
+    if (this.headers['Host']) {
+      this.headers['Host'] = newEndpoint.host;
+    }
+  }
+});
+
+/**
+ * The low level HTTP response object, encapsulating all HTTP header
+ * and body data returned from the request.
+ *
+ * @!attribute statusCode
+ *   @return [Integer] the HTTP status code of the response (e.g., 200, 404)
+ * @!attribute headers
+ *   @return [map<String,String>]
+ *      a map of response header keys and their respective values
+ * @!attribute body
+ *   @return [String] the response body payload
+ * @!attribute [r] streaming
+ *   @return [Boolean] whether this response is being streamed at a low-level.
+ *     Defaults to `false` (buffered reads). Do not modify this manually, use
+ *     {createUnbufferedStream} to convert the stream to unbuffered mode
+ *     instead.
+ */
+AWS.HttpResponse = inherit({
+
+  /**
+   * @api private
+   */
+  constructor: function HttpResponse() {
+    this.statusCode = undefined;
+    this.headers = {};
+    this.body = undefined;
+    this.streaming = false;
+    this.stream = null;
+  },
+
+  /**
+   * Disables buffering on the HTTP response and returns the stream for reading.
+   * @return [Stream, XMLHttpRequest, null] the underlying stream object.
+   *   Use this object to directly read data off of the stream.
+   * @note This object is only available after the {AWS.Request~httpHeaders}
+   *   event has fired. This method must be called prior to
+   *   {AWS.Request~httpData}.
+   * @example Taking control of a stream
+   *   request.on('httpHeaders', function(statusCode, headers) {
+   *     if (statusCode < 300) {
+   *       if (headers.etag === 'xyz') {
+   *         // pipe the stream, disabling buffering
+   *         var stream = this.response.httpResponse.createUnbufferedStream();
+   *         stream.pipe(process.stdout);
+   *       } else { // abort this request and set a better error message
+   *         this.abort();
+   *         this.response.error = new Error('Invalid ETag');
+   *       }
+   *     }
+   *   }).send(console.log);
+   */
+  createUnbufferedStream: function createUnbufferedStream() {
+    this.streaming = true;
+    return this.stream;
+  }
+});
+
+
+AWS.HttpClient = inherit({});
+
+/**
+ * @api private
+ */
+AWS.HttpClient.getInstance = function getInstance() {
+  if (this.singleton === undefined) {
+    this.singleton = new this();
+  }
+  return this.singleton;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/json/builder.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/json/builder.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var util = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+function JsonBuilder() { }
+
+JsonBuilder.prototype.build = function(value, shape) {
+  return JSON.stringify(translate(value, shape));
+};
+
+function translate(value, shape) {
+  if (!shape || value === undefined || value === null) return undefined;
+
+  switch (shape.type) {
+    case 'structure': return translateStructure(value, shape);
+    case 'map': return translateMap(value, shape);
+    case 'list': return translateList(value, shape);
+    default: return translateScalar(value, shape);
+  }
+}
+
+function translateStructure(structure, shape) {
+  if (shape.isDocument) {
+    return structure;
+  }
+  var struct = {};
+  util.each(structure, function(name, value) {
+    var memberShape = shape.members[name];
+    if (memberShape) {
+      if (memberShape.location !== 'body') return;
+      var locationName = memberShape.isLocationName ? memberShape.name : name;
+      var result = translate(value, memberShape);
+      if (result !== undefined) struct[locationName] = result;
+    }
+  });
+  return struct;
+}
+
+function translateList(list, shape) {
+  var out = [];
+  util.arrayEach(list, function(value) {
+    var result = translate(value, shape.member);
+    if (result !== undefined) out.push(result);
+  });
+  return out;
+}
+
+function translateMap(map, shape) {
+  var out = {};
+  util.each(map, function(key, value) {
+    var result = translate(value, shape.value);
+    if (result !== undefined) out[key] = result;
+  });
+  return out;
+}
+
+function translateScalar(value, shape) {
+  return shape.toWireFormat(value);
+}
+
+/**
+ * @api private
+ */
+module.exports = JsonBuilder;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/model/api.js":
+/*!***********************************************!*\
+  !*** ./node_modules/aws-sdk/lib/model/api.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Collection = __webpack_require__(/*! ./collection */ "./node_modules/aws-sdk/lib/model/collection.js");
+var Operation = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './operation'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var Shape = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './shape'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var Paginator = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './paginator'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var ResourceWaiter = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './resource_waiter'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var metadata = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../../apis/metadata.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var util = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var property = util.property;
+var memoizedProperty = util.memoizedProperty;
+
+function Api(api, options) {
+  var self = this;
+  api = api || {};
+  options = options || {};
+  options.api = this;
+
+  api.metadata = api.metadata || {};
+
+  var serviceIdentifier = options.serviceIdentifier;
+  delete options.serviceIdentifier;
+
+  property(this, 'isApi', true, false);
+  property(this, 'apiVersion', api.metadata.apiVersion);
+  property(this, 'endpointPrefix', api.metadata.endpointPrefix);
+  property(this, 'signingName', api.metadata.signingName);
+  property(this, 'globalEndpoint', api.metadata.globalEndpoint);
+  property(this, 'signatureVersion', api.metadata.signatureVersion);
+  property(this, 'jsonVersion', api.metadata.jsonVersion);
+  property(this, 'targetPrefix', api.metadata.targetPrefix);
+  property(this, 'protocol', api.metadata.protocol);
+  property(this, 'timestampFormat', api.metadata.timestampFormat);
+  property(this, 'xmlNamespaceUri', api.metadata.xmlNamespace);
+  property(this, 'abbreviation', api.metadata.serviceAbbreviation);
+  property(this, 'fullName', api.metadata.serviceFullName);
+  property(this, 'serviceId', api.metadata.serviceId);
+  if (serviceIdentifier && metadata[serviceIdentifier]) {
+      property(this, 'xmlNoDefaultLists', metadata[serviceIdentifier].xmlNoDefaultLists, false);
+  }
+
+  memoizedProperty(this, 'className', function() {
+    var name = api.metadata.serviceAbbreviation || api.metadata.serviceFullName;
+    if (!name) return null;
+
+    name = name.replace(/^Amazon|AWS\s*|\(.*|\s+|\W+/g, '');
+    if (name === 'ElasticLoadBalancing') name = 'ELB';
+    return name;
+  });
+
+  function addEndpointOperation(name, operation) {
+    if (operation.endpointoperation === true) {
+      property(self, 'endpointOperation', util.string.lowerFirst(name));
+    }
+    if (operation.endpointdiscovery && !self.hasRequiredEndpointDiscovery) {
+      property(
+        self,
+        'hasRequiredEndpointDiscovery',
+        operation.endpointdiscovery.required === true
+      );
+    }
+  }
+
+  property(this, 'operations', new Collection(api.operations, options, function(name, operation) {
+    return new Operation(name, operation, options);
+  }, util.string.lowerFirst, addEndpointOperation));
+
+  property(this, 'shapes', new Collection(api.shapes, options, function(name, shape) {
+    return Shape.create(shape, options);
+  }));
+
+  property(this, 'paginators', new Collection(api.paginators, options, function(name, paginator) {
+    return new Paginator(name, paginator, options);
+  }));
+
+  property(this, 'waiters', new Collection(api.waiters, options, function(name, waiter) {
+    return new ResourceWaiter(name, waiter, options);
+  }, util.string.lowerFirst));
+
+  if (options.documentation) {
+    property(this, 'documentation', api.documentation);
+    property(this, 'documentationUrl', api.documentationUrl);
+  }
+  property(this, 'awsQueryCompatible', api.metadata.awsQueryCompatible);
+}
+
+/**
+ * @api private
+ */
+module.exports = Api;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/model/collection.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/model/collection.js ***!
+  \******************************************************/
+/***/ ((module) => {
+
+var memoizedProperty = Object(function webpackMissingModule() { var e = new Error("Cannot find module '../util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+function memoize(name, value, factory, nameTr) {
+  memoizedProperty(this, nameTr(name), function() {
+    return factory(name, value);
+  });
+}
+
+function Collection(iterable, options, factory, nameTr, callback) {
+  nameTr = nameTr || String;
+  var self = this;
+
+  for (var id in iterable) {
+    if (Object.prototype.hasOwnProperty.call(iterable, id)) {
+      memoize.call(self, id, iterable[id], factory, nameTr);
+      if (callback) callback(id, iterable[id]);
+    }
+  }
+}
+
+/**
+ * @api private
+ */
+module.exports = Collection;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/apigateway.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/apigateway.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+AWS.util.update(AWS.APIGateway.prototype, {
+/**
+ * Sets the Accept header to application/json.
+ *
+ * @api private
+ */
+  setAcceptHeader: function setAcceptHeader(req) {
+    var httpRequest = req.httpRequest;
+    if (!httpRequest.headers.Accept) {
+      httpRequest.headers['Accept'] = 'application/json';
+    }
+  },
+
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    request.addListener('build', this.setAcceptHeader);
+    if (request.operation === 'getExport') {
+      var params = request.params || {};
+      if (params.exportType === 'swagger') {
+        request.addListener('extractData', AWS.util.convertPayloadToString);
+      }
+    }
+  }
+});
+
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/cloudfront.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/cloudfront.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+// pull in CloudFront signer
+__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../cloudfront/signer'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+AWS.util.update(AWS.CloudFront.prototype, {
+
+  setupRequestListeners: function setupRequestListeners(request) {
+    request.addListener('extractData', AWS.util.hoistPayloadMember);
+  }
+
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/cloudsearchdomain.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/cloudsearchdomain.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+/**
+ * Constructs a service interface object. Each API operation is exposed as a
+ * function on service.
+ *
+ * ### Sending a Request Using CloudSearchDomain
+ *
+ * ```javascript
+ * var csd = new AWS.CloudSearchDomain({endpoint: 'my.host.tld'});
+ * csd.search(params, function (err, data) {
+ *   if (err) console.log(err, err.stack); // an error occurred
+ *   else     console.log(data);           // successful response
+ * });
+ * ```
+ *
+ * ### Locking the API Version
+ *
+ * In order to ensure that the CloudSearchDomain object uses this specific API,
+ * you can construct the object by passing the `apiVersion` option to the
+ * constructor:
+ *
+ * ```javascript
+ * var csd = new AWS.CloudSearchDomain({
+ *   endpoint: 'my.host.tld',
+ *   apiVersion: '2013-01-01'
+ * });
+ * ```
+ *
+ * You can also set the API version globally in `AWS.config.apiVersions` using
+ * the **cloudsearchdomain** service identifier:
+ *
+ * ```javascript
+ * AWS.config.apiVersions = {
+ *   cloudsearchdomain: '2013-01-01',
+ *   // other service API versions
+ * };
+ *
+ * var csd = new AWS.CloudSearchDomain({endpoint: 'my.host.tld'});
+ * ```
+ *
+ * @note You *must* provide an `endpoint` configuration parameter when
+ *   constructing this service. See {constructor} for more information.
+ *
+ * @!method constructor(options = {})
+ *   Constructs a service object. This object has one method for each
+ *   API operation.
+ *
+ *   @example Constructing a CloudSearchDomain object
+ *     var csd = new AWS.CloudSearchDomain({endpoint: 'my.host.tld'});
+ *   @note You *must* provide an `endpoint` when constructing this service.
+ *   @option (see AWS.Config.constructor)
+ *
+ * @service cloudsearchdomain
+ * @version 2013-01-01
+ */
+AWS.util.update(AWS.CloudSearchDomain.prototype, {
+  /**
+   * @api private
+   */
+  validateService: function validateService() {
+    if (!this.config.endpoint || this.config.endpoint.indexOf('{') >= 0) {
+      var msg = 'AWS.CloudSearchDomain requires an explicit ' +
+                '`endpoint\' configuration option.';
+      throw AWS.util.error(new Error(),
+        {name: 'InvalidEndpoint', message: msg});
+    }
+  },
+
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    request.removeListener('validate',
+      AWS.EventListeners.Core.VALIDATE_CREDENTIALS
+    );
+    request.onAsync('validate', this.validateCredentials);
+    request.addListener('validate', this.updateRegion);
+    if (request.operation === 'search') {
+      request.addListener('build', this.convertGetToPost);
+    }
+  },
+
+  /**
+   * @api private
+   */
+  validateCredentials: function(req, done) {
+    if (!req.service.api.signatureVersion) return done(); // none
+    req.service.config.getCredentials(function(err) {
+      if (err) {
+        req.removeListener('sign', AWS.EventListeners.Core.SIGN);
+      }
+      done();
+    });
+  },
+
+  /**
+   * @api private
+   */
+  convertGetToPost: function(request) {
+    var httpRequest = request.httpRequest;
+    // convert queries to POST to avoid length restrictions
+    var path = httpRequest.path.split('?');
+    httpRequest.method = 'POST';
+    httpRequest.path = path[0];
+    httpRequest.body = path[1];
+    httpRequest.headers['Content-Length'] = httpRequest.body.length;
+    httpRequest.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+  },
+
+  /**
+   * @api private
+   */
+  updateRegion: function updateRegion(request) {
+    var endpoint = request.httpRequest.endpoint.hostname;
+    var zones = endpoint.split('.');
+    request.httpRequest.region = zones[1] || request.httpRequest.region;
+  }
+
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/docdb.js":
+/*!****************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/docdb.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+var rdsutil = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './rdsutil'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+/**
+* @api private
+*/
+var crossRegionOperations = ['createDBCluster', 'copyDBClusterSnapshot'];
+
+AWS.util.update(AWS.DocDB.prototype, {
+  /**
+  * @api private
+  */
+  setupRequestListeners: function setupRequestListeners(request) {
+    if (
+      crossRegionOperations.indexOf(request.operation) !== -1 &&
+      this.config.params &&
+      this.config.params.SourceRegion &&
+      request.params &&
+      !request.params.SourceRegion
+    ) {
+      request.params.SourceRegion = this.config.params.SourceRegion;
+    }
+    rdsutil.setupRequestListeners(this, request, crossRegionOperations);
+  },
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/dynamodb.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/dynamodb.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+__webpack_require__(/*! ../dynamodb/document_client */ "./node_modules/aws-sdk/lib/dynamodb/document_client.js");
+
+AWS.util.update(AWS.DynamoDB.prototype, {
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    if (request.service.config.dynamoDbCrc32) {
+      request.removeListener('extractData', AWS.EventListeners.Json.EXTRACT_DATA);
+      request.addListener('extractData', this.checkCrc32);
+      request.addListener('extractData', AWS.EventListeners.Json.EXTRACT_DATA);
+    }
+  },
+
+  /**
+   * @api private
+   */
+  checkCrc32: function checkCrc32(resp) {
+    if (!resp.httpResponse.streaming && !resp.request.service.crc32IsValid(resp)) {
+      resp.data = null;
+      resp.error = AWS.util.error(new Error(), {
+        code: 'CRC32CheckFailed',
+        message: 'CRC32 integrity check failed',
+        retryable: true
+      });
+      resp.request.haltHandlersOnError();
+      throw (resp.error);
+    }
+  },
+
+  /**
+   * @api private
+   */
+  crc32IsValid: function crc32IsValid(resp) {
+    var crc = resp.httpResponse.headers['x-amz-crc32'];
+    if (!crc) return true; // no (valid) CRC32 header
+    return parseInt(crc, 10) === AWS.util.crypto.crc32(resp.httpResponse.body);
+  },
+
+  /**
+   * @api private
+   */
+  defaultRetryCount: 10,
+
+  /**
+   * @api private
+   */
+  retryDelays: function retryDelays(retryCount, err) {
+    var retryDelayOptions = AWS.util.copy(this.config.retryDelayOptions);
+
+    if (typeof retryDelayOptions.base !== 'number') {
+        retryDelayOptions.base = 50; // default for dynamodb
+    }
+    var delay = AWS.util.calculateRetryDelay(retryCount, retryDelayOptions, err);
+    return delay;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/ec2.js":
+/*!**************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/ec2.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+AWS.util.update(AWS.EC2.prototype, {
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    request.removeListener('extractError', AWS.EventListeners.Query.EXTRACT_ERROR);
+    request.addListener('extractError', this.extractError);
+
+    if (request.operation === 'copySnapshot') {
+      request.onAsync('validate', this.buildCopySnapshotPresignedUrl);
+    }
+  },
+
+  /**
+   * @api private
+   */
+  buildCopySnapshotPresignedUrl: function buildCopySnapshotPresignedUrl(req, done) {
+    if (req.params.PresignedUrl || req._subRequest) {
+      return done();
+    }
+
+    req.params = AWS.util.copy(req.params);
+    req.params.DestinationRegion = req.service.config.region;
+
+    var config = AWS.util.copy(req.service.config);
+    delete config.endpoint;
+    config.region = req.params.SourceRegion;
+    var svc = new req.service.constructor(config);
+    var newReq = svc[req.operation](req.params);
+    newReq._subRequest = true;
+    newReq.presign(function(err, url) {
+      if (err) done(err);
+      else {
+        req.params.PresignedUrl = url;
+        done();
+      }
+    });
+  },
+
+  /**
+   * @api private
+   */
+  extractError: function extractError(resp) {
+    // EC2 nests the error code and message deeper than other AWS Query services.
+    var httpResponse = resp.httpResponse;
+    var data = new AWS.XML.Parser().parse(httpResponse.body.toString() || '');
+    if (data.Errors) {
+      resp.error = AWS.util.error(new Error(), {
+        code: data.Errors.Error.Code,
+        message: data.Errors.Error.Message
+      });
+    } else {
+      resp.error = AWS.util.error(new Error(), {
+        code: httpResponse.statusCode,
+        message: null
+      });
+    }
+    resp.error.requestId = data.RequestID || null;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/eventbridge.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/eventbridge.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+AWS.util.update(AWS.EventBridge.prototype, {
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    if (request.operation === 'putEvents') {
+      var params = request.params || {};
+      if (params.EndpointId !== undefined) {
+        throw new AWS.util.error(new Error(), {
+          code: 'InvalidParameter',
+          message: 'EndpointId is not supported in current SDK.\n' +
+            'You should consider switching to V3(https://github.com/aws/aws-sdk-js-v3).'
+        });
+      }
+    }
+  },
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/services/glacier.js":
+/*!******************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/services/glacier.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+var AWS = __webpack_require__(/*! ../core */ "./node_modules/aws-sdk/lib/core.js");
+
+AWS.util.update(AWS.Glacier.prototype, {
+  /**
+   * @api private
+   */
+  setupRequestListeners: function setupRequestListeners(request) {
+    if (Array.isArray(request._events.validate)) {
+      request._events.validate.unshift(this.validateAccountId);
+    } else {
+      request.on('validate', this.validateAccountId);
+    }
+    request.removeListener('afterBuild',
+      AWS.EventListeners.Core.COMPUTE_SHA256);
+    request.on('build', this.addGlacierApiVersion);
+    request.on('build', this.addTreeHashHeaders);
+  },
+
+  /**
+   * @api private
+   */
+  validateAccountId: function validateAccountId(request) {
+    if (request.params.accountId !== undefined) return;
+    request.params = AWS.util.copy(request.params);
+    request.params.accountId = '-';
+  },
+
+  /**
+   * @api private
+   */
+  addGlacierApiVersion: function addGlacierApiVersion(request) {
+    var version = request.service.api.apiVersion;
+    request.httpRequest.headers['x-amz-glacier-version'] = version;
+  },
+
+  /**
+   * @api private
+   */
+  addTreeHashHeaders: function addTreeHashHeaders(request) {
+    if (request.params.body === undefined) return;
+
+    var hashes = request.service.computeChecksums(request.params.body);
+    request.httpRequest.headers['X-Amz-Content-Sha256'] = hashes.linearHash;
+
+    if (!request.httpRequest.headers['x-amz-sha256-tree-hash']) {
+      request.httpRequest.headers['x-amz-sha256-tree-hash'] = hashes.treeHash;
+    }
+  },
+
+  /**
+   * @!group Computing Checksums
+   */
+
+  /**
+   * Computes the SHA-256 linear and tree hash checksums for a given
+   * block of Buffer data. Pass the tree hash of the computed checksums
+   * as the checksum input to the {completeMultipartUpload} when performing
+   * a multi-part upload.
+   *
+   * @example Calculate checksum of 5.5MB data chunk
+   *   var glacier = new AWS.Glacier();
+   *   var data = Buffer.alloc(5.5 * 1024 * 1024);
+   *   data.fill('0'); // fill with zeros
+   *   var results = glacier.computeChecksums(data);
+   *   // Result: { linearHash: '68aff0c5a9...', treeHash: '154e26c78f...' }
+   * @param data [Buffer, String] data to calculate the checksum for
+   * @return [map<linearHash:String,treeHash:String>] a map containing
+   *   the linearHash and treeHash properties representing hex based digests
+   *   of the respective checksums.
+   * @see completeMultipartUpload
+   */
+  computeChecksums: function computeChecksums(data) {
+    if (!AWS.util.Buffer.isBuffer(data)) data = AWS.util.buffer.toBuffer(data);
+
+    var mb = 1024 * 1024;
+    var hashes = [];
+    var hash = AWS.util.crypto.createHash('sha256');
+
+    // build leaf nodes in 1mb chunks
+    for (var i = 0; i < data.length; i += mb) {
+      var chunk = data.slice(i, Math.min(i + mb, data.length));
+      hash.update(chunk);
+      hashes.push(AWS.util.crypto.sha256(chunk));
+    }
+
+    return {
+      linearHash: hash.digest('hex'),
+      treeHash: this.buildHashTree(hashes)
+    };
+  },
+
+  /**
+   * @api private
+   */
+  buildHashTree: function buildHashTree(hashes) {
+    // merge leaf nodes
+    while (hashes.length > 1) {
+      var tmpHashes = [];
+      for (var i = 0; i < hashes.length; i += 2) {
+        if (hashes[i + 1]) {
+          var tmpHash = AWS.util.buffer.alloc(64);
+          tmpHash.write(hashes[i], 0, 32, 'binary');
+          tmpHash.write(hashes[i + 1], 32, 32, 'binary');
+          tmpHashes.push(AWS.util.crypto.sha256(tmpHash));
+        } else {
+          tmpHashes.push(hashes[i]);
+        }
+      }
+      hashes = tmpHashes;
+    }
+
+    return AWS.util.crypto.toHex(hashes[0]);
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/lib/xml/builder.js":
+/*!*************************************************!*\
+  !*** ./node_modules/aws-sdk/lib/xml/builder.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var util = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../util'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var XmlNode = Object(function webpackMissingModule() { var e = new Error("Cannot find module './xml-node'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+var XmlText = Object(function webpackMissingModule() { var e = new Error("Cannot find module './xml-text'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+function XmlBuilder() { }
+
+XmlBuilder.prototype.toXML = function(params, shape, rootElement, noEmpty) {
+  var xml = new XmlNode(rootElement);
+  applyNamespaces(xml, shape, true);
+  serialize(xml, params, shape);
+  return xml.children.length > 0 || noEmpty ? xml.toString() : '';
+};
+
+function serialize(xml, value, shape) {
+  switch (shape.type) {
+    case 'structure': return serializeStructure(xml, value, shape);
+    case 'map': return serializeMap(xml, value, shape);
+    case 'list': return serializeList(xml, value, shape);
+    default: return serializeScalar(xml, value, shape);
+  }
+}
+
+function serializeStructure(xml, params, shape) {
+  util.arrayEach(shape.memberNames, function(memberName) {
+    var memberShape = shape.members[memberName];
+    if (memberShape.location !== 'body') return;
+
+    var value = params[memberName];
+    var name = memberShape.name;
+    if (value !== undefined && value !== null) {
+      if (memberShape.isXmlAttribute) {
+        xml.addAttribute(name, value);
+      } else if (memberShape.flattened) {
+        serialize(xml, value, memberShape);
+      } else {
+        var element = new XmlNode(name);
+        xml.addChildNode(element);
+        applyNamespaces(element, memberShape);
+        serialize(element, value, memberShape);
+      }
+    }
+  });
+}
+
+function serializeMap(xml, map, shape) {
+  var xmlKey = shape.key.name || 'key';
+  var xmlValue = shape.value.name || 'value';
+
+  util.each(map, function(key, value) {
+    var entry = new XmlNode(shape.flattened ? shape.name : 'entry');
+    xml.addChildNode(entry);
+
+    var entryKey = new XmlNode(xmlKey);
+    var entryValue = new XmlNode(xmlValue);
+    entry.addChildNode(entryKey);
+    entry.addChildNode(entryValue);
+
+    serialize(entryKey, key, shape.key);
+    serialize(entryValue, value, shape.value);
+  });
+}
+
+function serializeList(xml, list, shape) {
+  if (shape.flattened) {
+    util.arrayEach(list, function(value) {
+      var name = shape.member.name || shape.name;
+      var element = new XmlNode(name);
+      xml.addChildNode(element);
+      serialize(element, value, shape.member);
+    });
+  } else {
+    util.arrayEach(list, function(value) {
+      var name = shape.member.name || 'member';
+      var element = new XmlNode(name);
+      xml.addChildNode(element);
+      serialize(element, value, shape.member);
+    });
+  }
+}
+
+function serializeScalar(xml, value, shape) {
+  xml.addChildNode(
+    new XmlText(shape.toWireFormat(value))
+  );
+}
+
+function applyNamespaces(xml, shape, isRoot) {
+  var uri, prefix = 'xmlns';
+  if (shape.xmlNamespaceUri) {
+    uri = shape.xmlNamespaceUri;
+    if (shape.xmlNamespacePrefix) prefix += ':' + shape.xmlNamespacePrefix;
+  } else if (isRoot && shape.api.xmlNamespaceUri) {
+    uri = shape.api.xmlNamespaceUri;
+  }
+
+  if (uri) xml.addAttribute(prefix, uri);
+}
+
+/**
+ * @api private
+ */
+module.exports = XmlBuilder;
+
+
+/***/ }),
+
+/***/ "./node_modules/aws-sdk/vendor/endpoint-cache/index.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/aws-sdk/vendor/endpoint-cache/index.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var LRU_1 = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module './utils/LRU'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var CACHE_SIZE = 1000;
+/**
+ * Inspired node-lru-cache[https://github.com/isaacs/node-lru-cache]
+ */
+var EndpointCache = /** @class */ (function () {
+    function EndpointCache(maxSize) {
+        if (maxSize === void 0) { maxSize = CACHE_SIZE; }
+        this.maxSize = maxSize;
+        this.cache = new LRU_1.LRUCache(maxSize);
+    }
+    ;
+    Object.defineProperty(EndpointCache.prototype, "size", {
+        get: function () {
+            return this.cache.length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    EndpointCache.prototype.put = function (key, value) {
+      var keyString = typeof key !== 'string' ? EndpointCache.getKeyString(key) : key;
+        var endpointRecord = this.populateValue(value);
+        this.cache.put(keyString, endpointRecord);
+    };
+    EndpointCache.prototype.get = function (key) {
+      var keyString = typeof key !== 'string' ? EndpointCache.getKeyString(key) : key;
+        var now = Date.now();
+        var records = this.cache.get(keyString);
+        if (records) {
+            for (var i = records.length-1; i >= 0; i--) {
+                var record = records[i];
+                if (record.Expire < now) {
+                    records.splice(i, 1);
+                }
+            }
+            if (records.length === 0) {
+                this.cache.remove(keyString);
+                return undefined;
+            }
+        }
+        return records;
+    };
+    EndpointCache.getKeyString = function (key) {
+        var identifiers = [];
+        var identifierNames = Object.keys(key).sort();
+        for (var i = 0; i < identifierNames.length; i++) {
+            var identifierName = identifierNames[i];
+            if (key[identifierName] === undefined)
+                continue;
+            identifiers.push(key[identifierName]);
+        }
+        return identifiers.join(' ');
+    };
+    EndpointCache.prototype.populateValue = function (endpoints) {
+        var now = Date.now();
+        return endpoints.map(function (endpoint) { return ({
+            Address: endpoint.Address || '',
+            Expire: now + (endpoint.CachePeriodInMinutes || 1) * 60 * 1000
+        }); });
+    };
+    EndpointCache.prototype.empty = function () {
+        this.cache.empty();
+    };
+    EndpointCache.prototype.remove = function (key) {
+      var keyString = typeof key !== 'string' ? EndpointCache.getKeyString(key) : key;
+        this.cache.remove(keyString);
+    };
+    return EndpointCache;
+}());
+exports.EndpointCache = EndpointCache;
+
+/***/ }),
+
 /***/ "./node_modules/bowser/es5.js":
 /*!************************************!*\
   !*** ./node_modules/bowser/es5.js ***!
@@ -13163,6 +22367,90 @@ const toUtf8 = (input) => new TextDecoder("utf-8").decode(input);
 /***/ (function(module) {
 
 !function(e,t){ true?module.exports=t():0}(this,(function(){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var i=t[n]={i:n,l:!1,exports:{}};return e[n].call(i.exports,i,i.exports,r),i.l=!0,i.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)r.d(n,i,function(t){return e[t]}.bind(null,i));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=90)}({17:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n=r(18),i=function(){function e(){}return e.getFirstMatch=function(e,t){var r=t.match(e);return r&&r.length>0&&r[1]||""},e.getSecondMatch=function(e,t){var r=t.match(e);return r&&r.length>1&&r[2]||""},e.matchAndReturnConst=function(e,t,r){if(e.test(t))return r},e.getWindowsVersionName=function(e){switch(e){case"NT":return"NT";case"XP":return"XP";case"NT 5.0":return"2000";case"NT 5.1":return"XP";case"NT 5.2":return"2003";case"NT 6.0":return"Vista";case"NT 6.1":return"7";case"NT 6.2":return"8";case"NT 6.3":return"8.1";case"NT 10.0":return"10";default:return}},e.getMacOSVersionName=function(e){var t=e.split(".").splice(0,2).map((function(e){return parseInt(e,10)||0}));if(t.push(0),10===t[0])switch(t[1]){case 5:return"Leopard";case 6:return"Snow Leopard";case 7:return"Lion";case 8:return"Mountain Lion";case 9:return"Mavericks";case 10:return"Yosemite";case 11:return"El Capitan";case 12:return"Sierra";case 13:return"High Sierra";case 14:return"Mojave";case 15:return"Catalina";default:return}},e.getAndroidVersionName=function(e){var t=e.split(".").splice(0,2).map((function(e){return parseInt(e,10)||0}));if(t.push(0),!(1===t[0]&&t[1]<5))return 1===t[0]&&t[1]<6?"Cupcake":1===t[0]&&t[1]>=6?"Donut":2===t[0]&&t[1]<2?"Eclair":2===t[0]&&2===t[1]?"Froyo":2===t[0]&&t[1]>2?"Gingerbread":3===t[0]?"Honeycomb":4===t[0]&&t[1]<1?"Ice Cream Sandwich":4===t[0]&&t[1]<4?"Jelly Bean":4===t[0]&&t[1]>=4?"KitKat":5===t[0]?"Lollipop":6===t[0]?"Marshmallow":7===t[0]?"Nougat":8===t[0]?"Oreo":9===t[0]?"Pie":void 0},e.getVersionPrecision=function(e){return e.split(".").length},e.compareVersions=function(t,r,n){void 0===n&&(n=!1);var i=e.getVersionPrecision(t),s=e.getVersionPrecision(r),a=Math.max(i,s),o=0,u=e.map([t,r],(function(t){var r=a-e.getVersionPrecision(t),n=t+new Array(r+1).join(".0");return e.map(n.split("."),(function(e){return new Array(20-e.length).join("0")+e})).reverse()}));for(n&&(o=a-Math.min(i,s)),a-=1;a>=o;){if(u[0][a]>u[1][a])return 1;if(u[0][a]===u[1][a]){if(a===o)return 0;a-=1}else if(u[0][a]<u[1][a])return-1}},e.map=function(e,t){var r,n=[];if(Array.prototype.map)return Array.prototype.map.call(e,t);for(r=0;r<e.length;r+=1)n.push(t(e[r]));return n},e.find=function(e,t){var r,n;if(Array.prototype.find)return Array.prototype.find.call(e,t);for(r=0,n=e.length;r<n;r+=1){var i=e[r];if(t(i,r))return i}},e.assign=function(e){for(var t,r,n=e,i=arguments.length,s=new Array(i>1?i-1:0),a=1;a<i;a++)s[a-1]=arguments[a];if(Object.assign)return Object.assign.apply(Object,[e].concat(s));var o=function(){var e=s[t];"object"==typeof e&&null!==e&&Object.keys(e).forEach((function(t){n[t]=e[t]}))};for(t=0,r=s.length;t<r;t+=1)o();return e},e.getBrowserAlias=function(e){return n.BROWSER_ALIASES_MAP[e]},e.getBrowserTypeByAlias=function(e){return n.BROWSER_MAP[e]||""},e}();t.default=i,e.exports=t.default},18:function(e,t,r){"use strict";t.__esModule=!0,t.ENGINE_MAP=t.OS_MAP=t.PLATFORMS_MAP=t.BROWSER_MAP=t.BROWSER_ALIASES_MAP=void 0;t.BROWSER_ALIASES_MAP={"Amazon Silk":"amazon_silk","Android Browser":"android",Bada:"bada",BlackBerry:"blackberry",Chrome:"chrome",Chromium:"chromium",Electron:"electron",Epiphany:"epiphany",Firefox:"firefox",Focus:"focus",Generic:"generic","Google Search":"google_search",Googlebot:"googlebot","Internet Explorer":"ie","K-Meleon":"k_meleon",Maxthon:"maxthon","Microsoft Edge":"edge","MZ Browser":"mz","NAVER Whale Browser":"naver",Opera:"opera","Opera Coast":"opera_coast",PhantomJS:"phantomjs",Puffin:"puffin",QupZilla:"qupzilla",QQ:"qq",QQLite:"qqlite",Safari:"safari",Sailfish:"sailfish","Samsung Internet for Android":"samsung_internet",SeaMonkey:"seamonkey",Sleipnir:"sleipnir",Swing:"swing",Tizen:"tizen","UC Browser":"uc",Vivaldi:"vivaldi","WebOS Browser":"webos",WeChat:"wechat","Yandex Browser":"yandex",Roku:"roku"};t.BROWSER_MAP={amazon_silk:"Amazon Silk",android:"Android Browser",bada:"Bada",blackberry:"BlackBerry",chrome:"Chrome",chromium:"Chromium",electron:"Electron",epiphany:"Epiphany",firefox:"Firefox",focus:"Focus",generic:"Generic",googlebot:"Googlebot",google_search:"Google Search",ie:"Internet Explorer",k_meleon:"K-Meleon",maxthon:"Maxthon",edge:"Microsoft Edge",mz:"MZ Browser",naver:"NAVER Whale Browser",opera:"Opera",opera_coast:"Opera Coast",phantomjs:"PhantomJS",puffin:"Puffin",qupzilla:"QupZilla",qq:"QQ Browser",qqlite:"QQ Browser Lite",safari:"Safari",sailfish:"Sailfish",samsung_internet:"Samsung Internet for Android",seamonkey:"SeaMonkey",sleipnir:"Sleipnir",swing:"Swing",tizen:"Tizen",uc:"UC Browser",vivaldi:"Vivaldi",webos:"WebOS Browser",wechat:"WeChat",yandex:"Yandex Browser"};t.PLATFORMS_MAP={tablet:"tablet",mobile:"mobile",desktop:"desktop",tv:"tv"};t.OS_MAP={WindowsPhone:"Windows Phone",Windows:"Windows",MacOS:"macOS",iOS:"iOS",Android:"Android",WebOS:"WebOS",BlackBerry:"BlackBerry",Bada:"Bada",Tizen:"Tizen",Linux:"Linux",ChromeOS:"Chrome OS",PlayStation4:"PlayStation 4",Roku:"Roku"};t.ENGINE_MAP={EdgeHTML:"EdgeHTML",Blink:"Blink",Trident:"Trident",Presto:"Presto",Gecko:"Gecko",WebKit:"WebKit"}},90:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n,i=(n=r(91))&&n.__esModule?n:{default:n},s=r(18);function a(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}var o=function(){function e(){}var t,r,n;return e.getParser=function(e,t){if(void 0===t&&(t=!1),"string"!=typeof e)throw new Error("UserAgent should be a string");return new i.default(e,t)},e.parse=function(e){return new i.default(e).getResult()},t=e,n=[{key:"BROWSER_MAP",get:function(){return s.BROWSER_MAP}},{key:"ENGINE_MAP",get:function(){return s.ENGINE_MAP}},{key:"OS_MAP",get:function(){return s.OS_MAP}},{key:"PLATFORMS_MAP",get:function(){return s.PLATFORMS_MAP}}],(r=null)&&a(t.prototype,r),n&&a(t,n),e}();t.default=o,e.exports=t.default},91:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n=u(r(92)),i=u(r(93)),s=u(r(94)),a=u(r(95)),o=u(r(17));function u(e){return e&&e.__esModule?e:{default:e}}var d=function(){function e(e,t){if(void 0===t&&(t=!1),null==e||""===e)throw new Error("UserAgent parameter can't be empty");this._ua=e,this.parsedResult={},!0!==t&&this.parse()}var t=e.prototype;return t.getUA=function(){return this._ua},t.test=function(e){return e.test(this._ua)},t.parseBrowser=function(){var e=this;this.parsedResult.browser={};var t=o.default.find(n.default,(function(t){if("function"==typeof t.test)return t.test(e);if(t.test instanceof Array)return t.test.some((function(t){return e.test(t)}));throw new Error("Browser's test function is not valid")}));return t&&(this.parsedResult.browser=t.describe(this.getUA())),this.parsedResult.browser},t.getBrowser=function(){return this.parsedResult.browser?this.parsedResult.browser:this.parseBrowser()},t.getBrowserName=function(e){return e?String(this.getBrowser().name).toLowerCase()||"":this.getBrowser().name||""},t.getBrowserVersion=function(){return this.getBrowser().version},t.getOS=function(){return this.parsedResult.os?this.parsedResult.os:this.parseOS()},t.parseOS=function(){var e=this;this.parsedResult.os={};var t=o.default.find(i.default,(function(t){if("function"==typeof t.test)return t.test(e);if(t.test instanceof Array)return t.test.some((function(t){return e.test(t)}));throw new Error("Browser's test function is not valid")}));return t&&(this.parsedResult.os=t.describe(this.getUA())),this.parsedResult.os},t.getOSName=function(e){var t=this.getOS().name;return e?String(t).toLowerCase()||"":t||""},t.getOSVersion=function(){return this.getOS().version},t.getPlatform=function(){return this.parsedResult.platform?this.parsedResult.platform:this.parsePlatform()},t.getPlatformType=function(e){void 0===e&&(e=!1);var t=this.getPlatform().type;return e?String(t).toLowerCase()||"":t||""},t.parsePlatform=function(){var e=this;this.parsedResult.platform={};var t=o.default.find(s.default,(function(t){if("function"==typeof t.test)return t.test(e);if(t.test instanceof Array)return t.test.some((function(t){return e.test(t)}));throw new Error("Browser's test function is not valid")}));return t&&(this.parsedResult.platform=t.describe(this.getUA())),this.parsedResult.platform},t.getEngine=function(){return this.parsedResult.engine?this.parsedResult.engine:this.parseEngine()},t.getEngineName=function(e){return e?String(this.getEngine().name).toLowerCase()||"":this.getEngine().name||""},t.parseEngine=function(){var e=this;this.parsedResult.engine={};var t=o.default.find(a.default,(function(t){if("function"==typeof t.test)return t.test(e);if(t.test instanceof Array)return t.test.some((function(t){return e.test(t)}));throw new Error("Browser's test function is not valid")}));return t&&(this.parsedResult.engine=t.describe(this.getUA())),this.parsedResult.engine},t.parse=function(){return this.parseBrowser(),this.parseOS(),this.parsePlatform(),this.parseEngine(),this},t.getResult=function(){return o.default.assign({},this.parsedResult)},t.satisfies=function(e){var t=this,r={},n=0,i={},s=0;if(Object.keys(e).forEach((function(t){var a=e[t];"string"==typeof a?(i[t]=a,s+=1):"object"==typeof a&&(r[t]=a,n+=1)})),n>0){var a=Object.keys(r),u=o.default.find(a,(function(e){return t.isOS(e)}));if(u){var d=this.satisfies(r[u]);if(void 0!==d)return d}var c=o.default.find(a,(function(e){return t.isPlatform(e)}));if(c){var f=this.satisfies(r[c]);if(void 0!==f)return f}}if(s>0){var l=Object.keys(i),h=o.default.find(l,(function(e){return t.isBrowser(e,!0)}));if(void 0!==h)return this.compareVersion(i[h])}},t.isBrowser=function(e,t){void 0===t&&(t=!1);var r=this.getBrowserName().toLowerCase(),n=e.toLowerCase(),i=o.default.getBrowserTypeByAlias(n);return t&&i&&(n=i.toLowerCase()),n===r},t.compareVersion=function(e){var t=[0],r=e,n=!1,i=this.getBrowserVersion();if("string"==typeof i)return">"===e[0]||"<"===e[0]?(r=e.substr(1),"="===e[1]?(n=!0,r=e.substr(2)):t=[],">"===e[0]?t.push(1):t.push(-1)):"="===e[0]?r=e.substr(1):"~"===e[0]&&(n=!0,r=e.substr(1)),t.indexOf(o.default.compareVersions(i,r,n))>-1},t.isOS=function(e){return this.getOSName(!0)===String(e).toLowerCase()},t.isPlatform=function(e){return this.getPlatformType(!0)===String(e).toLowerCase()},t.isEngine=function(e){return this.getEngineName(!0)===String(e).toLowerCase()},t.is=function(e,t){return void 0===t&&(t=!1),this.isBrowser(e,t)||this.isOS(e)||this.isPlatform(e)},t.some=function(e){var t=this;return void 0===e&&(e=[]),e.some((function(e){return t.is(e)}))},e}();t.default=d,e.exports=t.default},92:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n,i=(n=r(17))&&n.__esModule?n:{default:n};var s=/version\/(\d+(\.?_?\d+)+)/i,a=[{test:[/googlebot/i],describe:function(e){var t={name:"Googlebot"},r=i.default.getFirstMatch(/googlebot\/(\d+(\.\d+))/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/opera/i],describe:function(e){var t={name:"Opera"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:opera)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/opr\/|opios/i],describe:function(e){var t={name:"Opera"},r=i.default.getFirstMatch(/(?:opr|opios)[\s/](\S+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/SamsungBrowser/i],describe:function(e){var t={name:"Samsung Internet for Android"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:SamsungBrowser)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/Whale/i],describe:function(e){var t={name:"NAVER Whale Browser"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:whale)[\s/](\d+(?:\.\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/MZBrowser/i],describe:function(e){var t={name:"MZ Browser"},r=i.default.getFirstMatch(/(?:MZBrowser)[\s/](\d+(?:\.\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/focus/i],describe:function(e){var t={name:"Focus"},r=i.default.getFirstMatch(/(?:focus)[\s/](\d+(?:\.\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/swing/i],describe:function(e){var t={name:"Swing"},r=i.default.getFirstMatch(/(?:swing)[\s/](\d+(?:\.\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/coast/i],describe:function(e){var t={name:"Opera Coast"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:coast)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/opt\/\d+(?:.?_?\d+)+/i],describe:function(e){var t={name:"Opera Touch"},r=i.default.getFirstMatch(/(?:opt)[\s/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/yabrowser/i],describe:function(e){var t={name:"Yandex Browser"},r=i.default.getFirstMatch(/(?:yabrowser)[\s/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/ucbrowser/i],describe:function(e){var t={name:"UC Browser"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:ucbrowser)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/Maxthon|mxios/i],describe:function(e){var t={name:"Maxthon"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:Maxthon|mxios)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/epiphany/i],describe:function(e){var t={name:"Epiphany"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:epiphany)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/puffin/i],describe:function(e){var t={name:"Puffin"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:puffin)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/sleipnir/i],describe:function(e){var t={name:"Sleipnir"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:sleipnir)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/k-meleon/i],describe:function(e){var t={name:"K-Meleon"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/(?:k-meleon)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/micromessenger/i],describe:function(e){var t={name:"WeChat"},r=i.default.getFirstMatch(/(?:micromessenger)[\s/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/qqbrowser/i],describe:function(e){var t={name:/qqbrowserlite/i.test(e)?"QQ Browser Lite":"QQ Browser"},r=i.default.getFirstMatch(/(?:qqbrowserlite|qqbrowser)[/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/msie|trident/i],describe:function(e){var t={name:"Internet Explorer"},r=i.default.getFirstMatch(/(?:msie |rv:)(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/\sedg\//i],describe:function(e){var t={name:"Microsoft Edge"},r=i.default.getFirstMatch(/\sedg\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/edg([ea]|ios)/i],describe:function(e){var t={name:"Microsoft Edge"},r=i.default.getSecondMatch(/edg([ea]|ios)\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/vivaldi/i],describe:function(e){var t={name:"Vivaldi"},r=i.default.getFirstMatch(/vivaldi\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/seamonkey/i],describe:function(e){var t={name:"SeaMonkey"},r=i.default.getFirstMatch(/seamonkey\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/sailfish/i],describe:function(e){var t={name:"Sailfish"},r=i.default.getFirstMatch(/sailfish\s?browser\/(\d+(\.\d+)?)/i,e);return r&&(t.version=r),t}},{test:[/silk/i],describe:function(e){var t={name:"Amazon Silk"},r=i.default.getFirstMatch(/silk\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/phantom/i],describe:function(e){var t={name:"PhantomJS"},r=i.default.getFirstMatch(/phantomjs\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/slimerjs/i],describe:function(e){var t={name:"SlimerJS"},r=i.default.getFirstMatch(/slimerjs\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/blackberry|\bbb\d+/i,/rim\stablet/i],describe:function(e){var t={name:"BlackBerry"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/blackberry[\d]+\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/(web|hpw)[o0]s/i],describe:function(e){var t={name:"WebOS Browser"},r=i.default.getFirstMatch(s,e)||i.default.getFirstMatch(/w(?:eb)?[o0]sbrowser\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/bada/i],describe:function(e){var t={name:"Bada"},r=i.default.getFirstMatch(/dolfin\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/tizen/i],describe:function(e){var t={name:"Tizen"},r=i.default.getFirstMatch(/(?:tizen\s?)?browser\/(\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/qupzilla/i],describe:function(e){var t={name:"QupZilla"},r=i.default.getFirstMatch(/(?:qupzilla)[\s/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/firefox|iceweasel|fxios/i],describe:function(e){var t={name:"Firefox"},r=i.default.getFirstMatch(/(?:firefox|iceweasel|fxios)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/electron/i],describe:function(e){var t={name:"Electron"},r=i.default.getFirstMatch(/(?:electron)\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/MiuiBrowser/i],describe:function(e){var t={name:"Miui"},r=i.default.getFirstMatch(/(?:MiuiBrowser)[\s/](\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/chromium/i],describe:function(e){var t={name:"Chromium"},r=i.default.getFirstMatch(/(?:chromium)[\s/](\d+(\.?_?\d+)+)/i,e)||i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/chrome|crios|crmo/i],describe:function(e){var t={name:"Chrome"},r=i.default.getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/GSA/i],describe:function(e){var t={name:"Google Search"},r=i.default.getFirstMatch(/(?:GSA)\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:function(e){var t=!e.test(/like android/i),r=e.test(/android/i);return t&&r},describe:function(e){var t={name:"Android Browser"},r=i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/playstation 4/i],describe:function(e){var t={name:"PlayStation 4"},r=i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/safari|applewebkit/i],describe:function(e){var t={name:"Safari"},r=i.default.getFirstMatch(s,e);return r&&(t.version=r),t}},{test:[/.*/i],describe:function(e){var t=-1!==e.search("\\(")?/^(.*)\/(.*)[ \t]\((.*)/:/^(.*)\/(.*) /;return{name:i.default.getFirstMatch(t,e),version:i.default.getSecondMatch(t,e)}}}];t.default=a,e.exports=t.default},93:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n,i=(n=r(17))&&n.__esModule?n:{default:n},s=r(18);var a=[{test:[/Roku\/DVP/],describe:function(e){var t=i.default.getFirstMatch(/Roku\/DVP-(\d+\.\d+)/i,e);return{name:s.OS_MAP.Roku,version:t}}},{test:[/windows phone/i],describe:function(e){var t=i.default.getFirstMatch(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i,e);return{name:s.OS_MAP.WindowsPhone,version:t}}},{test:[/windows /i],describe:function(e){var t=i.default.getFirstMatch(/Windows ((NT|XP)( \d\d?.\d)?)/i,e),r=i.default.getWindowsVersionName(t);return{name:s.OS_MAP.Windows,version:t,versionName:r}}},{test:[/Macintosh(.*?) FxiOS(.*?)\//],describe:function(e){var t={name:s.OS_MAP.iOS},r=i.default.getSecondMatch(/(Version\/)(\d[\d.]+)/,e);return r&&(t.version=r),t}},{test:[/macintosh/i],describe:function(e){var t=i.default.getFirstMatch(/mac os x (\d+(\.?_?\d+)+)/i,e).replace(/[_\s]/g,"."),r=i.default.getMacOSVersionName(t),n={name:s.OS_MAP.MacOS,version:t};return r&&(n.versionName=r),n}},{test:[/(ipod|iphone|ipad)/i],describe:function(e){var t=i.default.getFirstMatch(/os (\d+([_\s]\d+)*) like mac os x/i,e).replace(/[_\s]/g,".");return{name:s.OS_MAP.iOS,version:t}}},{test:function(e){var t=!e.test(/like android/i),r=e.test(/android/i);return t&&r},describe:function(e){var t=i.default.getFirstMatch(/android[\s/-](\d+(\.\d+)*)/i,e),r=i.default.getAndroidVersionName(t),n={name:s.OS_MAP.Android,version:t};return r&&(n.versionName=r),n}},{test:[/(web|hpw)[o0]s/i],describe:function(e){var t=i.default.getFirstMatch(/(?:web|hpw)[o0]s\/(\d+(\.\d+)*)/i,e),r={name:s.OS_MAP.WebOS};return t&&t.length&&(r.version=t),r}},{test:[/blackberry|\bbb\d+/i,/rim\stablet/i],describe:function(e){var t=i.default.getFirstMatch(/rim\stablet\sos\s(\d+(\.\d+)*)/i,e)||i.default.getFirstMatch(/blackberry\d+\/(\d+([_\s]\d+)*)/i,e)||i.default.getFirstMatch(/\bbb(\d+)/i,e);return{name:s.OS_MAP.BlackBerry,version:t}}},{test:[/bada/i],describe:function(e){var t=i.default.getFirstMatch(/bada\/(\d+(\.\d+)*)/i,e);return{name:s.OS_MAP.Bada,version:t}}},{test:[/tizen/i],describe:function(e){var t=i.default.getFirstMatch(/tizen[/\s](\d+(\.\d+)*)/i,e);return{name:s.OS_MAP.Tizen,version:t}}},{test:[/linux/i],describe:function(){return{name:s.OS_MAP.Linux}}},{test:[/CrOS/],describe:function(){return{name:s.OS_MAP.ChromeOS}}},{test:[/PlayStation 4/],describe:function(e){var t=i.default.getFirstMatch(/PlayStation 4[/\s](\d+(\.\d+)*)/i,e);return{name:s.OS_MAP.PlayStation4,version:t}}}];t.default=a,e.exports=t.default},94:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n,i=(n=r(17))&&n.__esModule?n:{default:n},s=r(18);var a=[{test:[/googlebot/i],describe:function(){return{type:"bot",vendor:"Google"}}},{test:[/huawei/i],describe:function(e){var t=i.default.getFirstMatch(/(can-l01)/i,e)&&"Nova",r={type:s.PLATFORMS_MAP.mobile,vendor:"Huawei"};return t&&(r.model=t),r}},{test:[/nexus\s*(?:7|8|9|10).*/i],describe:function(){return{type:s.PLATFORMS_MAP.tablet,vendor:"Nexus"}}},{test:[/ipad/i],describe:function(){return{type:s.PLATFORMS_MAP.tablet,vendor:"Apple",model:"iPad"}}},{test:[/Macintosh(.*?) FxiOS(.*?)\//],describe:function(){return{type:s.PLATFORMS_MAP.tablet,vendor:"Apple",model:"iPad"}}},{test:[/kftt build/i],describe:function(){return{type:s.PLATFORMS_MAP.tablet,vendor:"Amazon",model:"Kindle Fire HD 7"}}},{test:[/silk/i],describe:function(){return{type:s.PLATFORMS_MAP.tablet,vendor:"Amazon"}}},{test:[/tablet(?! pc)/i],describe:function(){return{type:s.PLATFORMS_MAP.tablet}}},{test:function(e){var t=e.test(/ipod|iphone/i),r=e.test(/like (ipod|iphone)/i);return t&&!r},describe:function(e){var t=i.default.getFirstMatch(/(ipod|iphone)/i,e);return{type:s.PLATFORMS_MAP.mobile,vendor:"Apple",model:t}}},{test:[/nexus\s*[0-6].*/i,/galaxy nexus/i],describe:function(){return{type:s.PLATFORMS_MAP.mobile,vendor:"Nexus"}}},{test:[/[^-]mobi/i],describe:function(){return{type:s.PLATFORMS_MAP.mobile}}},{test:function(e){return"blackberry"===e.getBrowserName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.mobile,vendor:"BlackBerry"}}},{test:function(e){return"bada"===e.getBrowserName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.mobile}}},{test:function(e){return"windows phone"===e.getBrowserName()},describe:function(){return{type:s.PLATFORMS_MAP.mobile,vendor:"Microsoft"}}},{test:function(e){var t=Number(String(e.getOSVersion()).split(".")[0]);return"android"===e.getOSName(!0)&&t>=3},describe:function(){return{type:s.PLATFORMS_MAP.tablet}}},{test:function(e){return"android"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.mobile}}},{test:function(e){return"macos"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.desktop,vendor:"Apple"}}},{test:function(e){return"windows"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.desktop}}},{test:function(e){return"linux"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.desktop}}},{test:function(e){return"playstation 4"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.tv}}},{test:function(e){return"roku"===e.getOSName(!0)},describe:function(){return{type:s.PLATFORMS_MAP.tv}}}];t.default=a,e.exports=t.default},95:function(e,t,r){"use strict";t.__esModule=!0,t.default=void 0;var n,i=(n=r(17))&&n.__esModule?n:{default:n},s=r(18);var a=[{test:function(e){return"microsoft edge"===e.getBrowserName(!0)},describe:function(e){if(/\sedg\//i.test(e))return{name:s.ENGINE_MAP.Blink};var t=i.default.getFirstMatch(/edge\/(\d+(\.?_?\d+)+)/i,e);return{name:s.ENGINE_MAP.EdgeHTML,version:t}}},{test:[/trident/i],describe:function(e){var t={name:s.ENGINE_MAP.Trident},r=i.default.getFirstMatch(/trident\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:function(e){return e.test(/presto/i)},describe:function(e){var t={name:s.ENGINE_MAP.Presto},r=i.default.getFirstMatch(/presto\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:function(e){var t=e.test(/gecko/i),r=e.test(/like gecko/i);return t&&!r},describe:function(e){var t={name:s.ENGINE_MAP.Gecko},r=i.default.getFirstMatch(/gecko\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}},{test:[/(apple)?webkit\/537\.36/i],describe:function(){return{name:s.ENGINE_MAP.Blink}}},{test:[/(apple)?webkit/i],describe:function(e){var t={name:s.ENGINE_MAP.WebKit},r=i.default.getFirstMatch(/webkit\/(\d+(\.?_?\d+)+)/i,e);return r&&(t.version=r),t}}];t.default=a,e.exports=t.default}})}));
+
+/***/ }),
+
+/***/ "./node_modules/call-bind/callBound.js":
+/*!*********************************************!*\
+  !*** ./node_modules/call-bind/callBound.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var GetIntrinsic = __webpack_require__(/*! get-intrinsic */ "./node_modules/get-intrinsic/index.js");
+
+var callBind = __webpack_require__(/*! ./ */ "./node_modules/call-bind/index.js");
+
+var $indexOf = callBind(GetIntrinsic('String.prototype.indexOf'));
+
+module.exports = function callBoundIntrinsic(name, allowMissing) {
+	var intrinsic = GetIntrinsic(name, !!allowMissing);
+	if (typeof intrinsic === 'function' && $indexOf(name, '.prototype.') > -1) {
+		return callBind(intrinsic);
+	}
+	return intrinsic;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/call-bind/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/call-bind/index.js ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bind/index.js");
+var GetIntrinsic = __webpack_require__(/*! get-intrinsic */ "./node_modules/get-intrinsic/index.js");
+
+var $apply = GetIntrinsic('%Function.prototype.apply%');
+var $call = GetIntrinsic('%Function.prototype.call%');
+var $reflectApply = GetIntrinsic('%Reflect.apply%', true) || bind.call($call, $apply);
+
+var $gOPD = GetIntrinsic('%Object.getOwnPropertyDescriptor%', true);
+var $defineProperty = GetIntrinsic('%Object.defineProperty%', true);
+var $max = GetIntrinsic('%Math.max%');
+
+if ($defineProperty) {
+	try {
+		$defineProperty({}, 'a', { value: 1 });
+	} catch (e) {
+		// IE 8 has a broken defineProperty
+		$defineProperty = null;
+	}
+}
+
+module.exports = function callBind(originalFunction) {
+	var func = $reflectApply(bind, $call, arguments);
+	if ($gOPD && $defineProperty) {
+		var desc = $gOPD(func, 'length');
+		if (desc.configurable) {
+			// original length, plus the receiver, minus any additional arguments (after the receiver)
+			$defineProperty(
+				func,
+				'length',
+				{ value: 1 + $max(0, originalFunction.length - (arguments.length - 1)) }
+			);
+		}
+	}
+	return func;
+};
+
+var applyBind = function applyBind() {
+	return $reflectApply(bind, $apply, arguments);
+};
+
+if ($defineProperty) {
+	$defineProperty(module.exports, 'apply', { value: applyBind });
+} else {
+	module.exports.apply = applyBind;
+}
+
 
 /***/ }),
 
@@ -13371,6 +22659,964 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "src/assets/test.jpg");
+
+/***/ }),
+
+/***/ "./node_modules/for-each/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/for-each/index.js ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var isCallable = __webpack_require__(/*! is-callable */ "./node_modules/is-callable/index.js");
+
+var toStr = Object.prototype.toString;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+var forEachArray = function forEachArray(array, iterator, receiver) {
+    for (var i = 0, len = array.length; i < len; i++) {
+        if (hasOwnProperty.call(array, i)) {
+            if (receiver == null) {
+                iterator(array[i], i, array);
+            } else {
+                iterator.call(receiver, array[i], i, array);
+            }
+        }
+    }
+};
+
+var forEachString = function forEachString(string, iterator, receiver) {
+    for (var i = 0, len = string.length; i < len; i++) {
+        // no such thing as a sparse string.
+        if (receiver == null) {
+            iterator(string.charAt(i), i, string);
+        } else {
+            iterator.call(receiver, string.charAt(i), i, string);
+        }
+    }
+};
+
+var forEachObject = function forEachObject(object, iterator, receiver) {
+    for (var k in object) {
+        if (hasOwnProperty.call(object, k)) {
+            if (receiver == null) {
+                iterator(object[k], k, object);
+            } else {
+                iterator.call(receiver, object[k], k, object);
+            }
+        }
+    }
+};
+
+var forEach = function forEach(list, iterator, thisArg) {
+    if (!isCallable(iterator)) {
+        throw new TypeError('iterator must be a function');
+    }
+
+    var receiver;
+    if (arguments.length >= 3) {
+        receiver = thisArg;
+    }
+
+    if (toStr.call(list) === '[object Array]') {
+        forEachArray(list, iterator, receiver);
+    } else if (typeof list === 'string') {
+        forEachString(list, iterator, receiver);
+    } else {
+        forEachObject(list, iterator, receiver);
+    }
+};
+
+module.exports = forEach;
+
+
+/***/ }),
+
+/***/ "./node_modules/function-bind/implementation.js":
+/*!******************************************************!*\
+  !*** ./node_modules/function-bind/implementation.js ***!
+  \******************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* eslint no-invalid-this: 1 */
+
+var ERROR_MESSAGE = 'Function.prototype.bind called on incompatible ';
+var slice = Array.prototype.slice;
+var toStr = Object.prototype.toString;
+var funcType = '[object Function]';
+
+module.exports = function bind(that) {
+    var target = this;
+    if (typeof target !== 'function' || toStr.call(target) !== funcType) {
+        throw new TypeError(ERROR_MESSAGE + target);
+    }
+    var args = slice.call(arguments, 1);
+
+    var bound;
+    var binder = function () {
+        if (this instanceof bound) {
+            var result = target.apply(
+                this,
+                args.concat(slice.call(arguments))
+            );
+            if (Object(result) === result) {
+                return result;
+            }
+            return this;
+        } else {
+            return target.apply(
+                that,
+                args.concat(slice.call(arguments))
+            );
+        }
+    };
+
+    var boundLength = Math.max(0, target.length - args.length);
+    var boundArgs = [];
+    for (var i = 0; i < boundLength; i++) {
+        boundArgs.push('$' + i);
+    }
+
+    bound = Function('binder', 'return function (' + boundArgs.join(',') + '){ return binder.apply(this,arguments); }')(binder);
+
+    if (target.prototype) {
+        var Empty = function Empty() {};
+        Empty.prototype = target.prototype;
+        bound.prototype = new Empty();
+        Empty.prototype = null;
+    }
+
+    return bound;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/function-bind/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/function-bind/index.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var implementation = __webpack_require__(/*! ./implementation */ "./node_modules/function-bind/implementation.js");
+
+module.exports = Function.prototype.bind || implementation;
+
+
+/***/ }),
+
+/***/ "./node_modules/get-intrinsic/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/get-intrinsic/index.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var undefined;
+
+var $SyntaxError = SyntaxError;
+var $Function = Function;
+var $TypeError = TypeError;
+
+// eslint-disable-next-line consistent-return
+var getEvalledConstructor = function (expressionSyntax) {
+	try {
+		return $Function('"use strict"; return (' + expressionSyntax + ').constructor;')();
+	} catch (e) {}
+};
+
+var $gOPD = Object.getOwnPropertyDescriptor;
+if ($gOPD) {
+	try {
+		$gOPD({}, '');
+	} catch (e) {
+		$gOPD = null; // this is IE 8, which has a broken gOPD
+	}
+}
+
+var throwTypeError = function () {
+	throw new $TypeError();
+};
+var ThrowTypeError = $gOPD
+	? (function () {
+		try {
+			// eslint-disable-next-line no-unused-expressions, no-caller, no-restricted-properties
+			arguments.callee; // IE 8 does not throw here
+			return throwTypeError;
+		} catch (calleeThrows) {
+			try {
+				// IE 8 throws on Object.getOwnPropertyDescriptor(arguments, '')
+				return $gOPD(arguments, 'callee').get;
+			} catch (gOPDthrows) {
+				return throwTypeError;
+			}
+		}
+	}())
+	: throwTypeError;
+
+var hasSymbols = __webpack_require__(/*! has-symbols */ "./node_modules/has-symbols/index.js")();
+
+var getProto = Object.getPrototypeOf || function (x) { return x.__proto__; }; // eslint-disable-line no-proto
+
+var needsEval = {};
+
+var TypedArray = typeof Uint8Array === 'undefined' ? undefined : getProto(Uint8Array);
+
+var INTRINSICS = {
+	'%AggregateError%': typeof AggregateError === 'undefined' ? undefined : AggregateError,
+	'%Array%': Array,
+	'%ArrayBuffer%': typeof ArrayBuffer === 'undefined' ? undefined : ArrayBuffer,
+	'%ArrayIteratorPrototype%': hasSymbols ? getProto([][Symbol.iterator]()) : undefined,
+	'%AsyncFromSyncIteratorPrototype%': undefined,
+	'%AsyncFunction%': needsEval,
+	'%AsyncGenerator%': needsEval,
+	'%AsyncGeneratorFunction%': needsEval,
+	'%AsyncIteratorPrototype%': needsEval,
+	'%Atomics%': typeof Atomics === 'undefined' ? undefined : Atomics,
+	'%BigInt%': typeof BigInt === 'undefined' ? undefined : BigInt,
+	'%BigInt64Array%': typeof BigInt64Array === 'undefined' ? undefined : BigInt64Array,
+	'%BigUint64Array%': typeof BigUint64Array === 'undefined' ? undefined : BigUint64Array,
+	'%Boolean%': Boolean,
+	'%DataView%': typeof DataView === 'undefined' ? undefined : DataView,
+	'%Date%': Date,
+	'%decodeURI%': decodeURI,
+	'%decodeURIComponent%': decodeURIComponent,
+	'%encodeURI%': encodeURI,
+	'%encodeURIComponent%': encodeURIComponent,
+	'%Error%': Error,
+	'%eval%': eval, // eslint-disable-line no-eval
+	'%EvalError%': EvalError,
+	'%Float32Array%': typeof Float32Array === 'undefined' ? undefined : Float32Array,
+	'%Float64Array%': typeof Float64Array === 'undefined' ? undefined : Float64Array,
+	'%FinalizationRegistry%': typeof FinalizationRegistry === 'undefined' ? undefined : FinalizationRegistry,
+	'%Function%': $Function,
+	'%GeneratorFunction%': needsEval,
+	'%Int8Array%': typeof Int8Array === 'undefined' ? undefined : Int8Array,
+	'%Int16Array%': typeof Int16Array === 'undefined' ? undefined : Int16Array,
+	'%Int32Array%': typeof Int32Array === 'undefined' ? undefined : Int32Array,
+	'%isFinite%': isFinite,
+	'%isNaN%': isNaN,
+	'%IteratorPrototype%': hasSymbols ? getProto(getProto([][Symbol.iterator]())) : undefined,
+	'%JSON%': typeof JSON === 'object' ? JSON : undefined,
+	'%Map%': typeof Map === 'undefined' ? undefined : Map,
+	'%MapIteratorPrototype%': typeof Map === 'undefined' || !hasSymbols ? undefined : getProto(new Map()[Symbol.iterator]()),
+	'%Math%': Math,
+	'%Number%': Number,
+	'%Object%': Object,
+	'%parseFloat%': parseFloat,
+	'%parseInt%': parseInt,
+	'%Promise%': typeof Promise === 'undefined' ? undefined : Promise,
+	'%Proxy%': typeof Proxy === 'undefined' ? undefined : Proxy,
+	'%RangeError%': RangeError,
+	'%ReferenceError%': ReferenceError,
+	'%Reflect%': typeof Reflect === 'undefined' ? undefined : Reflect,
+	'%RegExp%': RegExp,
+	'%Set%': typeof Set === 'undefined' ? undefined : Set,
+	'%SetIteratorPrototype%': typeof Set === 'undefined' || !hasSymbols ? undefined : getProto(new Set()[Symbol.iterator]()),
+	'%SharedArrayBuffer%': typeof SharedArrayBuffer === 'undefined' ? undefined : SharedArrayBuffer,
+	'%String%': String,
+	'%StringIteratorPrototype%': hasSymbols ? getProto(''[Symbol.iterator]()) : undefined,
+	'%Symbol%': hasSymbols ? Symbol : undefined,
+	'%SyntaxError%': $SyntaxError,
+	'%ThrowTypeError%': ThrowTypeError,
+	'%TypedArray%': TypedArray,
+	'%TypeError%': $TypeError,
+	'%Uint8Array%': typeof Uint8Array === 'undefined' ? undefined : Uint8Array,
+	'%Uint8ClampedArray%': typeof Uint8ClampedArray === 'undefined' ? undefined : Uint8ClampedArray,
+	'%Uint16Array%': typeof Uint16Array === 'undefined' ? undefined : Uint16Array,
+	'%Uint32Array%': typeof Uint32Array === 'undefined' ? undefined : Uint32Array,
+	'%URIError%': URIError,
+	'%WeakMap%': typeof WeakMap === 'undefined' ? undefined : WeakMap,
+	'%WeakRef%': typeof WeakRef === 'undefined' ? undefined : WeakRef,
+	'%WeakSet%': typeof WeakSet === 'undefined' ? undefined : WeakSet
+};
+
+try {
+	null.error; // eslint-disable-line no-unused-expressions
+} catch (e) {
+	// https://github.com/tc39/proposal-shadowrealm/pull/384#issuecomment-1364264229
+	var errorProto = getProto(getProto(e));
+	INTRINSICS['%Error.prototype%'] = errorProto;
+}
+
+var doEval = function doEval(name) {
+	var value;
+	if (name === '%AsyncFunction%') {
+		value = getEvalledConstructor('async function () {}');
+	} else if (name === '%GeneratorFunction%') {
+		value = getEvalledConstructor('function* () {}');
+	} else if (name === '%AsyncGeneratorFunction%') {
+		value = getEvalledConstructor('async function* () {}');
+	} else if (name === '%AsyncGenerator%') {
+		var fn = doEval('%AsyncGeneratorFunction%');
+		if (fn) {
+			value = fn.prototype;
+		}
+	} else if (name === '%AsyncIteratorPrototype%') {
+		var gen = doEval('%AsyncGenerator%');
+		if (gen) {
+			value = getProto(gen.prototype);
+		}
+	}
+
+	INTRINSICS[name] = value;
+
+	return value;
+};
+
+var LEGACY_ALIASES = {
+	'%ArrayBufferPrototype%': ['ArrayBuffer', 'prototype'],
+	'%ArrayPrototype%': ['Array', 'prototype'],
+	'%ArrayProto_entries%': ['Array', 'prototype', 'entries'],
+	'%ArrayProto_forEach%': ['Array', 'prototype', 'forEach'],
+	'%ArrayProto_keys%': ['Array', 'prototype', 'keys'],
+	'%ArrayProto_values%': ['Array', 'prototype', 'values'],
+	'%AsyncFunctionPrototype%': ['AsyncFunction', 'prototype'],
+	'%AsyncGenerator%': ['AsyncGeneratorFunction', 'prototype'],
+	'%AsyncGeneratorPrototype%': ['AsyncGeneratorFunction', 'prototype', 'prototype'],
+	'%BooleanPrototype%': ['Boolean', 'prototype'],
+	'%DataViewPrototype%': ['DataView', 'prototype'],
+	'%DatePrototype%': ['Date', 'prototype'],
+	'%ErrorPrototype%': ['Error', 'prototype'],
+	'%EvalErrorPrototype%': ['EvalError', 'prototype'],
+	'%Float32ArrayPrototype%': ['Float32Array', 'prototype'],
+	'%Float64ArrayPrototype%': ['Float64Array', 'prototype'],
+	'%FunctionPrototype%': ['Function', 'prototype'],
+	'%Generator%': ['GeneratorFunction', 'prototype'],
+	'%GeneratorPrototype%': ['GeneratorFunction', 'prototype', 'prototype'],
+	'%Int8ArrayPrototype%': ['Int8Array', 'prototype'],
+	'%Int16ArrayPrototype%': ['Int16Array', 'prototype'],
+	'%Int32ArrayPrototype%': ['Int32Array', 'prototype'],
+	'%JSONParse%': ['JSON', 'parse'],
+	'%JSONStringify%': ['JSON', 'stringify'],
+	'%MapPrototype%': ['Map', 'prototype'],
+	'%NumberPrototype%': ['Number', 'prototype'],
+	'%ObjectPrototype%': ['Object', 'prototype'],
+	'%ObjProto_toString%': ['Object', 'prototype', 'toString'],
+	'%ObjProto_valueOf%': ['Object', 'prototype', 'valueOf'],
+	'%PromisePrototype%': ['Promise', 'prototype'],
+	'%PromiseProto_then%': ['Promise', 'prototype', 'then'],
+	'%Promise_all%': ['Promise', 'all'],
+	'%Promise_reject%': ['Promise', 'reject'],
+	'%Promise_resolve%': ['Promise', 'resolve'],
+	'%RangeErrorPrototype%': ['RangeError', 'prototype'],
+	'%ReferenceErrorPrototype%': ['ReferenceError', 'prototype'],
+	'%RegExpPrototype%': ['RegExp', 'prototype'],
+	'%SetPrototype%': ['Set', 'prototype'],
+	'%SharedArrayBufferPrototype%': ['SharedArrayBuffer', 'prototype'],
+	'%StringPrototype%': ['String', 'prototype'],
+	'%SymbolPrototype%': ['Symbol', 'prototype'],
+	'%SyntaxErrorPrototype%': ['SyntaxError', 'prototype'],
+	'%TypedArrayPrototype%': ['TypedArray', 'prototype'],
+	'%TypeErrorPrototype%': ['TypeError', 'prototype'],
+	'%Uint8ArrayPrototype%': ['Uint8Array', 'prototype'],
+	'%Uint8ClampedArrayPrototype%': ['Uint8ClampedArray', 'prototype'],
+	'%Uint16ArrayPrototype%': ['Uint16Array', 'prototype'],
+	'%Uint32ArrayPrototype%': ['Uint32Array', 'prototype'],
+	'%URIErrorPrototype%': ['URIError', 'prototype'],
+	'%WeakMapPrototype%': ['WeakMap', 'prototype'],
+	'%WeakSetPrototype%': ['WeakSet', 'prototype']
+};
+
+var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bind/index.js");
+var hasOwn = __webpack_require__(/*! has */ "./node_modules/has/src/index.js");
+var $concat = bind.call(Function.call, Array.prototype.concat);
+var $spliceApply = bind.call(Function.apply, Array.prototype.splice);
+var $replace = bind.call(Function.call, String.prototype.replace);
+var $strSlice = bind.call(Function.call, String.prototype.slice);
+var $exec = bind.call(Function.call, RegExp.prototype.exec);
+
+/* adapted from https://github.com/lodash/lodash/blob/4.17.15/dist/lodash.js#L6735-L6744 */
+var rePropName = /[^%.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|%$))/g;
+var reEscapeChar = /\\(\\)?/g; /** Used to match backslashes in property paths. */
+var stringToPath = function stringToPath(string) {
+	var first = $strSlice(string, 0, 1);
+	var last = $strSlice(string, -1);
+	if (first === '%' && last !== '%') {
+		throw new $SyntaxError('invalid intrinsic syntax, expected closing `%`');
+	} else if (last === '%' && first !== '%') {
+		throw new $SyntaxError('invalid intrinsic syntax, expected opening `%`');
+	}
+	var result = [];
+	$replace(string, rePropName, function (match, number, quote, subString) {
+		result[result.length] = quote ? $replace(subString, reEscapeChar, '$1') : number || match;
+	});
+	return result;
+};
+/* end adaptation */
+
+var getBaseIntrinsic = function getBaseIntrinsic(name, allowMissing) {
+	var intrinsicName = name;
+	var alias;
+	if (hasOwn(LEGACY_ALIASES, intrinsicName)) {
+		alias = LEGACY_ALIASES[intrinsicName];
+		intrinsicName = '%' + alias[0] + '%';
+	}
+
+	if (hasOwn(INTRINSICS, intrinsicName)) {
+		var value = INTRINSICS[intrinsicName];
+		if (value === needsEval) {
+			value = doEval(intrinsicName);
+		}
+		if (typeof value === 'undefined' && !allowMissing) {
+			throw new $TypeError('intrinsic ' + name + ' exists, but is not available. Please file an issue!');
+		}
+
+		return {
+			alias: alias,
+			name: intrinsicName,
+			value: value
+		};
+	}
+
+	throw new $SyntaxError('intrinsic ' + name + ' does not exist!');
+};
+
+module.exports = function GetIntrinsic(name, allowMissing) {
+	if (typeof name !== 'string' || name.length === 0) {
+		throw new $TypeError('intrinsic name must be a non-empty string');
+	}
+	if (arguments.length > 1 && typeof allowMissing !== 'boolean') {
+		throw new $TypeError('"allowMissing" argument must be a boolean');
+	}
+
+	if ($exec(/^%?[^%]*%?$/, name) === null) {
+		throw new $SyntaxError('`%` may not be present anywhere but at the beginning and end of the intrinsic name');
+	}
+	var parts = stringToPath(name);
+	var intrinsicBaseName = parts.length > 0 ? parts[0] : '';
+
+	var intrinsic = getBaseIntrinsic('%' + intrinsicBaseName + '%', allowMissing);
+	var intrinsicRealName = intrinsic.name;
+	var value = intrinsic.value;
+	var skipFurtherCaching = false;
+
+	var alias = intrinsic.alias;
+	if (alias) {
+		intrinsicBaseName = alias[0];
+		$spliceApply(parts, $concat([0, 1], alias));
+	}
+
+	for (var i = 1, isOwn = true; i < parts.length; i += 1) {
+		var part = parts[i];
+		var first = $strSlice(part, 0, 1);
+		var last = $strSlice(part, -1);
+		if (
+			(
+				(first === '"' || first === "'" || first === '`')
+				|| (last === '"' || last === "'" || last === '`')
+			)
+			&& first !== last
+		) {
+			throw new $SyntaxError('property names with quotes must have matching quotes');
+		}
+		if (part === 'constructor' || !isOwn) {
+			skipFurtherCaching = true;
+		}
+
+		intrinsicBaseName += '.' + part;
+		intrinsicRealName = '%' + intrinsicBaseName + '%';
+
+		if (hasOwn(INTRINSICS, intrinsicRealName)) {
+			value = INTRINSICS[intrinsicRealName];
+		} else if (value != null) {
+			if (!(part in value)) {
+				if (!allowMissing) {
+					throw new $TypeError('base intrinsic for ' + name + ' exists, but the property is not available.');
+				}
+				return void undefined;
+			}
+			if ($gOPD && (i + 1) >= parts.length) {
+				var desc = $gOPD(value, part);
+				isOwn = !!desc;
+
+				// By convention, when a data property is converted to an accessor
+				// property to emulate a data property that does not suffer from
+				// the override mistake, that accessor's getter is marked with
+				// an `originalValue` property. Here, when we detect this, we
+				// uphold the illusion by pretending to see that original data
+				// property, i.e., returning the value rather than the getter
+				// itself.
+				if (isOwn && 'get' in desc && !('originalValue' in desc.get)) {
+					value = desc.get;
+				} else {
+					value = value[part];
+				}
+			} else {
+				isOwn = hasOwn(value, part);
+				value = value[part];
+			}
+
+			if (isOwn && !skipFurtherCaching) {
+				INTRINSICS[intrinsicRealName] = value;
+			}
+		}
+	}
+	return value;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/gopd/index.js":
+/*!************************************!*\
+  !*** ./node_modules/gopd/index.js ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var GetIntrinsic = __webpack_require__(/*! get-intrinsic */ "./node_modules/get-intrinsic/index.js");
+
+var $gOPD = GetIntrinsic('%Object.getOwnPropertyDescriptor%', true);
+
+if ($gOPD) {
+	try {
+		$gOPD([], 'length');
+	} catch (e) {
+		// IE 8 has a broken gOPD
+		$gOPD = null;
+	}
+}
+
+module.exports = $gOPD;
+
+
+/***/ }),
+
+/***/ "./node_modules/has-symbols/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/has-symbols/index.js ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var origSymbol = typeof Symbol !== 'undefined' && Symbol;
+var hasSymbolSham = __webpack_require__(/*! ./shams */ "./node_modules/has-symbols/shams.js");
+
+module.exports = function hasNativeSymbols() {
+	if (typeof origSymbol !== 'function') { return false; }
+	if (typeof Symbol !== 'function') { return false; }
+	if (typeof origSymbol('foo') !== 'symbol') { return false; }
+	if (typeof Symbol('bar') !== 'symbol') { return false; }
+
+	return hasSymbolSham();
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/has-symbols/shams.js":
+/*!*******************************************!*\
+  !*** ./node_modules/has-symbols/shams.js ***!
+  \*******************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* eslint complexity: [2, 18], max-statements: [2, 33] */
+module.exports = function hasSymbols() {
+	if (typeof Symbol !== 'function' || typeof Object.getOwnPropertySymbols !== 'function') { return false; }
+	if (typeof Symbol.iterator === 'symbol') { return true; }
+
+	var obj = {};
+	var sym = Symbol('test');
+	var symObj = Object(sym);
+	if (typeof sym === 'string') { return false; }
+
+	if (Object.prototype.toString.call(sym) !== '[object Symbol]') { return false; }
+	if (Object.prototype.toString.call(symObj) !== '[object Symbol]') { return false; }
+
+	// temp disabled per https://github.com/ljharb/object.assign/issues/17
+	// if (sym instanceof Symbol) { return false; }
+	// temp disabled per https://github.com/WebReflection/get-own-property-symbols/issues/4
+	// if (!(symObj instanceof Symbol)) { return false; }
+
+	// if (typeof Symbol.prototype.toString !== 'function') { return false; }
+	// if (String(sym) !== Symbol.prototype.toString.call(sym)) { return false; }
+
+	var symVal = 42;
+	obj[sym] = symVal;
+	for (sym in obj) { return false; } // eslint-disable-line no-restricted-syntax, no-unreachable-loop
+	if (typeof Object.keys === 'function' && Object.keys(obj).length !== 0) { return false; }
+
+	if (typeof Object.getOwnPropertyNames === 'function' && Object.getOwnPropertyNames(obj).length !== 0) { return false; }
+
+	var syms = Object.getOwnPropertySymbols(obj);
+	if (syms.length !== 1 || syms[0] !== sym) { return false; }
+
+	if (!Object.prototype.propertyIsEnumerable.call(obj, sym)) { return false; }
+
+	if (typeof Object.getOwnPropertyDescriptor === 'function') {
+		var descriptor = Object.getOwnPropertyDescriptor(obj, sym);
+		if (descriptor.value !== symVal || descriptor.enumerable !== true) { return false; }
+	}
+
+	return true;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/has-tostringtag/shams.js":
+/*!***********************************************!*\
+  !*** ./node_modules/has-tostringtag/shams.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var hasSymbols = __webpack_require__(/*! has-symbols/shams */ "./node_modules/has-symbols/shams.js");
+
+module.exports = function hasToStringTagShams() {
+	return hasSymbols() && !!Symbol.toStringTag;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/has/src/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/has/src/index.js ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bind/index.js");
+
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
+/***/ "./node_modules/inherits/inherits_browser.js":
+/*!***************************************************!*\
+  !*** ./node_modules/inherits/inherits_browser.js ***!
+  \***************************************************/
+/***/ ((module) => {
+
+if (typeof Object.create === 'function') {
+  // implementation from standard node.js 'util' module
+  module.exports = function inherits(ctor, superCtor) {
+    if (superCtor) {
+      ctor.super_ = superCtor
+      ctor.prototype = Object.create(superCtor.prototype, {
+        constructor: {
+          value: ctor,
+          enumerable: false,
+          writable: true,
+          configurable: true
+        }
+      })
+    }
+  };
+} else {
+  // old school shim for old browsers
+  module.exports = function inherits(ctor, superCtor) {
+    if (superCtor) {
+      ctor.super_ = superCtor
+      var TempCtor = function () {}
+      TempCtor.prototype = superCtor.prototype
+      ctor.prototype = new TempCtor()
+      ctor.prototype.constructor = ctor
+    }
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/is-arguments/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/is-arguments/index.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var hasToStringTag = __webpack_require__(/*! has-tostringtag/shams */ "./node_modules/has-tostringtag/shams.js")();
+var callBound = __webpack_require__(/*! call-bind/callBound */ "./node_modules/call-bind/callBound.js");
+
+var $toString = callBound('Object.prototype.toString');
+
+var isStandardArguments = function isArguments(value) {
+	if (hasToStringTag && value && typeof value === 'object' && Symbol.toStringTag in value) {
+		return false;
+	}
+	return $toString(value) === '[object Arguments]';
+};
+
+var isLegacyArguments = function isArguments(value) {
+	if (isStandardArguments(value)) {
+		return true;
+	}
+	return value !== null &&
+		typeof value === 'object' &&
+		typeof value.length === 'number' &&
+		value.length >= 0 &&
+		$toString(value) !== '[object Array]' &&
+		$toString(value.callee) === '[object Function]';
+};
+
+var supportsStandardArguments = (function () {
+	return isStandardArguments(arguments);
+}());
+
+isStandardArguments.isLegacyArguments = isLegacyArguments; // for tests
+
+module.exports = supportsStandardArguments ? isStandardArguments : isLegacyArguments;
+
+
+/***/ }),
+
+/***/ "./node_modules/is-callable/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/is-callable/index.js ***!
+  \*******************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var fnToStr = Function.prototype.toString;
+var reflectApply = typeof Reflect === 'object' && Reflect !== null && Reflect.apply;
+var badArrayLike;
+var isCallableMarker;
+if (typeof reflectApply === 'function' && typeof Object.defineProperty === 'function') {
+	try {
+		badArrayLike = Object.defineProperty({}, 'length', {
+			get: function () {
+				throw isCallableMarker;
+			}
+		});
+		isCallableMarker = {};
+		// eslint-disable-next-line no-throw-literal
+		reflectApply(function () { throw 42; }, null, badArrayLike);
+	} catch (_) {
+		if (_ !== isCallableMarker) {
+			reflectApply = null;
+		}
+	}
+} else {
+	reflectApply = null;
+}
+
+var constructorRegex = /^\s*class\b/;
+var isES6ClassFn = function isES6ClassFunction(value) {
+	try {
+		var fnStr = fnToStr.call(value);
+		return constructorRegex.test(fnStr);
+	} catch (e) {
+		return false; // not a function
+	}
+};
+
+var tryFunctionObject = function tryFunctionToStr(value) {
+	try {
+		if (isES6ClassFn(value)) { return false; }
+		fnToStr.call(value);
+		return true;
+	} catch (e) {
+		return false;
+	}
+};
+var toStr = Object.prototype.toString;
+var objectClass = '[object Object]';
+var fnClass = '[object Function]';
+var genClass = '[object GeneratorFunction]';
+var ddaClass = '[object HTMLAllCollection]'; // IE 11
+var ddaClass2 = '[object HTML document.all class]';
+var ddaClass3 = '[object HTMLCollection]'; // IE 9-10
+var hasToStringTag = typeof Symbol === 'function' && !!Symbol.toStringTag; // better: use `has-tostringtag`
+
+var isIE68 = !(0 in [,]); // eslint-disable-line no-sparse-arrays, comma-spacing
+
+var isDDA = function isDocumentDotAll() { return false; };
+if (typeof document === 'object') {
+	// Firefox 3 canonicalizes DDA to undefined when it's not accessed directly
+	var all = document.all;
+	if (toStr.call(all) === toStr.call(document.all)) {
+		isDDA = function isDocumentDotAll(value) {
+			/* globals document: false */
+			// in IE 6-8, typeof document.all is "object" and it's truthy
+			if ((isIE68 || !value) && (typeof value === 'undefined' || typeof value === 'object')) {
+				try {
+					var str = toStr.call(value);
+					return (
+						str === ddaClass
+						|| str === ddaClass2
+						|| str === ddaClass3 // opera 12.16
+						|| str === objectClass // IE 6-8
+					) && value('') == null; // eslint-disable-line eqeqeq
+				} catch (e) { /**/ }
+			}
+			return false;
+		};
+	}
+}
+
+module.exports = reflectApply
+	? function isCallable(value) {
+		if (isDDA(value)) { return true; }
+		if (!value) { return false; }
+		if (typeof value !== 'function' && typeof value !== 'object') { return false; }
+		try {
+			reflectApply(value, null, badArrayLike);
+		} catch (e) {
+			if (e !== isCallableMarker) { return false; }
+		}
+		return !isES6ClassFn(value) && tryFunctionObject(value);
+	}
+	: function isCallable(value) {
+		if (isDDA(value)) { return true; }
+		if (!value) { return false; }
+		if (typeof value !== 'function' && typeof value !== 'object') { return false; }
+		if (hasToStringTag) { return tryFunctionObject(value); }
+		if (isES6ClassFn(value)) { return false; }
+		var strClass = toStr.call(value);
+		if (strClass !== fnClass && strClass !== genClass && !(/^\[object HTML/).test(strClass)) { return false; }
+		return tryFunctionObject(value);
+	};
+
+
+/***/ }),
+
+/***/ "./node_modules/is-generator-function/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/is-generator-function/index.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var toStr = Object.prototype.toString;
+var fnToStr = Function.prototype.toString;
+var isFnRegex = /^\s*(?:function)?\*/;
+var hasToStringTag = __webpack_require__(/*! has-tostringtag/shams */ "./node_modules/has-tostringtag/shams.js")();
+var getProto = Object.getPrototypeOf;
+var getGeneratorFunc = function () { // eslint-disable-line consistent-return
+	if (!hasToStringTag) {
+		return false;
+	}
+	try {
+		return Function('return function*() {}')();
+	} catch (e) {
+	}
+};
+var GeneratorFunction;
+
+module.exports = function isGeneratorFunction(fn) {
+	if (typeof fn !== 'function') {
+		return false;
+	}
+	if (isFnRegex.test(fnToStr.call(fn))) {
+		return true;
+	}
+	if (!hasToStringTag) {
+		var str = toStr.call(fn);
+		return str === '[object GeneratorFunction]';
+	}
+	if (!getProto) {
+		return false;
+	}
+	if (typeof GeneratorFunction === 'undefined') {
+		var generatorFunc = getGeneratorFunc();
+		GeneratorFunction = generatorFunc ? getProto(generatorFunc) : false;
+	}
+	return getProto(fn) === GeneratorFunction;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/is-typed-array/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/is-typed-array/index.js ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var forEach = __webpack_require__(/*! for-each */ "./node_modules/for-each/index.js");
+var availableTypedArrays = __webpack_require__(/*! available-typed-arrays */ "./node_modules/available-typed-arrays/index.js");
+var callBound = __webpack_require__(/*! call-bind/callBound */ "./node_modules/call-bind/callBound.js");
+
+var $toString = callBound('Object.prototype.toString');
+var hasToStringTag = __webpack_require__(/*! has-tostringtag/shams */ "./node_modules/has-tostringtag/shams.js")();
+var gOPD = __webpack_require__(/*! gopd */ "./node_modules/gopd/index.js");
+
+var g = typeof globalThis === 'undefined' ? __webpack_require__.g : globalThis;
+var typedArrays = availableTypedArrays();
+
+var $indexOf = callBound('Array.prototype.indexOf', true) || function indexOf(array, value) {
+	for (var i = 0; i < array.length; i += 1) {
+		if (array[i] === value) {
+			return i;
+		}
+	}
+	return -1;
+};
+var $slice = callBound('String.prototype.slice');
+var toStrTags = {};
+var getPrototypeOf = Object.getPrototypeOf; // require('getprototypeof');
+if (hasToStringTag && gOPD && getPrototypeOf) {
+	forEach(typedArrays, function (typedArray) {
+		var arr = new g[typedArray]();
+		if (Symbol.toStringTag in arr) {
+			var proto = getPrototypeOf(arr);
+			var descriptor = gOPD(proto, Symbol.toStringTag);
+			if (!descriptor) {
+				var superProto = getPrototypeOf(proto);
+				descriptor = gOPD(superProto, Symbol.toStringTag);
+			}
+			toStrTags[typedArray] = descriptor.get;
+		}
+	});
+}
+
+var tryTypedArrays = function tryAllTypedArrays(value) {
+	var anyTrue = false;
+	forEach(toStrTags, function (getter, typedArray) {
+		if (!anyTrue) {
+			try {
+				anyTrue = getter.call(value) === typedArray;
+			} catch (e) { /**/ }
+		}
+	});
+	return anyTrue;
+};
+
+module.exports = function isTypedArray(value) {
+	if (!value || typeof value !== 'object') { return false; }
+	if (!hasToStringTag || !(Symbol.toStringTag in value)) {
+		var tag = $slice($toString(value), 8, -1);
+		return $indexOf(typedArrays, tag) > -1;
+	}
+	if (!gOPD) { return false; }
+	return tryTypedArrays(value);
+};
+
 
 /***/ }),
 
@@ -47565,6 +57811,1091 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./node_modules/util/support/isBufferBrowser.js":
+/*!******************************************************!*\
+  !*** ./node_modules/util/support/isBufferBrowser.js ***!
+  \******************************************************/
+/***/ ((module) => {
+
+module.exports = function isBuffer(arg) {
+  return arg && typeof arg === 'object'
+    && typeof arg.copy === 'function'
+    && typeof arg.fill === 'function'
+    && typeof arg.readUInt8 === 'function';
+}
+
+/***/ }),
+
+/***/ "./node_modules/util/support/types.js":
+/*!********************************************!*\
+  !*** ./node_modules/util/support/types.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+// Currently in sync with Node.js lib/internal/util/types.js
+// https://github.com/nodejs/node/commit/112cc7c27551254aa2b17098fb774867f05ed0d9
+
+
+
+var isArgumentsObject = __webpack_require__(/*! is-arguments */ "./node_modules/is-arguments/index.js");
+var isGeneratorFunction = __webpack_require__(/*! is-generator-function */ "./node_modules/is-generator-function/index.js");
+var whichTypedArray = __webpack_require__(/*! which-typed-array */ "./node_modules/which-typed-array/index.js");
+var isTypedArray = __webpack_require__(/*! is-typed-array */ "./node_modules/is-typed-array/index.js");
+
+function uncurryThis(f) {
+  return f.call.bind(f);
+}
+
+var BigIntSupported = typeof BigInt !== 'undefined';
+var SymbolSupported = typeof Symbol !== 'undefined';
+
+var ObjectToString = uncurryThis(Object.prototype.toString);
+
+var numberValue = uncurryThis(Number.prototype.valueOf);
+var stringValue = uncurryThis(String.prototype.valueOf);
+var booleanValue = uncurryThis(Boolean.prototype.valueOf);
+
+if (BigIntSupported) {
+  var bigIntValue = uncurryThis(BigInt.prototype.valueOf);
+}
+
+if (SymbolSupported) {
+  var symbolValue = uncurryThis(Symbol.prototype.valueOf);
+}
+
+function checkBoxedPrimitive(value, prototypeValueOf) {
+  if (typeof value !== 'object') {
+    return false;
+  }
+  try {
+    prototypeValueOf(value);
+    return true;
+  } catch(e) {
+    return false;
+  }
+}
+
+exports.isArgumentsObject = isArgumentsObject;
+exports.isGeneratorFunction = isGeneratorFunction;
+exports.isTypedArray = isTypedArray;
+
+// Taken from here and modified for better browser support
+// https://github.com/sindresorhus/p-is-promise/blob/cda35a513bda03f977ad5cde3a079d237e82d7ef/index.js
+function isPromise(input) {
+	return (
+		(
+			typeof Promise !== 'undefined' &&
+			input instanceof Promise
+		) ||
+		(
+			input !== null &&
+			typeof input === 'object' &&
+			typeof input.then === 'function' &&
+			typeof input.catch === 'function'
+		)
+	);
+}
+exports.isPromise = isPromise;
+
+function isArrayBufferView(value) {
+  if (typeof ArrayBuffer !== 'undefined' && ArrayBuffer.isView) {
+    return ArrayBuffer.isView(value);
+  }
+
+  return (
+    isTypedArray(value) ||
+    isDataView(value)
+  );
+}
+exports.isArrayBufferView = isArrayBufferView;
+
+
+function isUint8Array(value) {
+  return whichTypedArray(value) === 'Uint8Array';
+}
+exports.isUint8Array = isUint8Array;
+
+function isUint8ClampedArray(value) {
+  return whichTypedArray(value) === 'Uint8ClampedArray';
+}
+exports.isUint8ClampedArray = isUint8ClampedArray;
+
+function isUint16Array(value) {
+  return whichTypedArray(value) === 'Uint16Array';
+}
+exports.isUint16Array = isUint16Array;
+
+function isUint32Array(value) {
+  return whichTypedArray(value) === 'Uint32Array';
+}
+exports.isUint32Array = isUint32Array;
+
+function isInt8Array(value) {
+  return whichTypedArray(value) === 'Int8Array';
+}
+exports.isInt8Array = isInt8Array;
+
+function isInt16Array(value) {
+  return whichTypedArray(value) === 'Int16Array';
+}
+exports.isInt16Array = isInt16Array;
+
+function isInt32Array(value) {
+  return whichTypedArray(value) === 'Int32Array';
+}
+exports.isInt32Array = isInt32Array;
+
+function isFloat32Array(value) {
+  return whichTypedArray(value) === 'Float32Array';
+}
+exports.isFloat32Array = isFloat32Array;
+
+function isFloat64Array(value) {
+  return whichTypedArray(value) === 'Float64Array';
+}
+exports.isFloat64Array = isFloat64Array;
+
+function isBigInt64Array(value) {
+  return whichTypedArray(value) === 'BigInt64Array';
+}
+exports.isBigInt64Array = isBigInt64Array;
+
+function isBigUint64Array(value) {
+  return whichTypedArray(value) === 'BigUint64Array';
+}
+exports.isBigUint64Array = isBigUint64Array;
+
+function isMapToString(value) {
+  return ObjectToString(value) === '[object Map]';
+}
+isMapToString.working = (
+  typeof Map !== 'undefined' &&
+  isMapToString(new Map())
+);
+
+function isMap(value) {
+  if (typeof Map === 'undefined') {
+    return false;
+  }
+
+  return isMapToString.working
+    ? isMapToString(value)
+    : value instanceof Map;
+}
+exports.isMap = isMap;
+
+function isSetToString(value) {
+  return ObjectToString(value) === '[object Set]';
+}
+isSetToString.working = (
+  typeof Set !== 'undefined' &&
+  isSetToString(new Set())
+);
+function isSet(value) {
+  if (typeof Set === 'undefined') {
+    return false;
+  }
+
+  return isSetToString.working
+    ? isSetToString(value)
+    : value instanceof Set;
+}
+exports.isSet = isSet;
+
+function isWeakMapToString(value) {
+  return ObjectToString(value) === '[object WeakMap]';
+}
+isWeakMapToString.working = (
+  typeof WeakMap !== 'undefined' &&
+  isWeakMapToString(new WeakMap())
+);
+function isWeakMap(value) {
+  if (typeof WeakMap === 'undefined') {
+    return false;
+  }
+
+  return isWeakMapToString.working
+    ? isWeakMapToString(value)
+    : value instanceof WeakMap;
+}
+exports.isWeakMap = isWeakMap;
+
+function isWeakSetToString(value) {
+  return ObjectToString(value) === '[object WeakSet]';
+}
+isWeakSetToString.working = (
+  typeof WeakSet !== 'undefined' &&
+  isWeakSetToString(new WeakSet())
+);
+function isWeakSet(value) {
+  return isWeakSetToString(value);
+}
+exports.isWeakSet = isWeakSet;
+
+function isArrayBufferToString(value) {
+  return ObjectToString(value) === '[object ArrayBuffer]';
+}
+isArrayBufferToString.working = (
+  typeof ArrayBuffer !== 'undefined' &&
+  isArrayBufferToString(new ArrayBuffer())
+);
+function isArrayBuffer(value) {
+  if (typeof ArrayBuffer === 'undefined') {
+    return false;
+  }
+
+  return isArrayBufferToString.working
+    ? isArrayBufferToString(value)
+    : value instanceof ArrayBuffer;
+}
+exports.isArrayBuffer = isArrayBuffer;
+
+function isDataViewToString(value) {
+  return ObjectToString(value) === '[object DataView]';
+}
+isDataViewToString.working = (
+  typeof ArrayBuffer !== 'undefined' &&
+  typeof DataView !== 'undefined' &&
+  isDataViewToString(new DataView(new ArrayBuffer(1), 0, 1))
+);
+function isDataView(value) {
+  if (typeof DataView === 'undefined') {
+    return false;
+  }
+
+  return isDataViewToString.working
+    ? isDataViewToString(value)
+    : value instanceof DataView;
+}
+exports.isDataView = isDataView;
+
+// Store a copy of SharedArrayBuffer in case it's deleted elsewhere
+var SharedArrayBufferCopy = typeof SharedArrayBuffer !== 'undefined' ? SharedArrayBuffer : undefined;
+function isSharedArrayBufferToString(value) {
+  return ObjectToString(value) === '[object SharedArrayBuffer]';
+}
+function isSharedArrayBuffer(value) {
+  if (typeof SharedArrayBufferCopy === 'undefined') {
+    return false;
+  }
+
+  if (typeof isSharedArrayBufferToString.working === 'undefined') {
+    isSharedArrayBufferToString.working = isSharedArrayBufferToString(new SharedArrayBufferCopy());
+  }
+
+  return isSharedArrayBufferToString.working
+    ? isSharedArrayBufferToString(value)
+    : value instanceof SharedArrayBufferCopy;
+}
+exports.isSharedArrayBuffer = isSharedArrayBuffer;
+
+function isAsyncFunction(value) {
+  return ObjectToString(value) === '[object AsyncFunction]';
+}
+exports.isAsyncFunction = isAsyncFunction;
+
+function isMapIterator(value) {
+  return ObjectToString(value) === '[object Map Iterator]';
+}
+exports.isMapIterator = isMapIterator;
+
+function isSetIterator(value) {
+  return ObjectToString(value) === '[object Set Iterator]';
+}
+exports.isSetIterator = isSetIterator;
+
+function isGeneratorObject(value) {
+  return ObjectToString(value) === '[object Generator]';
+}
+exports.isGeneratorObject = isGeneratorObject;
+
+function isWebAssemblyCompiledModule(value) {
+  return ObjectToString(value) === '[object WebAssembly.Module]';
+}
+exports.isWebAssemblyCompiledModule = isWebAssemblyCompiledModule;
+
+function isNumberObject(value) {
+  return checkBoxedPrimitive(value, numberValue);
+}
+exports.isNumberObject = isNumberObject;
+
+function isStringObject(value) {
+  return checkBoxedPrimitive(value, stringValue);
+}
+exports.isStringObject = isStringObject;
+
+function isBooleanObject(value) {
+  return checkBoxedPrimitive(value, booleanValue);
+}
+exports.isBooleanObject = isBooleanObject;
+
+function isBigIntObject(value) {
+  return BigIntSupported && checkBoxedPrimitive(value, bigIntValue);
+}
+exports.isBigIntObject = isBigIntObject;
+
+function isSymbolObject(value) {
+  return SymbolSupported && checkBoxedPrimitive(value, symbolValue);
+}
+exports.isSymbolObject = isSymbolObject;
+
+function isBoxedPrimitive(value) {
+  return (
+    isNumberObject(value) ||
+    isStringObject(value) ||
+    isBooleanObject(value) ||
+    isBigIntObject(value) ||
+    isSymbolObject(value)
+  );
+}
+exports.isBoxedPrimitive = isBoxedPrimitive;
+
+function isAnyArrayBuffer(value) {
+  return typeof Uint8Array !== 'undefined' && (
+    isArrayBuffer(value) ||
+    isSharedArrayBuffer(value)
+  );
+}
+exports.isAnyArrayBuffer = isAnyArrayBuffer;
+
+['isProxy', 'isExternal', 'isModuleNamespaceObject'].forEach(function(method) {
+  Object.defineProperty(exports, method, {
+    enumerable: false,
+    value: function() {
+      throw new Error(method + ' is not supported in userland');
+    }
+  });
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/util/util.js":
+/*!***********************************!*\
+  !*** ./node_modules/util/util.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+var getOwnPropertyDescriptors = Object.getOwnPropertyDescriptors ||
+  function getOwnPropertyDescriptors(obj) {
+    var keys = Object.keys(obj);
+    var descriptors = {};
+    for (var i = 0; i < keys.length; i++) {
+      descriptors[keys[i]] = Object.getOwnPropertyDescriptor(obj, keys[i]);
+    }
+    return descriptors;
+  };
+
+var formatRegExp = /%[sdj%]/g;
+exports.format = function(f) {
+  if (!isString(f)) {
+    var objects = [];
+    for (var i = 0; i < arguments.length; i++) {
+      objects.push(inspect(arguments[i]));
+    }
+    return objects.join(' ');
+  }
+
+  var i = 1;
+  var args = arguments;
+  var len = args.length;
+  var str = String(f).replace(formatRegExp, function(x) {
+    if (x === '%%') return '%';
+    if (i >= len) return x;
+    switch (x) {
+      case '%s': return String(args[i++]);
+      case '%d': return Number(args[i++]);
+      case '%j':
+        try {
+          return JSON.stringify(args[i++]);
+        } catch (_) {
+          return '[Circular]';
+        }
+      default:
+        return x;
+    }
+  });
+  for (var x = args[i]; i < len; x = args[++i]) {
+    if (isNull(x) || !isObject(x)) {
+      str += ' ' + x;
+    } else {
+      str += ' ' + inspect(x);
+    }
+  }
+  return str;
+};
+
+
+// Mark that a method should not be used.
+// Returns a modified function which warns once by default.
+// If --no-deprecation is set, then it is a no-op.
+exports.deprecate = function(fn, msg) {
+  if (typeof process !== 'undefined' && process.noDeprecation === true) {
+    return fn;
+  }
+
+  // Allow for deprecating things in the process of starting up.
+  if (typeof process === 'undefined') {
+    return function() {
+      return exports.deprecate(fn, msg).apply(this, arguments);
+    };
+  }
+
+  var warned = false;
+  function deprecated() {
+    if (!warned) {
+      if (process.throwDeprecation) {
+        throw new Error(msg);
+      } else if (process.traceDeprecation) {
+        console.trace(msg);
+      } else {
+        console.error(msg);
+      }
+      warned = true;
+    }
+    return fn.apply(this, arguments);
+  }
+
+  return deprecated;
+};
+
+
+var debugs = {};
+var debugEnvRegex = /^$/;
+
+if (process.env.NODE_DEBUG) {
+  var debugEnv = process.env.NODE_DEBUG;
+  debugEnv = debugEnv.replace(/[|\\{}()[\]^$+?.]/g, '\\$&')
+    .replace(/\*/g, '.*')
+    .replace(/,/g, '$|^')
+    .toUpperCase();
+  debugEnvRegex = new RegExp('^' + debugEnv + '$', 'i');
+}
+exports.debuglog = function(set) {
+  set = set.toUpperCase();
+  if (!debugs[set]) {
+    if (debugEnvRegex.test(set)) {
+      var pid = process.pid;
+      debugs[set] = function() {
+        var msg = exports.format.apply(exports, arguments);
+        console.error('%s %d: %s', set, pid, msg);
+      };
+    } else {
+      debugs[set] = function() {};
+    }
+  }
+  return debugs[set];
+};
+
+
+/**
+ * Echos the value of a value. Trys to print the value out
+ * in the best way possible given the different types.
+ *
+ * @param {Object} obj The object to print out.
+ * @param {Object} opts Optional options object that alters the output.
+ */
+/* legacy: obj, showHidden, depth, colors*/
+function inspect(obj, opts) {
+  // default options
+  var ctx = {
+    seen: [],
+    stylize: stylizeNoColor
+  };
+  // legacy...
+  if (arguments.length >= 3) ctx.depth = arguments[2];
+  if (arguments.length >= 4) ctx.colors = arguments[3];
+  if (isBoolean(opts)) {
+    // legacy...
+    ctx.showHidden = opts;
+  } else if (opts) {
+    // got an "options" object
+    exports._extend(ctx, opts);
+  }
+  // set default options
+  if (isUndefined(ctx.showHidden)) ctx.showHidden = false;
+  if (isUndefined(ctx.depth)) ctx.depth = 2;
+  if (isUndefined(ctx.colors)) ctx.colors = false;
+  if (isUndefined(ctx.customInspect)) ctx.customInspect = true;
+  if (ctx.colors) ctx.stylize = stylizeWithColor;
+  return formatValue(ctx, obj, ctx.depth);
+}
+exports.inspect = inspect;
+
+
+// http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
+inspect.colors = {
+  'bold' : [1, 22],
+  'italic' : [3, 23],
+  'underline' : [4, 24],
+  'inverse' : [7, 27],
+  'white' : [37, 39],
+  'grey' : [90, 39],
+  'black' : [30, 39],
+  'blue' : [34, 39],
+  'cyan' : [36, 39],
+  'green' : [32, 39],
+  'magenta' : [35, 39],
+  'red' : [31, 39],
+  'yellow' : [33, 39]
+};
+
+// Don't use 'blue' not visible on cmd.exe
+inspect.styles = {
+  'special': 'cyan',
+  'number': 'yellow',
+  'boolean': 'yellow',
+  'undefined': 'grey',
+  'null': 'bold',
+  'string': 'green',
+  'date': 'magenta',
+  // "name": intentionally not styling
+  'regexp': 'red'
+};
+
+
+function stylizeWithColor(str, styleType) {
+  var style = inspect.styles[styleType];
+
+  if (style) {
+    return '\u001b[' + inspect.colors[style][0] + 'm' + str +
+           '\u001b[' + inspect.colors[style][1] + 'm';
+  } else {
+    return str;
+  }
+}
+
+
+function stylizeNoColor(str, styleType) {
+  return str;
+}
+
+
+function arrayToHash(array) {
+  var hash = {};
+
+  array.forEach(function(val, idx) {
+    hash[val] = true;
+  });
+
+  return hash;
+}
+
+
+function formatValue(ctx, value, recurseTimes) {
+  // Provide a hook for user-specified inspect functions.
+  // Check that value is an object with an inspect function on it
+  if (ctx.customInspect &&
+      value &&
+      isFunction(value.inspect) &&
+      // Filter out the util module, it's inspect function is special
+      value.inspect !== exports.inspect &&
+      // Also filter out any prototype objects using the circular check.
+      !(value.constructor && value.constructor.prototype === value)) {
+    var ret = value.inspect(recurseTimes, ctx);
+    if (!isString(ret)) {
+      ret = formatValue(ctx, ret, recurseTimes);
+    }
+    return ret;
+  }
+
+  // Primitive types cannot have properties
+  var primitive = formatPrimitive(ctx, value);
+  if (primitive) {
+    return primitive;
+  }
+
+  // Look up the keys of the object.
+  var keys = Object.keys(value);
+  var visibleKeys = arrayToHash(keys);
+
+  if (ctx.showHidden) {
+    keys = Object.getOwnPropertyNames(value);
+  }
+
+  // IE doesn't make error fields non-enumerable
+  // http://msdn.microsoft.com/en-us/library/ie/dww52sbt(v=vs.94).aspx
+  if (isError(value)
+      && (keys.indexOf('message') >= 0 || keys.indexOf('description') >= 0)) {
+    return formatError(value);
+  }
+
+  // Some type of object without properties can be shortcutted.
+  if (keys.length === 0) {
+    if (isFunction(value)) {
+      var name = value.name ? ': ' + value.name : '';
+      return ctx.stylize('[Function' + name + ']', 'special');
+    }
+    if (isRegExp(value)) {
+      return ctx.stylize(RegExp.prototype.toString.call(value), 'regexp');
+    }
+    if (isDate(value)) {
+      return ctx.stylize(Date.prototype.toString.call(value), 'date');
+    }
+    if (isError(value)) {
+      return formatError(value);
+    }
+  }
+
+  var base = '', array = false, braces = ['{', '}'];
+
+  // Make Array say that they are Array
+  if (isArray(value)) {
+    array = true;
+    braces = ['[', ']'];
+  }
+
+  // Make functions say that they are functions
+  if (isFunction(value)) {
+    var n = value.name ? ': ' + value.name : '';
+    base = ' [Function' + n + ']';
+  }
+
+  // Make RegExps say that they are RegExps
+  if (isRegExp(value)) {
+    base = ' ' + RegExp.prototype.toString.call(value);
+  }
+
+  // Make dates with properties first say the date
+  if (isDate(value)) {
+    base = ' ' + Date.prototype.toUTCString.call(value);
+  }
+
+  // Make error with message first say the error
+  if (isError(value)) {
+    base = ' ' + formatError(value);
+  }
+
+  if (keys.length === 0 && (!array || value.length == 0)) {
+    return braces[0] + base + braces[1];
+  }
+
+  if (recurseTimes < 0) {
+    if (isRegExp(value)) {
+      return ctx.stylize(RegExp.prototype.toString.call(value), 'regexp');
+    } else {
+      return ctx.stylize('[Object]', 'special');
+    }
+  }
+
+  ctx.seen.push(value);
+
+  var output;
+  if (array) {
+    output = formatArray(ctx, value, recurseTimes, visibleKeys, keys);
+  } else {
+    output = keys.map(function(key) {
+      return formatProperty(ctx, value, recurseTimes, visibleKeys, key, array);
+    });
+  }
+
+  ctx.seen.pop();
+
+  return reduceToSingleString(output, base, braces);
+}
+
+
+function formatPrimitive(ctx, value) {
+  if (isUndefined(value))
+    return ctx.stylize('undefined', 'undefined');
+  if (isString(value)) {
+    var simple = '\'' + JSON.stringify(value).replace(/^"|"$/g, '')
+                                             .replace(/'/g, "\\'")
+                                             .replace(/\\"/g, '"') + '\'';
+    return ctx.stylize(simple, 'string');
+  }
+  if (isNumber(value))
+    return ctx.stylize('' + value, 'number');
+  if (isBoolean(value))
+    return ctx.stylize('' + value, 'boolean');
+  // For some reason typeof null is "object", so special case here.
+  if (isNull(value))
+    return ctx.stylize('null', 'null');
+}
+
+
+function formatError(value) {
+  return '[' + Error.prototype.toString.call(value) + ']';
+}
+
+
+function formatArray(ctx, value, recurseTimes, visibleKeys, keys) {
+  var output = [];
+  for (var i = 0, l = value.length; i < l; ++i) {
+    if (hasOwnProperty(value, String(i))) {
+      output.push(formatProperty(ctx, value, recurseTimes, visibleKeys,
+          String(i), true));
+    } else {
+      output.push('');
+    }
+  }
+  keys.forEach(function(key) {
+    if (!key.match(/^\d+$/)) {
+      output.push(formatProperty(ctx, value, recurseTimes, visibleKeys,
+          key, true));
+    }
+  });
+  return output;
+}
+
+
+function formatProperty(ctx, value, recurseTimes, visibleKeys, key, array) {
+  var name, str, desc;
+  desc = Object.getOwnPropertyDescriptor(value, key) || { value: value[key] };
+  if (desc.get) {
+    if (desc.set) {
+      str = ctx.stylize('[Getter/Setter]', 'special');
+    } else {
+      str = ctx.stylize('[Getter]', 'special');
+    }
+  } else {
+    if (desc.set) {
+      str = ctx.stylize('[Setter]', 'special');
+    }
+  }
+  if (!hasOwnProperty(visibleKeys, key)) {
+    name = '[' + key + ']';
+  }
+  if (!str) {
+    if (ctx.seen.indexOf(desc.value) < 0) {
+      if (isNull(recurseTimes)) {
+        str = formatValue(ctx, desc.value, null);
+      } else {
+        str = formatValue(ctx, desc.value, recurseTimes - 1);
+      }
+      if (str.indexOf('\n') > -1) {
+        if (array) {
+          str = str.split('\n').map(function(line) {
+            return '  ' + line;
+          }).join('\n').slice(2);
+        } else {
+          str = '\n' + str.split('\n').map(function(line) {
+            return '   ' + line;
+          }).join('\n');
+        }
+      }
+    } else {
+      str = ctx.stylize('[Circular]', 'special');
+    }
+  }
+  if (isUndefined(name)) {
+    if (array && key.match(/^\d+$/)) {
+      return str;
+    }
+    name = JSON.stringify('' + key);
+    if (name.match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)) {
+      name = name.slice(1, -1);
+      name = ctx.stylize(name, 'name');
+    } else {
+      name = name.replace(/'/g, "\\'")
+                 .replace(/\\"/g, '"')
+                 .replace(/(^"|"$)/g, "'");
+      name = ctx.stylize(name, 'string');
+    }
+  }
+
+  return name + ': ' + str;
+}
+
+
+function reduceToSingleString(output, base, braces) {
+  var numLinesEst = 0;
+  var length = output.reduce(function(prev, cur) {
+    numLinesEst++;
+    if (cur.indexOf('\n') >= 0) numLinesEst++;
+    return prev + cur.replace(/\u001b\[\d\d?m/g, '').length + 1;
+  }, 0);
+
+  if (length > 60) {
+    return braces[0] +
+           (base === '' ? '' : base + '\n ') +
+           ' ' +
+           output.join(',\n  ') +
+           ' ' +
+           braces[1];
+  }
+
+  return braces[0] + base + ' ' + output.join(', ') + ' ' + braces[1];
+}
+
+
+// NOTE: These type checking functions intentionally don't use `instanceof`
+// because it is fragile and can be easily faked with `Object.create()`.
+exports.types = __webpack_require__(/*! ./support/types */ "./node_modules/util/support/types.js");
+
+function isArray(ar) {
+  return Array.isArray(ar);
+}
+exports.isArray = isArray;
+
+function isBoolean(arg) {
+  return typeof arg === 'boolean';
+}
+exports.isBoolean = isBoolean;
+
+function isNull(arg) {
+  return arg === null;
+}
+exports.isNull = isNull;
+
+function isNullOrUndefined(arg) {
+  return arg == null;
+}
+exports.isNullOrUndefined = isNullOrUndefined;
+
+function isNumber(arg) {
+  return typeof arg === 'number';
+}
+exports.isNumber = isNumber;
+
+function isString(arg) {
+  return typeof arg === 'string';
+}
+exports.isString = isString;
+
+function isSymbol(arg) {
+  return typeof arg === 'symbol';
+}
+exports.isSymbol = isSymbol;
+
+function isUndefined(arg) {
+  return arg === void 0;
+}
+exports.isUndefined = isUndefined;
+
+function isRegExp(re) {
+  return isObject(re) && objectToString(re) === '[object RegExp]';
+}
+exports.isRegExp = isRegExp;
+exports.types.isRegExp = isRegExp;
+
+function isObject(arg) {
+  return typeof arg === 'object' && arg !== null;
+}
+exports.isObject = isObject;
+
+function isDate(d) {
+  return isObject(d) && objectToString(d) === '[object Date]';
+}
+exports.isDate = isDate;
+exports.types.isDate = isDate;
+
+function isError(e) {
+  return isObject(e) &&
+      (objectToString(e) === '[object Error]' || e instanceof Error);
+}
+exports.isError = isError;
+exports.types.isNativeError = isError;
+
+function isFunction(arg) {
+  return typeof arg === 'function';
+}
+exports.isFunction = isFunction;
+
+function isPrimitive(arg) {
+  return arg === null ||
+         typeof arg === 'boolean' ||
+         typeof arg === 'number' ||
+         typeof arg === 'string' ||
+         typeof arg === 'symbol' ||  // ES6 symbol
+         typeof arg === 'undefined';
+}
+exports.isPrimitive = isPrimitive;
+
+exports.isBuffer = __webpack_require__(/*! ./support/isBuffer */ "./node_modules/util/support/isBufferBrowser.js");
+
+function objectToString(o) {
+  return Object.prototype.toString.call(o);
+}
+
+
+function pad(n) {
+  return n < 10 ? '0' + n.toString(10) : n.toString(10);
+}
+
+
+var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+              'Oct', 'Nov', 'Dec'];
+
+// 26 Feb 16:19:34
+function timestamp() {
+  var d = new Date();
+  var time = [pad(d.getHours()),
+              pad(d.getMinutes()),
+              pad(d.getSeconds())].join(':');
+  return [d.getDate(), months[d.getMonth()], time].join(' ');
+}
+
+
+// log is just a thin wrapper to console.log that prepends a timestamp
+exports.log = function() {
+  console.log('%s - %s', timestamp(), exports.format.apply(exports, arguments));
+};
+
+
+/**
+ * Inherit the prototype methods from one constructor into another.
+ *
+ * The Function.prototype.inherits from lang.js rewritten as a standalone
+ * function (not on Function.prototype). NOTE: If this file is to be loaded
+ * during bootstrapping this function needs to be rewritten using some native
+ * functions as prototype setup using normal JavaScript does not work as
+ * expected during bootstrapping (see mirror.js in r114903).
+ *
+ * @param {function} ctor Constructor function which needs to inherit the
+ *     prototype.
+ * @param {function} superCtor Constructor function to inherit prototype from.
+ */
+exports.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inherits_browser.js");
+
+exports._extend = function(origin, add) {
+  // Don't do anything if add isn't an object
+  if (!add || !isObject(add)) return origin;
+
+  var keys = Object.keys(add);
+  var i = keys.length;
+  while (i--) {
+    origin[keys[i]] = add[keys[i]];
+  }
+  return origin;
+};
+
+function hasOwnProperty(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+
+var kCustomPromisifiedSymbol = typeof Symbol !== 'undefined' ? Symbol('util.promisify.custom') : undefined;
+
+exports.promisify = function promisify(original) {
+  if (typeof original !== 'function')
+    throw new TypeError('The "original" argument must be of type Function');
+
+  if (kCustomPromisifiedSymbol && original[kCustomPromisifiedSymbol]) {
+    var fn = original[kCustomPromisifiedSymbol];
+    if (typeof fn !== 'function') {
+      throw new TypeError('The "util.promisify.custom" argument must be of type Function');
+    }
+    Object.defineProperty(fn, kCustomPromisifiedSymbol, {
+      value: fn, enumerable: false, writable: false, configurable: true
+    });
+    return fn;
+  }
+
+  function fn() {
+    var promiseResolve, promiseReject;
+    var promise = new Promise(function (resolve, reject) {
+      promiseResolve = resolve;
+      promiseReject = reject;
+    });
+
+    var args = [];
+    for (var i = 0; i < arguments.length; i++) {
+      args.push(arguments[i]);
+    }
+    args.push(function (err, value) {
+      if (err) {
+        promiseReject(err);
+      } else {
+        promiseResolve(value);
+      }
+    });
+
+    try {
+      original.apply(this, args);
+    } catch (err) {
+      promiseReject(err);
+    }
+
+    return promise;
+  }
+
+  Object.setPrototypeOf(fn, Object.getPrototypeOf(original));
+
+  if (kCustomPromisifiedSymbol) Object.defineProperty(fn, kCustomPromisifiedSymbol, {
+    value: fn, enumerable: false, writable: false, configurable: true
+  });
+  return Object.defineProperties(
+    fn,
+    getOwnPropertyDescriptors(original)
+  );
+}
+
+exports.promisify.custom = kCustomPromisifiedSymbol
+
+function callbackifyOnRejected(reason, cb) {
+  // `!reason` guard inspired by bluebird (Ref: https://goo.gl/t5IS6M).
+  // Because `null` is a special error value in callbacks which means "no error
+  // occurred", we error-wrap so the callback consumer can distinguish between
+  // "the promise rejected with null" or "the promise fulfilled with undefined".
+  if (!reason) {
+    var newReason = new Error('Promise was rejected with a falsy value');
+    newReason.reason = reason;
+    reason = newReason;
+  }
+  return cb(reason);
+}
+
+function callbackify(original) {
+  if (typeof original !== 'function') {
+    throw new TypeError('The "original" argument must be of type Function');
+  }
+
+  // We DO NOT return the promise as it gives the user a false sense that
+  // the promise is actually somehow related to the callback's execution
+  // and that the callback throwing will reject the promise.
+  function callbackified() {
+    var args = [];
+    for (var i = 0; i < arguments.length; i++) {
+      args.push(arguments[i]);
+    }
+
+    var maybeCb = args.pop();
+    if (typeof maybeCb !== 'function') {
+      throw new TypeError('The last argument must be of type Function');
+    }
+    var self = this;
+    var cb = function() {
+      return maybeCb.apply(self, arguments);
+    };
+    // In true node style we process the callback on `nextTick` with all the
+    // implications (stack, `uncaughtException`, `async_hooks`)
+    original.apply(this, args)
+      .then(function(ret) { process.nextTick(cb.bind(null, null, ret)) },
+            function(rej) { process.nextTick(callbackifyOnRejected.bind(null, rej, cb)) });
+  }
+
+  Object.setPrototypeOf(callbackified, Object.getPrototypeOf(original));
+  Object.defineProperties(callbackified,
+                          getOwnPropertyDescriptors(original));
+  return callbackified;
+}
+exports.callbackify = callbackify;
+
+
+/***/ }),
+
 /***/ "./node_modules/uuid/dist/esm-browser/regex.js":
 /*!*****************************************************!*\
   !*** ./node_modules/uuid/dist/esm-browser/regex.js ***!
@@ -47720,6 +59051,72 @@ function validate(uuid) {
 
 /***/ }),
 
+/***/ "./node_modules/which-typed-array/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/which-typed-array/index.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var forEach = __webpack_require__(/*! for-each */ "./node_modules/for-each/index.js");
+var availableTypedArrays = __webpack_require__(/*! available-typed-arrays */ "./node_modules/available-typed-arrays/index.js");
+var callBound = __webpack_require__(/*! call-bind/callBound */ "./node_modules/call-bind/callBound.js");
+var gOPD = __webpack_require__(/*! gopd */ "./node_modules/gopd/index.js");
+
+var $toString = callBound('Object.prototype.toString');
+var hasToStringTag = __webpack_require__(/*! has-tostringtag/shams */ "./node_modules/has-tostringtag/shams.js")();
+
+var g = typeof globalThis === 'undefined' ? __webpack_require__.g : globalThis;
+var typedArrays = availableTypedArrays();
+
+var $slice = callBound('String.prototype.slice');
+var toStrTags = {};
+var getPrototypeOf = Object.getPrototypeOf; // require('getprototypeof');
+if (hasToStringTag && gOPD && getPrototypeOf) {
+	forEach(typedArrays, function (typedArray) {
+		if (typeof g[typedArray] === 'function') {
+			var arr = new g[typedArray]();
+			if (Symbol.toStringTag in arr) {
+				var proto = getPrototypeOf(arr);
+				var descriptor = gOPD(proto, Symbol.toStringTag);
+				if (!descriptor) {
+					var superProto = getPrototypeOf(proto);
+					descriptor = gOPD(superProto, Symbol.toStringTag);
+				}
+				toStrTags[typedArray] = descriptor.get;
+			}
+		}
+	});
+}
+
+var tryTypedArrays = function tryAllTypedArrays(value) {
+	var foundName = false;
+	forEach(toStrTags, function (getter, typedArray) {
+		if (!foundName) {
+			try {
+				var name = getter.call(value);
+				if (name === typedArray) {
+					foundName = name;
+				}
+			} catch (e) {}
+		}
+	});
+	return foundName;
+};
+
+var isTypedArray = __webpack_require__(/*! is-typed-array */ "./node_modules/is-typed-array/index.js");
+
+module.exports = function whichTypedArray(value) {
+	if (!isTypedArray(value)) { return false; }
+	if (!hasToStringTag || !(Symbol.toStringTag in value)) { return $slice($toString(value), 8, -1); }
+	return tryTypedArrays(value);
+};
+
+
+/***/ }),
+
 /***/ "?7481":
 /*!*******************************************!*\
   !*** @aws-sdk/signature-v4-crt (ignored) ***!
@@ -47727,6 +59124,44 @@ function validate(uuid) {
 /***/ (() => {
 
 /* (ignored) */
+
+/***/ }),
+
+/***/ "./node_modules/available-typed-arrays/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/available-typed-arrays/index.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var possibleNames = [
+	'BigInt64Array',
+	'BigUint64Array',
+	'Float32Array',
+	'Float64Array',
+	'Int16Array',
+	'Int32Array',
+	'Int8Array',
+	'Uint16Array',
+	'Uint32Array',
+	'Uint8Array',
+	'Uint8ClampedArray'
+];
+
+var g = typeof globalThis === 'undefined' ? __webpack_require__.g : globalThis;
+
+module.exports = function availableTypedArrays() {
+	var out = [];
+	for (var i = 0; i < possibleNames.length; i++) {
+		if (typeof g[possibleNames[i]] === 'function') {
+			out[out.length] = possibleNames[i];
+		}
+	}
+	return out;
+};
+
 
 /***/ }),
 
@@ -53355,6 +64790,18 @@ module.exports = JSON.parse('{"partitions":[{"id":"aws","outputs":{"dnsSuffix":"
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -53401,16 +64848,19 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _aws_sdk_client_textract__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @aws-sdk/client-textract */ "./node_modules/@aws-sdk/client-textract/dist-es/TextractClient.js");
-/* harmony import */ var _aws_sdk_client_s3__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @aws-sdk/client-s3 */ "./node_modules/@aws-sdk/client-s3/dist-es/S3Client.js");
-/* harmony import */ var _assets_cow_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/cow.jpg */ "./src/assets/cow.jpg");
-/* harmony import */ var _assets_test_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/test.jpg */ "./src/assets/test.jpg");
-/* harmony import */ var _assets_sign_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/sign.jpg */ "./src/assets/sign.jpg");
-/* harmony import */ var _assets_manga_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/manga.jpg */ "./src/assets/manga.jpg");
-/* harmony import */ var react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-cloud-vision-api */ "./node_modules/react-cloud-vision-api/index.js");
-/* harmony import */ var react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/style.css */ "./src/assets/style.css");
+/* harmony import */ var aws_sdk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aws-sdk */ "./node_modules/aws-sdk/index.js");
+/* harmony import */ var aws_sdk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(aws_sdk__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _aws_sdk_client_textract__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @aws-sdk/client-textract */ "./node_modules/@aws-sdk/client-textract/dist-es/TextractClient.js");
+/* harmony import */ var _aws_sdk_client_s3__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @aws-sdk/client-s3 */ "./node_modules/@aws-sdk/client-s3/dist-es/S3Client.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '@aws-sdk/client-translate'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _assets_cow_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/cow.jpg */ "./src/assets/cow.jpg");
+/* harmony import */ var _assets_test_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/test.jpg */ "./src/assets/test.jpg");
+/* harmony import */ var _assets_sign_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/sign.jpg */ "./src/assets/sign.jpg");
+/* harmony import */ var _assets_manga_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/manga.jpg */ "./src/assets/manga.jpg");
+/* harmony import */ var react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-cloud-vision-api */ "./node_modules/react-cloud-vision-api/index.js");
+/* harmony import */ var react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/style.css */ "./src/assets/style.css");
 
 
 
@@ -53419,6 +64869,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+const translate = new (aws_sdk__WEBPACK_IMPORTED_MODULE_1___default().Translate)({
+  accessKeyId: "AKIAYJLOY2F3I3NQ5UHX",
+  secretAccessKey: "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",
+  region: "us-east-1"
+});
+const translateCall = async data => {
+  const params = {
+    SourceLanguageCode: "auto",
+    TargetLanguageCode: data.lang,
+    Text: data.text
+  };
+  try {
+    const translationData = await translate.translateText(params).promise();
+    console.log(translationData);
+    return translationData;
+  } catch (e) {
+    console.log(e);
+  }
+};
+translateCall({
+  text: "Hello",
+  lang: "ja"
+}).then(data => {
+  console.log(data);
+});
 
 // if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
 //     // ok, browser supports it
@@ -53435,22 +64914,36 @@ __webpack_require__.r(__webpack_exports__);
 //         })
 // }
 
-
-react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().init({
+async function query(data) {
+  const response = await fetch("https://api-inference.huggingface.co/models/thefrigidliquidation/nllb-jaen-1.3B-lightnovels", {
+    headers: {
+      Authorization: "Bearer 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"
+    },
+    method: "POST",
+    body: JSON.stringify(data)
+  });
+  const result = await response.json();
+  return result;
+}
+query({
+  "inputs": "The answer to the universe is"
+}).then(response => {
+  console.log(JSON.stringify(response));
+});
+react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().init({
   auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE'
 });
-
 const credentials = {
   accessKeyId: 'AKIAYJLOY2F3I3NQ5UHX',
   secretAccessKey: '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'
 };
 
 // a client can be shared by different commands.
-const client = new _aws_sdk_client_textract__WEBPACK_IMPORTED_MODULE_8__.TextractClient({
+const client = new _aws_sdk_client_textract__WEBPACK_IMPORTED_MODULE_10__.TextractClient({
   region: 'us-east-1',
   credentials: credentials
 });
-const s3 = new _aws_sdk_client_s3__WEBPACK_IMPORTED_MODULE_9__.S3Client({
+const s3 = new _aws_sdk_client_s3__WEBPACK_IMPORTED_MODULE_11__.S3Client({
   region: 'us-east-1',
   credentials: credentials
 });
@@ -53472,13 +64965,13 @@ function App(props) {
     var ctx = canvas.getContext('2d');
     ctx.drawImage(img, 0, 0, width, height);
     var base64Img = canvas.toDataURL("image/png").replace(/^data:image\/(png|jpg);base64,/, "");
-    const req = new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().Request)({
-      image: new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().Image)({
+    const req = new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().Request)({
+      image: new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().Image)({
         base64: base64Img
       }),
-      features: [new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().Feature)('TEXT_DETECTION', 40), new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().Feature)('LABEL_DETECTION', 100)]
+      features: [new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().Feature)('TEXT_DETECTION', 40), new (react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().Feature)('LABEL_DETECTION', 100)]
     });
-    const res = await react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_6___default().annotate(req);
+    const res = await react_cloud_vision_api__WEBPACK_IMPORTED_MODULE_8___default().annotate(req);
     console.log(res.responses[0].textAnnotations[0].description);
     getData(res);
   }
@@ -53550,6 +65043,17 @@ function App(props) {
       }
     });
     console.log(groups);
+
+    // draw the text
+    ctx.fillStyle = 'black';
+    ctx.font = '20px serif';
+    groups.forEach(async group => {
+      var text = group.text.join(' ');
+      var tText = await query({
+        "inputs": text
+      });
+      ctx.fillText(tText, group.x, group.y);
+    });
     var temp = canvas.toDataURL("image/png");
     // translate the text
     document.getElementById(props.id).src = temp;
@@ -53581,14 +65085,14 @@ function App(props) {
     height: "500"
   }));
 }
-(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.render)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, {
-  src: _assets_test_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+(0,react_dom__WEBPACK_IMPORTED_MODULE_2__.render)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, {
+  src: _assets_test_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
   id: "1"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, {
-  src: _assets_sign_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+  src: _assets_sign_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
   id: "2"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(App, {
-  src: _assets_manga_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  src: _assets_manga_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
   id: "3"
 })), document.getElementById('root'));
 })();

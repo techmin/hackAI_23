@@ -1,11 +1,41 @@
 import React, { useRef, useState, useEffect } from 'react'
+import AWS from 'aws-sdk'
 import { render } from 'react-dom'
 import { TextractClient, AnalyzeDocumentCommand, DetectDocumentTextCommand } from "@aws-sdk/client-textract";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+// import { TranslateClient, CreateParallelDataCommand } from "@aws-sdk/client-translate";
 import cow from './assets/cow.jpg'
 import manga from './assets/test.jpg'
 import sign from './assets/sign.jpg'
 import mangas from './assets/manga.jpg'
+import vision from "react-cloud-vision-api";
+import './assets/style.css'
+
+const translate = new AWS.Translate({
+    accessKeyId: "AKIAYJLOY2F3I3NQ5UHX",
+    secretAccessKey: "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",
+    region: "us-east-1",
+});
+
+const translateCall = async (data) => {
+    const params = {
+        SourceLanguageCode: "auto",
+        TargetLanguageCode: data.lang,
+        Text: data.text,
+    };
+
+    try {
+        const translationData = await translate.translateText(params).promise();
+        // console.log(translationData);
+        return translationData;
+    } catch (e) {
+        console.log(e);
+    }
+};
+
+translateCall({ text: "こんにちは", lang: "en" }).then((data) => {
+    console.log(data);
+});
 
 // if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
 //     // ok, browser supports it
@@ -22,10 +52,27 @@ import mangas from './assets/manga.jpg'
 //         })
 // }
 
-import vision from "react-cloud-vision-api";
+async function query(data) {
+    const response = await fetch(
+        "https://api-inference.huggingface.co/models/thefrigidliquidation/nllb-jaen-1.3B-lightnovels",
+        {
+            headers: { Authorization: "Bearer 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" },
+            method: "POST",
+            body: JSON.stringify(data),
+        }
+    );
+    const result = await response.json();
+    return result;
+}
+
+query({ "inputs": "The answer to the universe is" }).then((response) => {
+    console.log(JSON.stringify(response));
+});
+
+
 vision.init({ auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE' })
 
-import './assets/style.css'
+
 
 const credentials = {
     accessKeyId: 'AKIAYJLOY2F3I3NQ5UHX',
@@ -148,12 +195,49 @@ function App(props) {
         })
         console.log(groups)
 
-        var temp = canvas.toDataURL("image/png")
-        // translate the text
-        document.getElementById(props.id).src = temp
+        // draw the text
+        ctx.fillStyle = 'black'
+        ctx.font = '20px serif'
+        groups.forEach(async group => {
+            var text = group.text.join(' ')
+            var tText = await translateCall({ text: text, lang: "en" })
+            console.log(tText)
+            // console.log(tT)
+            // ctx.fillText(tText.TranslatedText, group.x - tText.TranslatedText.length * 5, group.y - 10)
+            wrapText(ctx, tText.TranslatedText, group.x - 10, group.y - 10, 200, 20)
+            var temp = canvas.toDataURL("image/png")
+            // translate the text
+            document.getElementById(props.id).src = temp
+        })
+
+
+
+        // var temp = canvas.toDataURL("image/png")
+        // // translate the text
+        // document.getElementById(props.id).src = temp
 
         //
 
+    }
+
+    function wrapText(context, text, x, y, maxWidth, lineHeight) {
+        var words = text.split(' ');
+        var line = '';
+
+        for (var n = 0; n < words.length; n++) {
+            var testLine = line + words[n] + ' ';
+            var metrics = context.measureText(testLine);
+            var testWidth = metrics.width;
+            if (testWidth > maxWidth && n > 0) {
+                context.fillText(line, x, y);
+                line = words[n] + ' ';
+                y += lineHeight;
+            }
+            else {
+                line = testLine;
+            }
+        }
+        context.fillText(line, x, y);
     }
 
     const videoRef = useRef(null);
@@ -170,7 +254,7 @@ function App(props) {
     return (
         <div>
             {/* <h1>hello world</h1> */}
-            <img id={props.id} src={props.src} style={{maxWidth: "500px"}} />
+            <img id={props.id} src={props.src} style={{ maxWidth: "500px" }} />
             <button onClick={setup}>Run</button>
             <canvas id="canvas" className='hidden' width="500" height="500"></canvas>
             {/* <video ref={videoRef} id="video" width="500" height="500" autoplay></video> */}
@@ -181,8 +265,8 @@ function App(props) {
 render((
     <>
         <App src={manga} id="1" />
-        <App src={sign} id="2"/>
-        <App src={mangas} id="3"/>
+        <App src={sign} id="2" />
+        <App src={mangas} id="3" />
     </>
 
 
