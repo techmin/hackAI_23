@@ -4,6 +4,7 @@ import { TextractClient, AnalyzeDocumentCommand, DetectDocumentTextCommand } fro
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import cow from './assets/cow.jpg'
 import manga from './assets/test.jpg'
+import sign from './assets/sign.jpg'
 
 // if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
 //     // ok, browser supports it
@@ -47,7 +48,7 @@ const s3 = new S3Client({
 
 var groupTextRadius = 10
 
-function App() {
+function App(props) {
 
     const [command, setCommand] = useState(0);
 
@@ -58,7 +59,7 @@ function App() {
     async function setup() {
 
         // get base64 image
-        var img = document.getElementById('tempImg')
+        var img = document.getElementById(props.id)
         var canvas = document.createElement('canvas')
         var width = img.width
         var height = img.height
@@ -89,7 +90,7 @@ function App() {
 
         var groups = []
 
-        var img = document.getElementById('tempImg')
+        var img = document.getElementById(props.id)
         var canvas = document.getElementById('canvas')
         var width = img.width
         var height = img.height
@@ -146,8 +147,9 @@ function App() {
         })
         console.log(groups)
 
+        var temp = canvas.toDataURL("image/png")
         // translate the text
-
+        document.getElementById(props.id).src = temp
 
         //
 
@@ -167,15 +169,19 @@ function App() {
     return (
         <div>
             {/* <h1>hello world</h1> */}
-            <img id='tempImg' src={manga} />
+            <img id={props.id} src={props.src} style={{maxWidth: "500px"}} />
             <button onClick={setup}>Run</button>
-            <canvas id="canvas" width="500" height="500"></canvas>
+            <canvas id="canvas" className='hidden' width="500" height="500"></canvas>
             {/* <video ref={videoRef} id="video" width="500" height="500" autoplay></video> */}
         </div>
     )
 }
 
 render((
-    <App />
+    <>
+        <App src={manga} id="1" />
+        <App src={sign} id="2"/>
+    </>
+
 
 ), document.getElementById('root'))
