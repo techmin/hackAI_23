@@ -7,7 +7,6 @@ function createCopy(pathW = '') {
         output: {
             path: path.resolve(__dirname, 'docs/' + pathW),
             filename: 'appbundle.js',
-            publicPath: "/"
         },
         devServer: {
             historyApiFallback: {
