@@ -1,21 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-function createCopy(pathW = '') {
+function createCopy() {
     return ({
         entry: './src/app.js',
         output: {
-            path: path.resolve(__dirname, 'docs/' + pathW),
-            filename: 'appbundle.js',
-        },
-        devServer: {
-            historyApiFallback: {
-                index: 'index.html',
-                rewrites: [
-                    // from any url that doesn't match the above, redirect to /index.html
-                    { from: /./, to: '/index.html' },
-                ]
-            }
+            path: path.resolve(__dirname, './docs'),
+            filename: 'appBundle.js',
         },
         module: {
             rules: [
@@ -25,30 +17,11 @@ function createCopy(pathW = '') {
                     loader: 'babel-loader',
                 },
                 {
-                    test: /\.(sass|scss)$/,
-                    use: [
-                        'style-loader',
-                        'css-loader',
-                        {
-                            loader: 'postcss-loader',
-                            options: {
-                                postcssOptions: {
-                                    plugins: []
-                                }
-                            }
-                        },
-                        'sass-loader',
-                    ]
+                    test: /\.(scss|css)$/,
+                    use: ['style-loader', 'css-loader'],
                 },
                 {
-                    test: /\.(css)$/,
-                    use: [
-                        'style-loader',
-                        'css-loader',
-                    ]
-                },
-                {
-                    test: /\.(jpg|png|svg|ico|icns|glb)$/,
+                    test: /\.(jpg|png|svg|ico|icns|glb|gif)$/,
                     loader: 'file-loader',
                     options: {
                         name: '[path][name].[ext]',
@@ -61,7 +34,10 @@ function createCopy(pathW = '') {
                 filename: 'index.html',
                 template: path.resolve(__dirname, './public/index.html'),
             })
-        ]
+        ],
+        experiments: {
+            topLevelAwait: true
+        }
     })
 }
 
