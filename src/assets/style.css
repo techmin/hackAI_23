@@ -1,3 +1,14 @@
 .hidden {
     display: none;
 }
+
+#root {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+}

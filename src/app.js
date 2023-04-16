@@ -3,7 +3,22 @@ import { render } from 'react-dom'
 import { TextractClient, AnalyzeDocumentCommand, DetectDocumentTextCommand } from "@aws-sdk/client-textract";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import cow from './assets/cow.jpg'
-import manga from './assets/manga.jpg'
+import manga from './assets/test.jpg'
+
+// if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
+//     // ok, browser supports it
+//     console.log("SUPPORTS WEBCAM")
+//     // ask user for permission to use the webcam
+//     navigator.mediaDevices.getUserMedia({ video: true })
+//         .then(function (stream) {
+
+//             var video = document.getElementById('video')
+//             video.srcObject = stream
+//             video.onloadedmetadata = function (e) {
+//                 video.play();
+//             };
+//         })
+// }
 
 import vision from "react-cloud-vision-api";
 vision.init({ auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE' })
@@ -138,12 +153,24 @@ function App() {
 
     }
 
+    const videoRef = useRef(null);
+
+    function getScreenshot() {
+        const canvas = document.createElement('canvas');
+        const video = document.getElementById('video');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+        return canvas.toDataURL('image/png');
+    }
+
     return (
         <div>
-            <h1>hello world</h1>
-            <img  id='tempImg' src={manga} />
+            {/* <h1>hello world</h1> */}
+            <img id='tempImg' src={manga} />
             <button onClick={setup}>Run</button>
             <canvas id="canvas" width="500" height="500"></canvas>
+            {/* <video ref={videoRef} id="video" width="500" height="500" autoplay></video> */}
         </div>
     )
 }

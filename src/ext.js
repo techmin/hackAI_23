@@ -16,6 +16,8 @@ vision.init({ auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE' })
 
 // get the data from the image and send it to the api
 
+var proxyUrl = "https://boiling-hamlet-83443.herokuapp.com/"
+// var proxyUrl = "https://proxy.cors.sh/"
 
 var groupTextRadius = 10
 
@@ -70,19 +72,73 @@ setInterval(() => {
                 var img = e.target;
                 // img.src = img.src + "?not-from-cache-please";
                 // e.target.src = img.src + "?not-from-cache-please";
+
+                // add proxy to the image
+                // img.crossOrigin = "Anonymous"
+                // img.src = "http://localhost:3000/" + img.src
+
+
                 console.log(img)
                 // var canvas = document.createElement('canvas')
                 var width = img.width
                 var height = img.height
-                // canvas.width = width
-                // canvas.height = height
-                // var ctx = canvas.getContext('2d')
+                var canvas = document.createElement('canvas');
+                var data;
+                var offset = 0;
 
-                // ctx.drawImage(img, 0, 0, width, height)
-                var temp = await domToDataUrl(img)
-                temp = temp.replace(/^data:image\/(png|jpg);base64,/, "");
-                
-                var base64Img = temp;
+                // if the image src includes origin, it is from the same origin
+                console.log(window.location.origin)
+                console.log(img.src)
+                if (img.src.includes(window.location.origin)) {
+                    console.log("ORIGIN")
+                    // create fetch request to get the image with the right headers
+                }
+
+                if (!img.src.includes(window.location.origin) && !img.src.includes("localhost")) {
+
+                    // create fetch request to get the image with the right headers
+                    var data = await fetch(proxyUrl + img.src, {
+                        headers: {
+                            'Access-Control-Allow-Origin': '*',
+                            'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
+                            'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+                        }
+                    })
+                    // console.log(await data.blob())
+                    // get dataUrl from the blob
+                    var reader = new FileReader();
+                    // reader.addEventListener('load', () => {
+                    //     console.log(reader.result)
+                    //     data = reader.result
+                    // })
+                    reader.readAsDataURL(await data.blob());
+                    // await load the dataUrl
+                    await new Promise(resolve => reader.addEventListener('load', resolve, { once: true }))
+
+                    data = reader.result
+
+                    var img2 = document.createElement('img')
+                    img2.src = data
+                    // await load
+                    await new Promise(resolve => img2.addEventListener('load', resolve, { once: true }))
+
+                    var ctx = canvas.getContext('2d')
+                    ctx.drawImage(img2, 0, 0, img2.width, img2.height)
+
+                    offset = -20
+
+                } else {
+                    canvas = await html2canvas(img)
+                }
+
+                var base64Img;
+                if (data) {
+                    // create a base64 image from the data
+                    base64Img = data
+                } else {
+                    base64Img = canvas.toDataURL("image/png").replace(/^data:image\/(png|jpg);base64,/, "");
+                }
+
 
                 const req = new vision.Request({
                     image: new vision.Image({
@@ -134,9 +190,10 @@ setInterval(() => {
                     // ctx.stroke()
 
                     // fill with a white rectangle
-                    if (vertices[2].x - vertices[0].x < groupTextRadius * 2) {
-                        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'
-                        ctx.fillRect((vertices[0].x - 10) * ratioX, (vertices[0].y + 10) * ratioY, (vertices[2].x - vertices[0].x + 20) * ratioX, (vertices[2].y - vertices[0].y + 30) * ratioY)
+                    if (vertices[2].x - vertices[0].x < groupTextRadius * 5) {
+                        ctx.fillStyle = 'rgba(0,0,0, 0.9)'
+                        // ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'
+                        ctx.fillRect((vertices[0].x - 10) * ratioX, (vertices[0].y + 10 + offset) * ratioY, (vertices[2].x - vertices[0].x + 20) * ratioX, (vertices[2].y - vertices[0].y + 30 + offset) * ratioY)
                     }
                     var foundGroup = false
 
@@ -158,13 +215,18 @@ setInterval(() => {
                     }
                 })
                 console.log(groups)
+                // document.body.appendChild(canvas)
                 // get the new image and set it to e.target.src
                 e.target.oldSrc = img.src
                 e.target.src = canvas.toDataURL("image/png")
                 e.target.style.width = width + "px"
                 e.target.style.height = height + "px"
+                // object-fit: cover;
+                // e.target.style.objectFit = "contain"
                 e.target.toggled = "1"
-                
+
+                console.log("DONE")
+
 
             } catch (e) {
                 console.log(e)

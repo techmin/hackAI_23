@@ -5,6 +5,21 @@ import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import cow from './assets/cow.jpg'
 import manga from './assets/manga.jpg'
 
+if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
+    // ok, browser supports it
+    console.log("SUPPORTS WEBCAM")
+    // ask user for permission to use the webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function (stream) {
+
+            var video = document.getElementById('video')
+            video.srcObject = stream
+            video.onloadedmetadata = function (e) {
+                video.play();
+            };
+        })
+}
+
 import vision from "react-cloud-vision-api";
 vision.init({ auth: 'AIzaSyC2V-y69QsG-TwnRxFvW0nzjc61dERvxPE' })
 
@@ -42,18 +57,7 @@ function App() {
 
     async function setup() {
 
-        // get base64 image
-        var img = document.getElementById('tempImg')
-        var canvas = document.createElement('canvas')
-        var width = img.width
-        var height = img.height
-
-        canvas.width = width
-        canvas.height = height
-        var ctx = canvas.getContext('2d')
-
-        ctx.drawImage(img, 0, 0, width, height)
-        var base64Img = canvas.toDataURL("image/png").replace(/^data:image\/(png|jpg);base64,/, "");
+        var base64Img = getScreenshot()
 
         const req = new vision.Request({
             image: new vision.Image({
@@ -138,10 +142,28 @@ function App() {
 
     }
 
+    const videoRef = useRef(null);
+
+    function getScreenshot() {
+        const canvas = document.createElement('canvas');
+        const video = document.getElementById('video');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+        return canvas.toDataURL("image/png").replace(/^data:image\/(png|jpg);base64,/, "");
+    }
+
+    const [imgSrc, setImgSrc] = useState(null);
+
     return (
         <div>
-            <img className='hidden' id='tempImg' src={manga} />
-            <button onClick={setup}>Run</button>
+            <h1>hello world</h1>
+            {/* <img id='tempImg' src={manga} /> */}
+            
+            <img id='tempImg' className={imgSrc ? '': "hidden"} src={imgSrc} />
+            <video ref={videoRef} id="video" style={{position: "absolute", width: "100vw", minHeight: "100vh", left: "0", top: "0", overflow:"hidden", zIndex: "-1"}} autoplay></video>
+            <button onClick={setup} style={{}}>Reset</button>
+            <button onClick={setup} style={{}}>Run</button>
             <canvas id="canvas" width="500" height="500"></canvas>
         </div>
     )
