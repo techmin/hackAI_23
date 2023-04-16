@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+cors-anywhere
 node_modules/
 
 # C extensions
