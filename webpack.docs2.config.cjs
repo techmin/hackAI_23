@@ -3,11 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 function createCopy(pathW = '') {
     return ({
-        entry: './src/ext.js',
+        entry: './src/app.js',
         devtool: 'cheap-module-source-map',
         output: {
-            path: path.resolve(__dirname, 'ext/inject/' + pathW),
-            filename: 'main.js',
+            path: path.resolve(__dirname, 'docs/' + pathW),
+            filename: 'appbundle.js',
             publicPath: "/"
         },
         devServer: {

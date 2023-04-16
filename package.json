@@ -1,7 +1,8 @@
 {
     "scripts": {
-        "docs": "webpack --mode development --config ./webpack.docs.config.cjs --watch",
+        "ext": "webpack --mode development --config ./webpack.docs.config.cjs --watch",
         "start": "webpack-dev-server --open --config ./webpack.dev.config.cjs --mode development",
+        "docs": "webpack --mode development --config ./webpack.docs2.config.cjs --watch",
         "proxy": "node ./proxy.js"
     },
     "dependencies": {

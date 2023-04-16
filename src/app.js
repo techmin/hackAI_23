@@ -5,6 +5,7 @@ import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import cow from './assets/cow.jpg'
 import manga from './assets/test.jpg'
 import sign from './assets/sign.jpg'
+import mangas from './assets/manga.jpg'
 
 // if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices) {
 //     // ok, browser supports it
@@ -123,7 +124,7 @@ function App(props) {
 
             // fill with a white rectangle
             if (vertices[2].x - vertices[0].x < groupTextRadius * 5) {
-                ctx.fillStyle = 'white'
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.75)'
                 ctx.fillRect(vertices[0].x - 10, vertices[0].y - 10, vertices[2].x - vertices[0].x + 20, vertices[2].y - vertices[0].y + 20)
             }
             var foundGroup = false
@@ -181,6 +182,7 @@ render((
     <>
         <App src={manga} id="1" />
         <App src={sign} id="2"/>
+        <App src={mangas} id="3"/>
     </>
 
 
